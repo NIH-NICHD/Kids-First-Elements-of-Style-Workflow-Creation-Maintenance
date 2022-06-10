@@ -1,45 +1,73 @@
 <p>
-<img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/INCLUDEDataCoordinatingCenter.png"  width="250">
+<br/><br/>
+<img src="https://github.com/kids-first/kf-cloud-credits/blob/main/assets/kfdrc-logo-sm.png"  width="500" >
+<br/><br/>
 </p>
 
 # Elements of Style Workflow Creation Maintenance
 
-The [INCLUDE Data Hub](https://includedcc.org/) is a new resource that securely hosts human clinical, genomic, transcriptomic, proteomic, and other data providing a wealth of opportunities to study conditions that affect individuals with Down syndrome.   Today, the approach to answering new scientific questions with these data often uses cloud-based methods accessible through web browsers.
+In this Elements of Style for Workflow Creation and Maintenance, users learn the know-how to ask scientific questions with these data using cloud platforms and workflows.   Users will learn how to build and share processes that assure reproducibility, repurposablility regardless of the computational environment.   While many things are possible, the user will be oriented to approaching their work in a modular, testable fashion.  
 
-During a three-hour virtual training, users learn the know-how to ask scientific questions with these data using cloud platforms and workflows.   Users will learn how to build and share processes that assure reproducibility, repurposablility regardless of the computational environment.   While many things are possible, the user will be oriented to approaching their work in a modular, testable fashion.  
+The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a trans-NIH Common Fund program whose goal is to help researchers uncover new insights into the biology of childhood cancer and structural birth defects, including the discovery of shared genetic pathways between these disorders. To achieve this goal, the program has developed the Gabriella Miller Kids First Data Resource, a cloud-based platform which publicly shares genetic and clinical data from childhood cancer and structural birth defect cohorts, and includes the [Gabriella Miller Kids First portal](https://portal.kidsfirstdrc.org/) and other tools to foster analysis and collaboration. 
 
-## Create an account in CAVATICA
 
-If you have not already done so, [please go ahead and create an account on CAVATICA](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Creating-A-CAVATICA-Account/README.md)
+<br/><br/>                                                     
+## Agenda for the Day 1:
+<br/><br/>                                                     
 
-For today's class, if you have not already done so, let my colleagues know so we can add you to the appropriate billing group.
-
-## Lets Log in straight to [CAVATICA](https://cavatica.sbgenomics.com)
-
-* [Step-by-Step Instructions to log into CAVATICA and Start a Notebook](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/LoggingIntoCAVATICA/README.md)
-
-## Other ways of logging in [INCLUDE Data Hub](https://includedcc.org/)
-
-* [Log into INCLUDE Data Hub](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/LoggingIntoCAVATICAFromINCLUDEDataHub.gif)
-
-* [Log into CAVATICA from INCLUDE Data Hub](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/LoggingInAfterEnteringINCLUDEDataHubWithORCID.gif). 
-
-* [Start a DataCruncher Notebook](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/DataCruncherJupyterLabNotebook.gif)
-
-While things start to cook -- let me review the Agenda and show a brief presentation
-
-## Agenda for the day:
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
-| 11.00 - 11.10 | *Welcome Address and Presentation of Tutorial Agenda* |
-| 11.10 - 11.15 | 0. [A few simple rules for easier workflow maintenance and reuse](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Elements-of-Style/A-Few-Simple-Rules-Shortened.md)<img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/The_Elements_of_Programming_Style.jpg" width="100" align="right">|
-| 11.15 - 11.30 | 1. [Example Volcano Plot on CAVATICA](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook)<img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICALogo.png" width="100" align="right">|
-| 11:30 - 11.40 | 2. [Creating a conda environment](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Creating-A-Conda-Environment/README.md)<img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Conda_logo.svg" width="100" align="right"> |
-| 11:40 - 11:50 | 3. [Building Dockerfiles](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-Dockerfiles/README.md)<img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/Moby-Logo.png" width="100" align="right">|
+| 12.00 - 12.10 | :wave: *Welcome Address, Motivation, [Platform as a service Presentation](https://docs.google.com/presentation/d/1Ki63hFXmjUnWxU96rhTBbEFsIG5mwLEFZafCp1bYV4M/edit?usp=sharing) Tutorial Agenda* |
+| 12.10 - 12.20 | [A few simple rules for easier workflow maintenance and reuse](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Elements-of-Style/A-Few-Simple-Rules-Shortened.md)<img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/The_Elements_of_Programming_Style.jpg" width="100" align="right">|
+| 12.20 - 13.30| [Introduction to the Command-line] |
+| 13.00 - 13.10 |:coffee: Short Break |
+| 13.10 - 13.50 | [Example Volcano Plot on CAVATICA](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook)<img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICALogo.png" width="100" align="right">|
+| 13.50 - 14:00 | :raised_hand: *Wrap up and overview of next days topics* |
+
+<br/><br/>
+## Agenda for the Day 2:
+<br/><br/>
+| Time (UTC)    | Programme       |
+| ------------- | --------------------------------------------------------------------------- |
+| 12.00 - 12.05 | _Workspace set up and agenda for the day_ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGO2P0vFlvhsDbmltsjjIWZMi1dQCduIkuwA&usqp=CAU"  width="10"> <img src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.png"  width="25"> |
+| 12.05 - 12.30 | 1. [**Why Git and GitHub?** Motivation and set up in the JupyterLab workspace](https://github.com/lifebit-ai/dry-bench-skills-for-researchers/blob/main/classes/2-intro-to-git-github/1-why-git-and-setup.md) |
+| 12.30 - 13.00 | 2. [**Git Routine 1**: Reusing an available repository with `fork` and how to keep in sync with parent project](https://github.com/lifebit-ai/dry-bench-skills-for-researchers/blob/main/classes/2-intro-to-git-github/2-the-fork-git-routine.ipynb) |
+| 13.00 - 13.10 |:coffee: Short break |
+| 13.10 - 14.00:| 3. [**Git Routine 2**: Extend your current code and use Git, GitHub to keep track of changes and contribute](https://github.com/lifebit-ai/dry-bench-skills-for-researchers/blob/main/classes/2-intro-to-git-github/3-the-add-push-git-routine.ipynb) |
+
+## Additional resources:
+- GitHub Hello World: https://guides.github.com/activities/hello-world/
+- Happy Git and GitHub for the useR by Jenny Bryan: https://happygitwithr.com/
+<br/><br/>                                                     
+
+
+
+| 11:00 - 11:15 | *Welcome, Review of Previous Day's work and Overview of Today's Agenda* |
+[ 11:15 - 11:45 | [Introduction to GitGenerate GitHub Personal Access Tokens](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GeneratingGitHubPersonalAccessTokens.gif)|[GitHub Auth Login](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubAuthLoginFromCommandLine.gif) |
+| 11.45 - 12:45 | [Example Volcano Plot on CAVATICA](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook)<img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICALogo.png" width="100" align="right">|
+| 12:45 - 13:00 | *Wrap up and overview of next days topics* |
+
+
+
+## Agenda for the Day 3:
+| Time (UTC)    | Programme       |
+| ------------- | --------------------------------------------------------------------------- |
+| 11:00 - 11:15 | *Welcome, Review of Previous Day's work and Overview of Today's Agenda* |
+| 11:15 - 11.45 | Creating a conda environment](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Creating-A-Conda-Environment/README.md)<img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Conda_logo.svg" width="100" align="right"> |
+| 11:45 - 12:45 | [Building Dockerfiles](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-Dockerfiles/README.md)<img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/Moby-Logo.png" width="100" align="right">|
+| 12:45 - 13:00 | *Wrap up and overview of next days topics* |
+
+
+## Agenda for the Day 4:
+| Time (UTC)    | Programme       |
+| ------------- | --------------------------------------------------------------------------- |
 | 11:50 - 12:20 | 4. [Building A Nextflow Script](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md)<img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width="150" align="right"> 
 | 12:20 - 12:30 | 5. [Building A CWL Script](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-CWL-Script)<img src="https://github.com/common-workflow-language/logo/blob/main/CWL-Logo-HD.png" width="150" align="right">|
 | 12.30 - 12.45 | :coffee:      *Short break - Stretch your legs! (15 minutes)*            :coffee:|
 | 12.45 - 13.00 | 6. [Shared elements across workflow languages](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/NextflowSharedDataElements/NextflowCommonWorkFlowLanguageSharedStructureSharedElements.md)<img src="https://github.com/common-workflow-language/logo/blob/main/CWL-Logo-HD.png" width="150"><img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width=150 align="right">|
+
+
+
 | 13.00 - 13.30 | 7. [Working with Apps on the CAVATICA](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/WorkingWithAppsOnCAVATICA/WorkingWithAppsOnCAVATICA.md)<img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/INCLUDEDataCoordinatingCenter.png"  width="200" align="right">
 | 13:30 - 13.40 | 8. [GitHub Actions to build, test and deposit container images](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/GitHubActions/GitHubActionsForMaintenanceTesting.md) <img src="https://github.com/ISCB-Academy/Elements-of-Style-Reproducible-Workflow-Creation-Maintenance-Tutorial/blob/main/assets/Octocat.png" width="100" align="right"> |
 | 13:40 - 13.50 | 9. [A Published Example: Zenodo](https://github.com/sheynkman-lab/Long-Read-Proteogenomics/blob/main/README.md) <img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/Zenodo_logo.jpg" width="100" align="right">|
