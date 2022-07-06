@@ -14,7 +14,7 @@ The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a tra
 ## Course Overview:
 
 <br/><br/>                                                     
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/ElementsOfStyleCourseOverview.png"  width="500" >
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/ElementsOfStyleCourseOverview.png" >
 <br/><br/>                                                     
 
 <br/><br/>                                                     
