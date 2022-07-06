@@ -11,9 +11,14 @@ In this Elements of Style for Workflow Creation and Maintenance, users learn the
 
 The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a trans-NIH Common Fund program whose goal is to help researchers uncover new insights into the biology of childhood cancer and structural birth defects, including the discovery of shared genetic pathways between these disorders. To achieve this goal, the program has developed the Gabriella Miller Kids First Data Resource, a cloud-based platform which publicly shares genetic and clinical data from childhood cancer and structural birth defect cohorts, and includes the [Gabriella Miller Kids First portal](https://portal.kidsfirstdrc.org/) and other tools to foster analysis and collaboration. 
 
+## Course Overview:
 
 <br/><br/>                                                     
-## Agenda for the Day 1:
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/ElementsOfStyleCourseOverview.png"  width="500" >
+<br/><br/>                                                     
+
+<br/><br/>                                                     
+## Agenda for the Day 1: Reasoning
 <br/><br/>                                                     
 
 | Time (UTC)    | Programme       |
@@ -26,7 +31,7 @@ The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a tra
 | 12.50 - 13:00 | :raised_hand: *Wrap up and overview of next days topics* |
 
 <br/><br/>
-## Agenda for the Day 2:
+## Agenda for the Day 2: Code Versioning
 <br/><br/>
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
@@ -46,7 +51,7 @@ The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a tra
 
 
 <br/><br/>
-## Agenda for the Day 3:
+## Agenda for the Day 3: Containerization with Environment Control
 <br/><br/>
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
@@ -58,7 +63,7 @@ The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a tra
 
 
 <br/><br/>
-## Agenda for the Day 4:
+## Agenda for the Day 4: Workflow Development
 <br/><br/>
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
@@ -67,6 +72,14 @@ The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a tra
 | 11:20 - 11:40 | [Building A Nextflow Script](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md)<img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width="150" align="right"> 
 | 11:40 - 12:00 | [Building A CWL Script](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-CWL-Script)<img src="https://github.com/common-workflow-language/logo/blob/main/CWL-Logo-HD.png" width="150" align="right">|
 | 12.00 - 12.10 |:coffee: Short break |
+
+
+<br/><br/>
+## Agenda for the Day 5: Workflow Execution
+<br/><br/>
+| Time (UTC)    | Programme       |
+| ------------- | --------------------------------------------------------------------------- |
+| 11.00 - 11.10 | _Workspace set up and agenda for the day_ <img src="https://encrypted-tbn0.gstatic.com/images?
 | 12.10 - 12.30 | [Working with Apps on the CAVATICA](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/WorkingWithAppsOnCAVATICA/WorkingWithAppsOnCAVATICA.md)<img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/INCLUDEDataCoordinatingCenter.png"  width="200" align="right">
 | 12:30 - 12.50 | [GitHub Actions to build, test and deposit container images](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/GitHubActions/GitHubActionsForMaintenanceTesting.md) <img src="https://github.com/ISCB-Academy/Elements-of-Style-Reproducible-Workflow-Creation-Maintenance-Tutorial/blob/main/assets/Octocat.png" width="100" align="right"> |
 | 13.50 - 14.00 | *Closing remarks and future directions*|
