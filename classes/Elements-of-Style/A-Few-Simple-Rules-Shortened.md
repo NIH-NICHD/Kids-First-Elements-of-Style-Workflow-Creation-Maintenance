@@ -50,4 +50,4 @@ A pithy phrase or statement is brief but full of substance and meaning
 
 ## Return to the Agenda
 
-[Main Agenda](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance#readme)
+[Main Agenda](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#readme)
