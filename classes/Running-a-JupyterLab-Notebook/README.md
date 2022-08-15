@@ -100,7 +100,7 @@ And the result should look like this:
 
 First we run the JupyterLab notebook which introduces us to some Command Line Functions that will be useful.
 
-### Open the `1-using-the-command-line.ipynb`
+### Open the `Using-the-command-line.ipynb`
 
 Now follow the folder and select the first notebook in the directory, and we will execute all the command lines interactively.
 
@@ -109,7 +109,7 @@ Navigate to the folder on the left:
 * Double click on `Kids-First-Elements-of-Style-Workflow-Creation-Maintenance`
 * Double click on `classes`
 * Double click on `Running-a-JupyterLab-Notebook`
-* Finally, double click on `1-using-the-command-line.ipynb` to open the notebook
+* Finally, double click on `Using-the-command-line.ipynb` to open the notebook
 
 Next, clear the outputs and restart the kernel by selecting from the pull down menu under `Kernel`:
 
@@ -123,11 +123,11 @@ And we will walk through all the selected commands.
 
 Note that this notebook had the `python` kernel running, normally we would have executed this in a `bash` kernel.  This Kernel is not yet available on the CAVATICA platform but it has been added to the Seven Bridges Team Backlog.
 
-### Open the `2-reading-data-and-plotting-in-R.ipynb`
+### Open the `Reading-data-and-plotting-in-R.ipynb`
 
 Next, we will execute the second `jupyterlab` notebook, this one is running the `R` kernel.
 
-Look again at the folders on the left and open the second notebook `2-reading-data-and-plotting-in-R.ipynb` by double-clicking on the notebook.
+Look again at the folders on the left and open the second notebook `Reading-data-and-plotting-in-R.ipynb` by double-clicking on the notebook.
 
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabNotebook2-ReadingDataAndPlottingR.png">
 
