@@ -20,7 +20,7 @@ Navigate to [Kids First DRC](https://kidsfirstdrc.org/)
 
 First screen you will see is:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstDRCPortalCreateAnAccount-1.png">
+<img src="https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstDRCPortalCreateAnAccount-1.png">
 
 or it may be
 
