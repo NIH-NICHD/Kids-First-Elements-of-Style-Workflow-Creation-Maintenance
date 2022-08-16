@@ -23,12 +23,19 @@ The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a tra
 
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
-| 11.00 - 11.10 | :wave: *Welcome Address, Motivation, [Platform as a service Presentation](https://docs.google.com/presentation/d/1Ki63hFXmjUnWxU96rhTBbEFsIG5mwLEFZafCp1bYV4M/edit?usp=sharing) Tutorial Agenda* |
-| 11.10 - 11.20 | [A few simple rules for easier workflow maintenance and reuse](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Elements-of-Style/A-Few-Simple-Rules-Shortened.md)<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/The_Elements_of_Programming_Style.jpg" width="100" align="right">|
-| 11.20 - 12.00| [Kids First and Other Account Registrations](https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/KidsFirstAndOtherAccountRegistrations.MD) |
-| 12.00 - 12.10 |:coffee: Short Break |
-| 12.10 - 12.50 | [Example Volcano Plot on CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook/Reading-data-and-plotting-in-R.ipynb)<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICALogo.png" width="100" align="right">|
-| 12.50 - 13:00 | :raised_hand: *Wrap up and overview of next days topics* |
+| 11.00 - 11.10 | :wave: *Welcome Address, Motivation, [Platform as a service Presentation](https://docs.google.com/presentation/d/1_Rsc8BknYyWGt-Br2GVkpRmT6DJy4dCklHCp7esy1VI/edit?usp=sharing) Tutorial Agenda* |
+| 11.10 - 11.20 |[GitHub Account Creation](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)<img src="https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/Octocat.png" width="50" align="right">|
+| 11.20 - 11.30 |[Zenodo Account Creation](https://zenodo.org/signup/)<img src="https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/Zenodo_logo.jpg" width="50" align="right">|
+| 11.30 - 11.50| [Kids First and CAVATICA Registrations](https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/tree/main/classes/Creating-Kids-First-And-Other-Account-Registrations#readme)<img src="https://github.com/kids-first/kf-cloud-credits/blob/main/assets/kfdrc-logo-sm.png" width="50" align="right"> |
+| 11.50 - 12:00 | :raised_hand: *Wrap up and overview of next days topics* |
+
+## Additional resources:
+- [ORCID](https://orcid.org) [Registration Now!](https://orcid.org/register)
+- [ERA Commons ID](https://www.era.nih.gov/reg-accounts/register-commons.htm)
+
+<br/><br/>                                                     
+
+
 
 <br/><br/>                                                     
 ## Agenda for the Day 1: Reasoning
