@@ -1,6 +1,6 @@
 # Creating a Kids First account and other accounts for this course
 
-Today in this pre-training workshop, we will spend some time (and we may repeat this again on Monday, to get everyone registered for a few accounts.
+Today in this pre-training workshop, we will spend some time to get everyone registered for a few accounts.
 
 ## Beginning with Kids First Account
 
