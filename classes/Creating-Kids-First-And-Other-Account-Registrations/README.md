@@ -119,4 +119,4 @@ See further documentation:
 
 ## Return to the Agenda
 
-[Main Agenda]https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-pre-training-workshop)
+[Main Agenda](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-pre-training-workshop)
