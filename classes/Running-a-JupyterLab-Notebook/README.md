@@ -23,7 +23,7 @@ Arrive at the CAVATICA window - we created a project and an analysis notebook al
 
 We are going to fork the GitHub repository - to do so navigate in your browser to the repository for this course.
 
-Click here [Elements of Style Workflow Creation and Maintenance](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance)
+Click here [Kids First Elements of Style Workflow Creation and Maintenance](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance)
 
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubElementsofStyleWorkflowForkClone1.png">
 
