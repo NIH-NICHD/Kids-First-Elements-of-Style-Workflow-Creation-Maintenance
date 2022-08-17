@@ -81,7 +81,31 @@ Now we need to authenticate.   We do this with our personal `GitHub Token`.
 
 ### Generating A GitHub Authentication Token
 
-[Generating your own GitHub Authentication Token](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GeneratingGitHubPersonalAccessTokens.gif)
+Step 1 - Navigate to Settings, located just under your profile in the upper right hand corner:
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken1.png">
+
+Step 2 - Navigate to the bottom to `< > Developer Settings` on the bottom left hand corner:
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken2.png">
+
+Step 3 - Select `Personal access tokens` third option from the top on the left side:
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken3.png">
+
+Step 4 - Select `Generate new token` on the upper right corner - put a name in the note I used `eos`
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken4.png">
+
+Step 5 - Select all of the options and select `Generate token`
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken5.png">
+
+Step 6 - Copy the token because as the note mentions - it will not be available again - but you can regenerate tokens now - so don't worry.
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken6.png">
+
+### Now we can authenticate with GitHub
 
 Once we have our token, we can now authenticate.
 
@@ -163,7 +187,7 @@ In this lesson:
 
 ## Return to the Agenda
 
-[Main Agenda](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#readme)
+[Agenda for the Day 1: Reasoning](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-the-day-1-reasoning)
 
 ## Additional resources:
 
