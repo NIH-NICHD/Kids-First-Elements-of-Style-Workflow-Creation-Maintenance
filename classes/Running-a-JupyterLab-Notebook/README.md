@@ -33,6 +33,7 @@ If you haven't already made a fork, you will see that you can make a fork now.
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstGitHubElementsofStyleWorkflowForkClone3.png">
 
 A new fork is made, you can accept the defaults.
+
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstGitHubElementsofStyleWorkflowForkClone4.png">
 
 If you have already made a fork, it would make sense to fetch any upstream changes that may have occured since you last visted.  Your screen should look like this:
@@ -41,7 +42,7 @@ If you have already made a fork, it would make sense to fetch any upstream chang
 
 Next, navigate to the 🟦`Code` button on the right and select `HTTPS` and copy the link.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubElementsofStyleWorkflowForkClone4.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstGitHubElementsofStyleWorkflowForkClone5.png">
 
 ## Clone the repository in the Jupyterlab terminal window
 
