@@ -106,9 +106,10 @@ While things start to cook -- let me review the Agenda and show a brief presenta
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
 | 11.00 - 11.10 | :wave: _Workspace set up and agenda for the day_ |
-| 12.10 - 12.30 | [Working with Apps on the CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/WorkingWithAppsOnCAVATICA/WorkingWithAppsOnCAVATICA.md)<img src="https://github.com/kids-first/kf-cloud-credits/blob/main/assets/kfdrc-logo-sm.png"  width="200" align="right"> |
-| 12:30 - 12.50 | [GitHub Actions to build, test and deposit container images](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/GitHubActions/GitHubActionsForMaintenanceTesting.md) <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Reproducible-Workflow-Creation-Maintenance-Tutorial/blob/main/assets/Octocat.png" width="100" align="right"> |
-| 12.50 - 13:00 | :raised_hand: *Wrap up and overview of next days topics* |
+| 11.10 - 12.00 | [Working with Apps on the CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/WorkingWithAppsOnCAVATICA/WorkingWithAppsOnCAVATICA.md)<img src="https://github.com/kids-first/kf-cloud-credits/blob/main/assets/kfdrc-logo-sm.png"  width="200" align="right"> |
+| 12.00 - 12.10 |:coffee: Short break |
+| 12:30 - 12.45 | [GitHub Actions to build, test and deposit container images](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/GitHubActions/GitHubActionsForMaintenanceTesting.md) <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Reproducible-Workflow-Creation-Maintenance-Tutorial/blob/main/assets/Octocat.png" width="100" align="right"> |
+| 12.45 - 13:00 |  :wave: *End of Course Survey and Wrap up* |
 <br/><br/>
 
 ## Additional resources:
