@@ -34,7 +34,20 @@ The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a tra
 - [ERA Commons ID](https://www.era.nih.gov/reg-accounts/register-commons.htm)
 
 <br/><br/>                                                     
+## Create an account in CAVATICA
+<br/><br/>                                                     
 
+If you have not already done so, [please go ahead and create an account on CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Creating-A-CAVATICA-Account/README.md)
+
+If you have not already done so, let my colleagues know so we can add you to the appropriate billing group.
+
+## Lets Log in straight to [CAVATICA](https://cavatica.sbgenomics.com)
+
+* [Step-by-Step Instructions to log into CAVATICA and Start a Notebook](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/LoggingIntoCAVATICA/README.md)
+
+* [Start a DataCruncher Notebook](https://github.com/NIH-NICHD/Kids-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/DataCruncherJupyterLabNotebook.gif)
+
+While things start to cook -- let me review the Agenda and show a brief presentation
 
 
 <br/><br/>                                                     
