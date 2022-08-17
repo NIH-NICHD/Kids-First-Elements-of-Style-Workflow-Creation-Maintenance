@@ -4,7 +4,6 @@
 <br/><br/>
 </p>
 
-# :construction: Currently Work in Progress :construction:
 #  Kids First Elements of Style Workflow Creation Maintenance 
 
 In this Elements of Style for Workflow Creation and Maintenance, users learn the know-how to ask scientific questions with these data using cloud platforms and workflows.   Users will learn how to build and share processes that assure reproducibility, repurposablility regardless of the computational environment.   While many things are possible, the user will be oriented to approaching their work in a modular, testable fashion.  
