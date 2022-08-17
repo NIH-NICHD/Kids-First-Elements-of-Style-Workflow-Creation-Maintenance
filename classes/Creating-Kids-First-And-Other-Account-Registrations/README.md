@@ -76,7 +76,7 @@ And we are now ready to connect to CAVATICA.
 ## Kids First Connect to CAVATICA
 
 From the Kids First new user dashboard, we see how to connect to CAVATICA, we see there are three steps.
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstHowtoConnectToCAVATICAStep1.png width=500>
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstHowtoConnectToCAVATICAStep1.png" width=500>
 
 ## Create an account with CAVATICA
 
