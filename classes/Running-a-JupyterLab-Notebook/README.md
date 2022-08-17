@@ -61,7 +61,7 @@ git clone https://github.com/adeslat/Kids-First-Elements-of-Style-Workflow-Creat
 
 But, we might get an error.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabTerminalGitCloneError.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabTerminalGitCloneError.png">
 
 ## Authenticating for GitHub in CAVATICA
 
