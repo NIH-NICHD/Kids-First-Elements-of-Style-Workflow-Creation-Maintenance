@@ -85,4 +85,4 @@ Okay -- while that is cooking we will go through a small presentation - [Element
 
 ## Return to Agenda for Day 1: Reasoning 
 
-[Main Agenda](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-the-day-1-reasoning)
+[Agenda for Day 1: Reasoning](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-the-day-1-reasoning)
