@@ -92,11 +92,12 @@ While things start to cook -- let me review the Agenda and show a brief presenta
 <br/><br/>
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
-| 11.00 - 11.10 | :wave: _Workspace set up and agenda for the day_ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGO2P0vFlvhsDbmltsjjIWZMi1dQCduIkuwA&usqp=CAU"  width="10"> <img src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.png"  width="25"> |
-| 11.10 - 11.20 | [Shared elements across workflow languages](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/NextflowSharedDataElements/NextflowCommonWorkFlowLanguageSharedStructureSharedElements.md)<img src="https://github.com/common-workflow-language/logo/blob/main/CWL-Logo-HD.png" width="150"><img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width=150 align="right">|
-| 11:20 - 11:40 | [Building A Nextflow Script](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md)<img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width="150" align="right"> 
-| 11:40 - 12:00 | [Building A CWL Script](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-CWL-Script)<img src="https://github.com/common-workflow-language/logo/blob/main/CWL-Logo-HD.png" width="150" align="right">|
+| 11.00 - 11.10 | :wave: _Workspace set up and agenda for the day_   |
+| 11:10 - 12.00 | [Building A Nextflow Script](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md)<img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width="150" align="right"> 
 | 12.00 - 12.10 |:coffee: Short break |
+| 12:10 - 12:40 | [Building A CWL Script](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-CWL-Script)<img src="https://github.com/common-workflow-language/logo/blob/main/CWL-Logo-HD.png" width="150" align="right">|
+| 12.40 - 11.50 | [Shared elements across workflow languages](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/NextflowSharedDataElements/NextflowCommonWorkFlowLanguageSharedStructureSharedElements.md)<img src="https://github.com/common-workflow-language/logo/blob/main/CWL-Logo-HD.png" width="150"><img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width=150 align="right">|
+| 12.50 - 13:00 | :raised_hand: *Wrap up and overview of next days topics* |
 
 
 <br/><br/>
@@ -107,7 +108,7 @@ While things start to cook -- let me review the Agenda and show a brief presenta
 | 11.00 - 11.10 | :wave: _Workspace set up and agenda for the day_ <img src="https://encrypted-tbn0.gstatic.com/images?
 | 12.10 - 12.30 | [Working with Apps on the CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/WorkingWithAppsOnCAVATICA/WorkingWithAppsOnCAVATICA.md)<img src="https://github.com/kids-first/kf-cloud-credits/blob/main/assets/kfdrc-logo-sm.png"  width="200" align="right">
 | 12:30 - 12.50 | [GitHub Actions to build, test and deposit container images](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/GitHubActions/GitHubActionsForMaintenanceTesting.md) <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Reproducible-Workflow-Creation-Maintenance-Tutorial/blob/main/assets/Octocat.png" width="100" align="right"> |
-| 13.50 - 14.00 | *Closing remarks and future directions*|
+| 12.50 - 13:00 | :raised_hand: *Wrap up and overview of next days topics* |
 <br/><br/>
 
 ## Additional resources:
