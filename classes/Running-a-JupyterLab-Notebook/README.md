@@ -25,11 +25,15 @@ We are going to fork the GitHub repository - to do so navigate in your browser t
 
 Click here [Kids First Elements of Style Workflow Creation and Maintenance](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance)
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubElementsofStyleWorkflowForkClone1.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstGitHubElementsofStyleWorkflowForkClone1.png">
 
 In the upper righthand side of the screen, select `Fork` and choose to `Fork` it into your own personal repository.
+If you haven't already made a fork, you will see that you can make a fork now.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubElementsofStyleWorkflowForkClone2.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstGitHubElementsofStyleWorkflowForkClone3.png">
+
+A new fork is made, you can accept the defaults.
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstGitHubElementsofStyleWorkflowForkClone4.png">
 
 If you have already made a fork, it would make sense to fetch any upstream changes that may have occured since you last visted.  Your screen should look like this:
 
@@ -56,7 +60,7 @@ git clone https://github.com/adeslat/Kids-First-Elements-of-Style-Workflow-Creat
 
 But, we might get an error.
 
-<img src="https://github.com/NIH-NICHDKids-First-/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabTerminalGitCloneError.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabTerminalGitCloneError.png">
 
 ## Authenticating for GitHub in CAVATICA
 
