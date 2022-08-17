@@ -20,7 +20,7 @@ Navigate to [Kids First DRC](https://kidsfirstdrc.org/)
 
 First screen you will see is:
 
-<img src="https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstDRCPortalCreateAnAccount-1.png">
+<img src="https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstDRCPortalCreateAnAccount-1.png" width 500>
 
 From here you can navigate to either [CREATE YOUR ACCOUNT](https://portal.kidsfirstdrc.org/join) or [PORTAL LOGIN]()
 or [CLICK HERE TO GET STARTED]()
@@ -76,31 +76,31 @@ And we are now ready to connect to CAVATICA.
 ## Kids First Connect to CAVATICA
 
 From the Kids First new user dashboard, we see how to connect to CAVATICA, we see there are three steps.
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstHowtoConnectToCAVATICAStep1.png width=500>
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstHowtoConnectToCAVATICAStep1.png" width=500>
 
 ## Create an account with CAVATICA
 
 First, we need to create a CAVATICA account, generate a developer token and then paste the developer token, connecting CAVATICA with Kids First.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstHowtoConnectToCAVATICACreateAnAccountStep1a.png width=500>
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstHowtoConnectToCAVATICACreateAnAccountStep1a.png" width=500>
 
 Creating an account with CAVATICA, repeats some of the steps we followed from the Kids First Portal account creation, but it isn't too much.   There is an option to express interest with INCLUDE data, if you think you might be, you become elgible to recieve $100 in cloud credits.   You can learn about it by clicking on the screen for more information.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstHowtoConnectToCAVATICACreateAnAccountStep1b.png width=500>
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstHowtoConnectToCAVATICACreateAnAccountStep1b.png" width=500>
 
 After agreeing to the terms and conditions, accepting the privacy policy and proving you are not a robot, we need to have our account verified.
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstHowtoConnectToCAVATICAVerifyAccountStep1c.png width=500>
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstHowtoConnectToCAVATICAVerifyAccountStep1c.png" width=500>
 
 Now login with the verified accounts
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstHowtoConnectToCAVATICALoginWithVerifiedAccountStep1d.png width=500>
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstHowtoConnectToCAVATICALoginWithVerifiedAccountStep1d.png" width=500>
 
 ## Generate the Developers Token
 
 We need this token to connect the accounts.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstNewAccountCAVATICAGenerateDeveloperAccessTokenStep2.png width=500>
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstNewAccountCAVATICAGenerateDeveloperAccessTokenStep2.png" width=500>
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstNewAccountCAVATICAPasteDeveloperTokenStep3.png width=500>
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstNewAccountCAVATICAPasteDeveloperTokenStep3.png" width=500>
 
 
 See further documentation:
