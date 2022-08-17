@@ -45,7 +45,7 @@ An example of your next window is the Dashboard view
 
 Next we want to create a project. 
 
-Choose a title for your project, here I chose `Kids First Elements of Style` 
+Choose a title for your project, here I chose `Elements of Style` 
 
 Choose `elements-of-style-course-kids-first` Billing Group.
 
