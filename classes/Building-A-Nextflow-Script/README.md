@@ -70,7 +70,7 @@ Inside the shell we have the following:
 
 * The standard workflow language for the Common Workflow Language (CWL) `cwltool` can be installed
 
-### What is [Docker](https://www.docker.com/) <img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/Moby-Logo.png" width=50 align=left>?
+### What is [Docker](https://www.docker.com/) <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/Moby-Logo.png" width=50 align=left>?
 
 Just to recap a bit. Docker is the application we use to build our containerized images.   It turns our code into an image that can be run interactively or be placed upon a virtual machine that we spin up on CAVATICA as part of a workflow.   The logo that is associated with `Docker` is a whale but looks like a containership.   Containers revolutionized the shipping industry by creating a uniform entity that could permits disparate items to be packaged in the same manner allowing devices that do not know what they contain to carry those items.   Much in the same way that `packets` revolutionized communication with the internet.  This is why we concern ourselves with containers. 
 
@@ -146,13 +146,13 @@ cd ~
 And now clone the repository.
 
 ```bash
-git clone https://github.com/adeslatt/Elements-of-Style-Workflow-Creation-Maintenance.git
+git clone https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance.git
 ```
 
 Now change into the directory for this class
 
 ```bash
-cd ~/Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-Nextflow-Script
+cd ~/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-Nextflow-Script
 ```
 
 And we can now move into building a `Nextflow` script.
@@ -282,7 +282,8 @@ There are two types of channels:
 
 Here we will use the method [`fromFilePairs`](https://www.nextflow.io/docs/latest/channel.html#fromfilepairs) to create a channel to load paired-end FASTQ data, rather than just a single FASTQ file.
 
-To do this we will replace the code from [1c](https://github.com/lifebit-ai/jax-tutorial/blob/master/README.md#c-processes-inputs-outputs--scripts) with the following 
+
+To do this we will replace the code from [1c](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/edit/main/classes/Building-A-Nextflow-Script/README.md#c-processes-inputs-outputs--scripts) with the following 
 
 ```nextflow
 //fastqc.nf
@@ -407,4 +408,4 @@ nextflow run fastqc_multiqc_wf.nf --reads "testdata/test.20k_reads_{1,2}.fastq.g
 
 ## Return to the Agenda
 
-[Main Agenda](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance#readme)
+[Main Agenda](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#readme)
