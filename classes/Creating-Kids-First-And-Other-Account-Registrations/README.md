@@ -1,6 +1,6 @@
 # Creating a Kids First account and other accounts for this course
 
-Today in this pre-training workshop, we will spend some time to get everyone registered for a few accounts.
+Today in this pre-training workshop, we will spend some time to get everyone registered for a few accounts.  By now, we have a GitHub account, an ORCID and hopefully an ERA-Commons ID.  This last one will allow us to take advantage of the NIH Researcher Authentication Service.   In this portion of the class, we will be registering with Kids First as well as CAVATICA and connecting these two accounts together.
 
 ## Beginning with Kids First Account
 
@@ -110,6 +110,12 @@ And then we paste the token, this now connects our registration with Kids First 
 See further documentation:
 [CAVATICA Account Login Creation Documentation](https://docs.cavatica.org/docs/sign-up-for-cavatica)
 
+
+## Recap of what we have done today
+
+- Registered with Kids First Data Resource Center
+- Registered with CAVATICA
+- Connected the Kids First DRC with the CAVATICA Platform
 
 ## Return to the Agenda
 
