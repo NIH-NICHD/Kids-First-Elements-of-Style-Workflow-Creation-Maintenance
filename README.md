@@ -30,8 +30,11 @@ The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a tra
 - [ORCID](https://orcid.org) [Registration Now!](https://orcid.org/register)
 - [ERA Commons ID](https://www.era.nih.gov/reg-accounts/register-commons.htm)
 
+
+## Agenda for the Day 1: Reasoning
+<br/><br/>                                                     
+
 ## Create an account in CAVATICA
-<br/><br/>                                                
 
 If you have not already done so, [please go ahead and create an account on CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Creating-A-CAVATICA-Account/README.md)
 
@@ -44,9 +47,6 @@ If you have not already done so, let my colleagues know so we can add you to the
 * [Start a DataCruncher Notebook](https://github.com/NIH-NICHD/Kids-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/DataCruncherJupyterLabNotebook.gif)
 
 While things start to cook -- let me review the Agenda and show a brief presentation
-
-## Agenda for the Day 1: Reasoning
-<br/><br/>                                                     
 
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
