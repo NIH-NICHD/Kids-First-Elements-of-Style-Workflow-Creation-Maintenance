@@ -35,7 +35,7 @@ The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a tra
 
 <br/><br/>                                                     
 ## Create an account in CAVATICA
-<br/><br/>                                                     
+<br/><br/>                                                
 
 If you have not already done so, [please go ahead and create an account on CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Creating-A-CAVATICA-Account/README.md)
 
@@ -80,8 +80,6 @@ While things start to cook -- let me review the Agenda and show a brief presenta
 ## Additional resources:
 - GitHub Hello World: https://guides.github.com/activities/hello-world/
 - Happy Git and GitHub for the useR by Jenny Bryan: https://happygitwithr.com/
-<br/><br/>                                                     
-
 
 <br/><br/>
 ## Agenda for the Day 3: Containerization with Environment Control
@@ -93,7 +91,6 @@ While things start to cook -- let me review the Agenda and show a brief presenta
 | 12.00 - 12.10 |:coffee: Short break |
 | 12:10 - 12:50 | [Building Dockerfiles](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-Dockerfiles/README.md)<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/Moby-Logo.png" width="100" align="right">|
 | 12.50 - 13:00 | :raised_hand: *Wrap up and overview of next days topics* |
-
 
 <br/><br/>
 ## Agenda for the Day 4: Workflow Development
