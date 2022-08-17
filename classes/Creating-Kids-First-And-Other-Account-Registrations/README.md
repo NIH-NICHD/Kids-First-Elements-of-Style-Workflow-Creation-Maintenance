@@ -1,6 +1,6 @@
-# Creating a Kids First account and other accounts for this course
+# Kids First and CAVATICA Account Registrations
 
-Today in this pre-training workshop, we will spend some time to get everyone registered for a few accounts.
+Today in this pre-training workshop, we will spend some time to get everyone registered for a few accounts.  By now, we have a GitHub account, an ORCID and hopefully an ERA-Commons ID.  This last one will allow us to take advantage of the NIH Researcher Authentication Service.   In this portion of the class, we will be registering with Kids First as well as CAVATICA and connecting these two accounts together.
 
 ## Beginning with Kids First Account
 
@@ -20,7 +20,7 @@ Navigate to [Kids First DRC](https://kidsfirstdrc.org/)
 
 First screen you will see is:
 
-<img src="https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstDRCPortalCreateAnAccount-1.png" width 500>
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstDRCPortalCreateAnAccount-1.png" width=500>
 
 From here you can navigate to either [CREATE YOUR ACCOUNT](https://portal.kidsfirstdrc.org/join) or [PORTAL LOGIN]()
 or [CLICK HERE TO GET STARTED]()
@@ -89,16 +89,20 @@ Creating an account with CAVATICA, repeats some of the steps we followed from th
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstHowtoConnectToCAVATICACreateAnAccountStep1b.png" width=500>
 
 After agreeing to the terms and conditions, accepting the privacy policy and proving you are not a robot, we need to have our account verified.
+
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstHowtoConnectToCAVATICAVerifyAccountStep1c.png" width=500>
 
-Now login with the verified accounts
+Now login with the verified accounts:
+
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstHowtoConnectToCAVATICALoginWithVerifiedAccountStep1d.png" width=500>
 
 ## Generate the Developers Token
 
-We need this token to connect the accounts.
+We need this token to connect the accounts.   So first we Generate the token:
 
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstNewAccountCAVATICAGenerateDeveloperAccessTokenStep2.png" width=500>
+
+And then we paste the token, this now connects our registration with Kids First with the CAVATICA Platform.
 
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstNewAccountCAVATICAPasteDeveloperTokenStep3.png" width=500>
 
@@ -107,6 +111,12 @@ See further documentation:
 [CAVATICA Account Login Creation Documentation](https://docs.cavatica.org/docs/sign-up-for-cavatica)
 
 
+## Recap of what we have done today
+
+- Registered with Kids First Data Resource Center
+- Registered with CAVATICA
+- Connected the Kids First DRC with the CAVATICA Platform
+
 ## Return to the Agenda
 
-[Main Agenda](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#readme)
+[Main Agenda](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-pre-training-workshop)
