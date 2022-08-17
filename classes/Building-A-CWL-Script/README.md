@@ -8,7 +8,7 @@ Here we now show how the same containers may be used in a CWL workflow.
 Navigate now to the proper directory for the lesson.
 
 ```bash
-cd ~/Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-CWL-Script
+cd ~/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-CWL-Script
 ```
 
 Looking at the directory we type the command:
@@ -20,7 +20,7 @@ ls -l
 And now we see:
 
 ```bash
-(eos) ad376@cloudshell:~/Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-CWL-Script$ ls -l
+(eos) ad376@cloudshell:~/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-CWL-Script$ ls -l
 total 12
 drwxr-xr-x 2 ad376 ad376 4096 Mar 31 13:28 cwl_tools
 -rw-r--r-- 1 ad376 ad376 1236 Mar 31 13:28 fastqc_multiqc_wf.cwl
@@ -96,11 +96,11 @@ In the same way that we installed `nextflow`, we can install `cwltool`.
 
 To find the exact command, I typically google `anaconda search packages` and arrive here:
 
-<img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/AnacondaSearchPackages_cwltool1.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/AnacondaSearchPackages_cwltool1.png">
 
 Next, I get the information on how to install:
 
-<img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/AnacondaSearchPackages_cwltool2.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/AnacondaSearchPackages_cwltool2.png">
 
 To run the pipeline:
 ```bash
@@ -110,7 +110,7 @@ conda install -c conda-forge cwltool -y
 We verify the installation with
 
 ```bash
-(eos) ad376@cloudshell:~/Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-CWL-Script$ which cwltool
+(eos) ad376@cloudshell:~/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-CWL-Script$ which cwltool
 /home/ad376/miniconda3/envs/eos/bin/cwltool
 ```
 
@@ -262,7 +262,7 @@ cwltool fastqc_multiqc_wf.cwl --input_reads test.20k_reads_1.fastq.gz --input_re
 If we are correct, then we will now have a new directory `fastqc_outdir`, and we do!
 
 ```bash
-~/Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-CWL-Script$ ls -l
+~/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-CWL-Script$ ls -l
 total 5108
 drwxr-xr-x 2 ad376 ad376    4096 Apr  4 17:47 2022mar31_results
 drwxr-xr-x 2 ad376 ad376    4096 Mar 31 16:28 cwl_tools
@@ -292,4 +292,4 @@ In this last step, we executed the combined workflow which was done quite simply
 
 ## Return to the Agenda
 
-[Main Agenda](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance#readme)
+[Main Agenda](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#readme)
