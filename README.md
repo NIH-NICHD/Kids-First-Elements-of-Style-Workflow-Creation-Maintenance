@@ -13,11 +13,9 @@ The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a tra
 
 ## Course Overview:
 
-<br/><br/>                                                     
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/ElementsOfStyleCourseOverview.png" >
 <br/><br/>                                                     
 
-<br/><br/>                                                     
 ## Agenda for Pre-Training Workshop
 <br/><br/>                                                     
 
@@ -33,7 +31,6 @@ The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a tra
 - [ORCID](https://orcid.org) [Registration Now!](https://orcid.org/register)
 - [ERA Commons ID](https://www.era.nih.gov/reg-accounts/register-commons.htm)
 
-<br/><br/>                                                     
 ## Create an account in CAVATICA
 <br/><br/>                                                
 
@@ -49,8 +46,6 @@ If you have not already done so, let my colleagues know so we can add you to the
 
 While things start to cook -- let me review the Agenda and show a brief presentation
 
-
-<br/><br/>                                                     
 ## Agenda for the Day 1: Reasoning
 <br/><br/>                                                     
 
@@ -58,7 +53,7 @@ While things start to cook -- let me review the Agenda and show a brief presenta
 | ------------- | --------------------------------------------------------------------------- |
 | 11.00 - 11.10 | :wave: *Welcome Address, Motivation, [Platform as a service Presentation](https://docs.google.com/presentation/d/1Ki63hFXmjUnWxU96rhTBbEFsIG5mwLEFZafCp1bYV4M/edit?usp=sharing) Tutorial Agenda* |
 | 11.10 - 11.20 | [A few simple rules for easier workflow maintenance and reuse](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Elements-of-Style/A-Few-Simple-Rules-Shortened.md)<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/The_Elements_of_Programming_Style.jpg" width="100" align="right">|
-| 11.20 - 12.00| [Introduction to the Command-line](https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook/Using-the-command-line.ipynb) |
+| 11.20 - 12.00| [Introduction to the Command-line](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook) |
 | 12.00 - 12.10 |:coffee: Short Break |
 | 12.10 - 12.50 | [Example Volcano Plot on CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook/Reading-data-and-plotting-in-R.ipynb)<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICALogo.png" width="100" align="right">|
 | 12.50 - 13:00 | :raised_hand: *Wrap up and overview of next days topics* |
