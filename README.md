@@ -31,16 +31,16 @@ The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a tra
 - [ERA Commons ID](https://www.era.nih.gov/reg-accounts/register-commons.htm)
 
 
-## Agenda for the Day 1: Reasoning
 <br/><br/>                                                     
+## Agenda for the Day 1: Reasoning
 
-## Create an account in CAVATICA
+### Create an account in CAVATICA
 
 If you have not already done so, [please go ahead and create an account on CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Creating-A-CAVATICA-Account/README.md)
 
 If you have not already done so, let my colleagues know so we can add you to the appropriate billing group.
 
-## Lets Log in straight to [CAVATICA](https://cavatica.sbgenomics.com)
+### Lets Log in straight to [CAVATICA](https://cavatica.sbgenomics.com)
 
 * [Step-by-Step Instructions to log into CAVATICA and Start a Notebook](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/LoggingIntoCAVATICA/README.md)
 
@@ -48,6 +48,7 @@ If you have not already done so, let my colleagues know so we can add you to the
 
 While things start to cook -- let me review the Agenda and show a brief presentation
 
+<br/><br/>                                                     
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
 | 11.00 - 11.10 | :wave: *Welcome Address, Motivation, [Platform as a service Presentation](https://docs.google.com/presentation/d/1Ki63hFXmjUnWxU96rhTBbEFsIG5mwLEFZafCp1bYV4M/edit?usp=sharing) Tutorial Agenda* |
@@ -62,13 +63,13 @@ While things start to cook -- let me review the Agenda and show a brief presenta
 <br/><br/>
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
-| 11.00 - 11.10 | _Workspace set up and agenda for the day_ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGO2P0vFlvhsDbmltsjjIWZMi1dQCduIkuwA&usqp=CAU"  width="10"> <img src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.png"  width="25"> |
+| 11.00 - 11.10 |  :wave: _Workspace set up and agenda for the day_ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGO2P0vFlvhsDbmltsjjIWZMi1dQCduIkuwA&usqp=CAU"  width="40"> <img src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.png"  width="25"> |
 | 11.10 - 11.30 | 1. [**Why Git and GitHub?** Motivation and set up in the JupyterLab workspace](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Intro-to-Git-GitHub/why-git-and-setup.md) |
 | 11.30 - 12.00 | 2. [**Git Routine 1**: Reusing an available repository with `fork` and how to keep in sync with parent project](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Intro-to-Git-GitHub/the-fork-git-routine.ipynb) |
 | 12.00 - 12.10 |:coffee: Short break |
 | 12.10 - 12:30:| 3. [**Git Routine 2**: Extend your current code and use Git, GitHub to keep track of changes and contribute](https://github.com/lifebit-ai/dry-bench-skills-for-researchers/blob/main/classes/Intro-to-Git-GitHub/the-add-push-git-routine.ipynb) |
-| 12.30 - 12:50:| 4. [**Git Routine 3**: [Generate GitHub Personal Access Tokens](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GeneratingGitHubPersonalAccessTokens.gif)|
-|. - | 5. [GitHub Auth Login](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubAuthLoginFromCommandLine.gif)  |
+| 12.30 - 12:45:| 4. [**Git Routine 3**: Generate GitHub Personal Access Tokens](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GeneratingGitHubPersonalAccessTokens.gif)|
+| 12.45 - 12:50 | 5. [**GitHub Auth Login**](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubAuthLoginFromCommandLine.gif)  |
 | 12.50 - 13:00 | :raised_hand: *Wrap up and overview of next days topics* |
 
 ## Additional resources:
@@ -80,7 +81,7 @@ While things start to cook -- let me review the Agenda and show a brief presenta
 <br/><br/>
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
-| 11.00 - 11.10 | _Workspace set up and agenda for the day_ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGO2P0vFlvhsDbmltsjjIWZMi1dQCduIkuwA&usqp=CAU"  width="10"> <img src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.png"  width="25"> |
+| 11.00 - 11.10 | :wave: _Workspace set up and agenda for the day_ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGO2P0vFlvhsDbmltsjjIWZMi1dQCduIkuwA&usqp=CAU"  width="10"> <img src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.png"  width="25"> |
 | 11:10 - 12:00 | Creating a conda environment](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Creating-A-Conda-Environment/README.md)<img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Conda_logo.svg" width="100" align="right"> |
 | 12.00 - 12.10 |:coffee: Short break |
 | 12:10 - 12:50 | [Building Dockerfiles](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-Dockerfiles/README.md)<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/Moby-Logo.png" width="100" align="right">|
@@ -91,7 +92,7 @@ While things start to cook -- let me review the Agenda and show a brief presenta
 <br/><br/>
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
-| 11.00 - 11.10 | _Workspace set up and agenda for the day_ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGO2P0vFlvhsDbmltsjjIWZMi1dQCduIkuwA&usqp=CAU"  width="10"> <img src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.png"  width="25"> |
+| 11.00 - 11.10 | :wave: _Workspace set up and agenda for the day_ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGO2P0vFlvhsDbmltsjjIWZMi1dQCduIkuwA&usqp=CAU"  width="10"> <img src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.png"  width="25"> |
 | 11.10 - 11.20 | [Shared elements across workflow languages](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/NextflowSharedDataElements/NextflowCommonWorkFlowLanguageSharedStructureSharedElements.md)<img src="https://github.com/common-workflow-language/logo/blob/main/CWL-Logo-HD.png" width="150"><img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width=150 align="right">|
 | 11:20 - 11:40 | [Building A Nextflow Script](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md)<img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width="150" align="right"> 
 | 11:40 - 12:00 | [Building A CWL Script](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-CWL-Script)<img src="https://github.com/common-workflow-language/logo/blob/main/CWL-Logo-HD.png" width="150" align="right">|
@@ -103,7 +104,7 @@ While things start to cook -- let me review the Agenda and show a brief presenta
 <br/><br/>
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
-| 11.00 - 11.10 | _Workspace set up and agenda for the day_ <img src="https://encrypted-tbn0.gstatic.com/images?
+| 11.00 - 11.10 | :wave: _Workspace set up and agenda for the day_ <img src="https://encrypted-tbn0.gstatic.com/images?
 | 12.10 - 12.30 | [Working with Apps on the CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/WorkingWithAppsOnCAVATICA/WorkingWithAppsOnCAVATICA.md)<img src="https://github.com/kids-first/kf-cloud-credits/blob/main/assets/kfdrc-logo-sm.png"  width="200" align="right">
 | 12:30 - 12.50 | [GitHub Actions to build, test and deposit container images](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/GitHubActions/GitHubActionsForMaintenanceTesting.md) <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Reproducible-Workflow-Creation-Maintenance-Tutorial/blob/main/assets/Octocat.png" width="100" align="right"> |
 | 13.50 - 14.00 | *Closing remarks and future directions*|
