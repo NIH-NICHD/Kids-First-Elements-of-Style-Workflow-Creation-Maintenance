@@ -1,0 +1,172 @@
+11:01:52 From jenniferlynnkrupp to Everyone:
+	Beautiful in CO too!
+11:02:00 From Emily Boja to Everyone:
+	Hi Anne, it's beautiful in MD too
+11:02:11 From Jose Martinez to Everyone:
+	WI is decent, no winter storm yet.
+11:02:22 From David Higgins (Kids First DRC) to Everyone:
+	Lovely weather here in south east PA!
+11:02:30 From DR DWIGHT SANDERS SE to Everyone:
+	HI FROM CINCINNATI,OHIO
+11:02:52 From Soumya Rao to Everyone:
+	Drizzling in Kansas City!
+11:03:11 From Pagna Sok to Everyone:
+	It's raining in Houston! But enjoying the cool weather!
+11:04:26 From Pierrette Lo (she/her) to Everyone:
+	Humid and yucky in Portland OR today
+11:07:15 From David Higgins (Kids First DRC) to Everyone:
+	Hi everyone! Nice to meet you all, looking forward to helping you today and all next week!
+11:22:21 From David Higgins (Kids First DRC) to Everyone:
+	https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance
+11:22:33 From David Higgins (Kids First DRC) to Everyone:
+	This is the materials we’ll be using during the course
+11:23:06 From David Higgins (Kids First DRC) to Everyone:
+	The “Issues" tab at this link is a great place to get in touch with Anne, me, and other folks in the course.
+11:24:19 From David Higgins (Kids First DRC) to Everyone:
+	github.com
+11:26:18 From David Higgins (Kids First DRC) to Everyone:
+	Let me know if you're having any trouble and I can help out!
+11:27:12 From David Higgins (Kids First DRC) to Everyone:
+	https://zenodo.org/
+11:29:49 From Danielle Daee to Everyone:
+	Just wanting to make sure I understand.  So Zenodo is an open repository for data?  And github is a repository for the workflows?
+11:30:21 From David Higgins (Kids First DRC) to Everyone:
+	Again, the materials for the course are linked here: https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance
+11:31:34 From Diana Ma to Everyone:
+	Does Zenodo police restricted access data or is the author expected to do this?
+11:31:57 From Hendrick Lim to Everyone:
+	is there any capacity limitation of file size that can be stored in Zenodo after registration is made?
+11:32:03 From Soumya Rao to Everyone:
+	Can we use just zenodo instead of SRA or GO?
+11:32:56 From Prithbey to Everyone:
+	please share the recording video as the network is not good on my side to realize the all thing...
+11:33:20 From David Higgins (Kids First DRC) to Everyone:
+	The Kids First Data Resource Portal: https://portal.kidsfirstdrc.org/
+11:33:40 From Emily Boja to Everyone:
+	https://about.zenodo.org/policies/
+11:34:41 From David Higgins (Kids First DRC) to Everyone:
+	Thanks Emily - from their policies “Content must not violate privacy or copyright, or breach confidentiality or non-disclosure agreements for data collected from human subjects.”
+11:36:34 From David Higgins (Kids First DRC) to Everyone:
+	“Total files size limit per record is 50GB. Higher quotas can be requested and granted on a case-by-case basis.”
+11:41:35 From David Higgins (Kids First DRC) to Everyone:
+	Just a note about the CAVATICA developer token - this token has information that is coordinated with your access. You should keep this private to yourself - sharing it is like sharing your username and password with someone else.
+11:42:01 From ajaypillai to Everyone:
+	Will there be a video recording of this session available?
+11:43:03 From Marisha Speights Atkins to Everyone:
+	Yes
+11:43:07 From James Coulombe to Everyone:
+	Thank you for the recording not being able to type and listen carefully signing onto these platforms and keeping up has not been possible to keep up
+11:43:13 From Zhen Lin to Everyone:
+	yes.  Thanks!
+11:43:17 From Angie Jelin to Everyone:
+	I had a Cavatica account, I just requested a password reset.
+11:43:28 From Robert Carter to Everyone:
+	👍
+11:43:40 From Soumya Rao to Everyone:
+	I created a cavatica last year but didn't save anything. How can I access my authorization token now?
+11:43:42 From jenniferlynnkrupp to Everyone:
+	I only created an account in Github
+11:44:00 From Diana Ma to Everyone:
+	I am trying to creata an account in Cavatica, but the "Register" button does not work. Can you help?
+11:44:02 From Pierrette Lo (she/her) to Everyone:
+	thanks Anne & David! looking forward to next week.
+11:44:27 From David Higgins (Kids First DRC) to Everyone:
+	Angie: If you have an account but don't log in for 3 months, the account is locked as a security feature. Email support@sevenbridges.com and they will reset it for you. You'll still have everything you had last time you logged in.
+11:44:46 From Angie Jelin to Everyone:
+	Thank you!
+11:45:24 From David Higgins (Kids First DRC) to Everyone:
+	Diana: You may have to check the boxes confirming you've read the Terms, agree to the Privacy policy, and the reCAPTCHA.
+11:46:50 From Soumya Rao to Everyone:
+	Thank you for the kick start!
+11:47:40 From Hendrick Lim to Everyone:
+	Just to make sure, so cavatica platform is under sevenbridges?
+11:47:41 From Soumya Rao to Everyone:
+	Please show us how to use Jupyter.
+11:48:31 From David Higgins (Kids First DRC) to Everyone:
+	CAVATICA is a cloud platform made by SevenBridges. If you're familiar with BioDataCatalyst, it's very similar.
+11:49:20 From Soumya Rao to Everyone:
+	I used up all my credits in Cavatica. I doubt if I will be allowed to run any work flows.
+11:50:16 From Hendrick Lim to Everyone:
+	I ever experienced with Cancer Genomics Cloud platform from SevenBridges. Just curious what is the difference with this CAVATICA platform
+11:50:23 From Soumya Rao to Everyone:
+	Yey.. thanks!
+11:51:24 From jeeyh to Everyone:
+	Looking forward to our next session!
+11:51:43 From David Higgins (Kids First DRC) to Everyone:
+	https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/issues
+11:52:24 From Anne Deslattes Mays to Everyone:
+	https://docs.google.com/presentation/d/1_Rsc8BknYyWGt-Br2GVkpRmT6DJy4dCklHCp7esy1VI/edit?usp=sharing
+11:52:40 From Marisha Speights Atkins to Everyone:
+	Thanks so much!
+11:52:57 From jenniferlynnkrupp to Everyone:
+	Thank you
+11:52:58 From Melissa Richard to Everyone:
+	Thank you!!
+11:52:59 From Ousmane Sow - RTI International to Everyone:
+	Thanks!
+11:53:01 From Janine McNelia to Everyone:
+	thank you!
+11:53:01 From ajaypillai to Everyone:
+	Thank you.
+11:53:18 From MESAGAN to Everyone:
+	pls the link to the first GitHub that you show up
+11:53:28 From MESAGAN to Everyone:
+	thank you
+11:53:30 From David Higgins (Kids First DRC) to Everyone:
+	https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance
+11:53:35 From Soumya Rao to Everyone:
+	I had a tough time trying to figure out how to see/access the authorized data from dbGAP. Please show how to access it without Cavatica.
+11:53:42 From Dr. Boutte to Everyone:
+	thank you !
+11:53:56 From Diana Ma to Everyone:
+	Thank you!
+11:54:33 From Prithbey to Everyone:
+	please share the recording video as the network is not good on my side to realize the all thing...
+11:54:49 From Emily Boja to Everyone:
+	Are you going to give us data as examples to analyze next week? Sorry if I missed it
+11:55:17 From David Higgins (Kids First DRC) to Everyone:
+	Yes, we have some open-access data to use next week
+11:55:54 From David Higgins (Kids First DRC) to Everyone:
+	that we'll share with everyone
+11:56:02 From Emily Boja to Everyone:
+	Awesome!
+11:56:08 From MESAGAN to Everyone:
+	pls send the link to this recording. thank you.
+11:59:00 From Emily Boja to Everyone:
+	A colleague in our office didn't register for the training but would like to attend. How would he access training next week if possible?
+11:59:43 From Hendrick Lim to Everyone:
+	is there any publication about CAVATICA to be cited when I used it in my future study?
+12:00:21 From David Higgins (Kids First DRC) to Everyone:
+	Emily: Yes, that should be possible - I will follow up with you.
+12:00:34 From Emily Boja to Everyone:
+	Thanks
+12:00:50 From Soumya Rao to Everyone:
+	I think there is a lag
+12:01:17 From Soumya Rao to Everyone:
+	It's okay
+12:01:25 From David Higgins (Kids First DRC) to Everyone:
+	Hendrick: I don’t think there's a CAVATICA publication to cite, I would just acknowledge that it was used in the Methods. "This work done on the CAVATICA cloud platform by SevenBridges" or something to that effect.
+12:01:58 From Hendrick Lim to Everyone:
+	got it, thank you
+12:02:02 From Ken Wilkins to Everyone:
+	^thanks @David, for addressing that natural question -- how do we obtain version?
+12:02:08 From Soumya Rao to Everyone:
+	I am convinced. It's great to be able to run a workflow on 400-1000 files.
+12:02:10 From Emily Boja to Everyone:
+	Thank you
+12:03:41 From Ken Wilkins to Everyone:
+	^@David -- found it under 'Release Notes' (currently shows Release note 08.08.22 )
+12:03:42 From David Higgins (Kids First DRC) to Everyone:
+	The versions of software? It depends on how your tools are built. If you build your own, you'll track the versions. If you use a public app, the versions should be labeled in the documentation. "We used the alignment tool GATK v4.0….” for example
+12:04:33 From Soumya Rao to Everyone:
+	But bills for clouds are still high. $1000 per month to start with Cavatica after free credits are finished. We had google cloud bill going $3000/month. SO need to use the server till I have grant to cover these costs.
+12:04:35 From Ken Wilkins to Everyone:
+	^ ah, yes the workflow's subpieces' versions seemed tacit, it was CAVATICA"s thanks -- makes sensee
+12:05:42 From Soumya Rao to Everyone:
+	Now learnt a lesson. Put the google cloud data in cold storage.
+12:06:56 From Ken Wilkins to Everyone:
+	Many thanks -- have to jump off, now -- enjoy the weekend (envious of the beautiful Conn. weather!)
+12:07:00 From Soumya Rao to Everyone:
+	Thanks for the suggestions! I will have to talk to my PI.
+12:07:12 From MESAGAN to Everyone:
+	bye
