@@ -26,6 +26,6 @@ See further documentation:
 [CAVATICA Account Login Creation Documentation](https://docs.cavatica.org/docs/sign-up-for-cavatica)
 
 
-## Return to the Agenda
+## Lets return to spin up a notebook
 
-[Main Agenda](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#readme)
+[Next Spin Up a Machine for the Notebook](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/edit/main/classes/Lets-Dive-In/README.md)
