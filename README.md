@@ -34,29 +34,21 @@ The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a tra
 <br/><br/>                                                     
 ## Agenda for the Day 1: Reasoning
 
-### Create an account in CAVATICA
-
-If you have not already done so, [please go ahead and create an account on CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Creating-A-CAVATICA-Account/README.md)
-
-If you have not already done so, let my colleagues know so we can add you to the appropriate billing group.
-
-### Lets Log in straight to [CAVATICA](https://cavatica.sbgenomics.com)
-
-* [Step-by-Step Instructions to log into CAVATICA and Start a Notebook](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/LoggingIntoCAVATICA/README.md)
-
-* [Start a DataCruncher Notebook](https://github.com/NIH-NICHD/Kids-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/DataCruncherJupyterLabNotebook.gif)
-
-While things start to cook -- let me review the Agenda and show a brief presentation
-
 <br/><br/>                                                     
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
-| 11.00 - 11.10 | :wave: *Welcome Address, Motivation, [Platform as a service Presentation](https://docs.google.com/presentation/d/1Ki63hFXmjUnWxU96rhTBbEFsIG5mwLEFZafCp1bYV4M/edit?usp=sharing) Tutorial Agenda* |
+| 11.00 - 11.15 | :wave: *[Lets Dive In, Create an Account, Spin up a Data Cruncher]()* |
+| 11:*[Welcome Address, Motivation, Cloud Credit Program, Platform as a service Presentation](https://docs.google.com/presentation/d/1_Rsc8BknYyWGt-Br2GVkpRmT6DJy4dCklHCp7esy1VI/edit?usp=sharing)* |
 | 11.10 - 11.20 | [A few simple rules for easier workflow maintenance and reuse](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Elements-of-Style/A-Few-Simple-Rules-Shortened.md)<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/The_Elements_of_Programming_Style.jpg" width="100" align="right">|
 | 11.20 - 12.00| [Introduction to the Command-line](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook) |
 | 12.00 - 12.10 |:coffee: Short Break |
 | 12.10 - 12.50 | [Example Volcano Plot on CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook/Reading-data-and-plotting-in-R.ipynb)<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICALogo.png" width="100" align="right">|
 | 12.50 - 13:00 | :raised_hand: *Wrap up and overview of next days topics* |
+
+## Additional Resources
+- [NIH Kids First Cloud Credit Program Overview](https://github.com/kids-first/kf-cloud-credits#readme)
+- [How to apply for NIH Kids First Cloud Credits](https://github.com/kids-first/kf-cloud-credits/blob/main/applying.md)
+- [Monthly User Support Office Hours](https://tinyurl.com/KidsFirstOfficeHours)
 
 <br/><br/>
 ## Agenda for the Day 2: Code Versioning
@@ -131,7 +123,12 @@ Over a period of 5 days, only two hours a day, the learner learned elements of s
 
 ## Acknowledgements
 
+CAVATICA is a joint development between Seven Bridges and the Children's Hospital of Philadelphia
+
+Seven Bridges supports multiple workflow languages in its application development, including CWL, Nextflow and soon WDL
+
 Nextflow workflow information and guidance was gratefully received from Phil Palmer from his classes at the Jackson Laboratory while he was at Lifebit
+
 and @cgpu Christina Chatzipantsiou has been my infallible guide.  @cgpu Christina Chatzipantsiou taught with me the first Elements of Style class at the ISCB Academy.
 
 Common Workflow script guidance was gratefully received from Miguel Brown at Children's Hospital of Philadelphia.
