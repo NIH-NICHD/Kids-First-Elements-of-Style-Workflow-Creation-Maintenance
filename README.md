@@ -37,10 +37,10 @@ The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a tra
 <br/><br/>                                                     
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
-| 11.00 - 11.15 | :wave: *[Lets Dive In, Create an Account, Spin up a Data Cruncher]()* |
-| 11:*[Welcome Address, Motivation, Cloud Credit Program, Platform as a service Presentation](https://docs.google.com/presentation/d/1_Rsc8BknYyWGt-Br2GVkpRmT6DJy4dCklHCp7esy1VI/edit?usp=sharing)* |
-| 11.10 - 11.20 | [A few simple rules for easier workflow maintenance and reuse](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Elements-of-Style/A-Few-Simple-Rules-Shortened.md)<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/The_Elements_of_Programming_Style.jpg" width="100" align="right">|
-| 11.20 - 12.00| [Introduction to the Command-line](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook) |
+| 11.00 - 11.15 | :wave: *[Lets Dive In, Create an Account, Start a JupyterLab Notebook](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Lets-Dive-In#readme)* |
+| 11:15 - 11:45 | [Welcome Address, Motivation, Cloud Credit Program, Platform as a service Presentation](https://docs.google.com/presentation/d/1_Rsc8BknYyWGt-Br2GVkpRmT6DJy4dCklHCp7esy1VI/edit?usp=sharing) |
+| 11.45 - 11.55 | [A few simple rules for easier workflow maintenance and reuse](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Elements-of-Style/A-Few-Simple-Rules-Shortened.md)<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/The_Elements_of_Programming_Style.jpg" width="100" align="right">|
+| 11.55 - 12.00| [Introduction to the Command-line](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook) |
 | 12.00 - 12.10 |:coffee: Short Break |
 | 12.10 - 12.50 | [Example Volcano Plot on CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook/Reading-data-and-plotting-in-R.ipynb)<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICALogo.png" width="100" align="right">|
 | 12.50 - 13:00 | :raised_hand: *Wrap up and overview of next days topics* |
