@@ -14,7 +14,7 @@ https://cavatica.sbgenomics.com/home
 The [CAVATICA Initial Login Window](https://cavatica.sbgenomics.com) looks like this:
 
 <p>
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICALoginWindowNumber1.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICALoginWindowNumber1.png" width=500>
 </p>
 
 <b>
@@ -41,48 +41,6 @@ An example of your next window is the Dashboard view
 
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICALoginDashboardNumber3.png">
 
-### Step 3 - Create a Project
+## Next Step - Create a Project and Start a JupyterLab Notebook
 
-Next we want to create a project. 
-
-Choose a title for your project, here I chose `Elements of Style` 
-
-Choose `elements-of-style-course-kids-first` Billing Group.
-
-❗`Important!` Select `Allow network access`❗
-
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICACreateAProjectNumber4.png">
-
-### Step 4 - Start JupyterLab Notebook from Data Cruncher
-
-Next, navigate to the right and select `Interactive Analysis` and then Select `Data Cruncher`
-
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICASelectDataCruncherNumber5.png">
-
-### Step 5 - Create a New Analysis - Part 1 of 2
-
-Now we need to select `Create New Analysis`.
-
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICACreateANewAnalysisNumber6.png">
-
-### Step 6 - Create a New Analysis - Part 2 of 2
-
-Fill in `Analysis name`.
-
-Select `JupyterLab` for the Environment
-
-Accept `Environment setup` defaults
-
-Select Instant type `c5.2xlarge (8vCPUs, 16GB RAM)`
-
-`Accept Storage (GB)` defaults
-
-❗ Modify the Suspend Time to `180` Minutes ❗
-
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICACreateNewAnalysisNumber7.png">
-
-Okay -- while that is cooking we will go through a small presentation - [Elements of Style in Workflow Creation and Maintenance](https://docs.google.com/presentation/d/1_Rsc8BknYyWGt-Br2GVkpRmT6DJy4dCklHCp7esy1VI/edit?usp=sharing) 
-
-## Return to Agenda for Day 1: Reasoning 
-
-[Agenda for Day 1: Reasoning](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-the-day-1-reasoning)
+[Create a Project and Start a JupyterLab Notebook](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Lets-Dive-In/StartingAJupyterLabNotebook.md#starting-a-jupyterlab-notebook)
