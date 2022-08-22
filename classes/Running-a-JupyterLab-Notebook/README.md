@@ -117,7 +117,7 @@ Once we have our token, we can now authenticate.
 Now that we are authenticated, we can clone successfully.
 
 ```bash
-git clone https://github.com/adeslat/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance
+git clone https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance
 ```
 
 And the result should look like this:
