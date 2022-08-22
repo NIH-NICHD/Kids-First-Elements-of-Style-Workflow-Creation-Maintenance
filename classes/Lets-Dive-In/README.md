@@ -16,7 +16,7 @@ If you have not already done so, [please go ahead and create an account on CAVAT
 
 ## Log in straight to [CAVATICA](https://cavatica.sbgenomics.com)
 
-* [Step-by-Step Instructions to log into CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/LoggingIntoCAVATICA/README.md)
+* [Step-by-Step Instructions to log into CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/LoggingIntoCAVATICA/README.md#logging-into-cavatica-tutorial)
 
 * [Start a JupyterLab Notebook](https://github.com/NIH-NICHD/Kids-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Lets-Dive-In/StartingAJupyterLabNotebook.md#starting-a-jupyterlab-notebook)
 
