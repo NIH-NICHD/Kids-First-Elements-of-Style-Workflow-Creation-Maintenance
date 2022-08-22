@@ -28,4 +28,4 @@ See further documentation:
 
 ## Lets return to spin up a notebook
 
-[Next Spin Up a Machine for the Notebook](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/edit/main/classes/Lets-Dive-In/README.md)
+[Next Spin Up a Machine for the Notebook](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Lets-Dive-In/StartingAJupyterLabNotebook.md#starting-a-jupyterlab-notebook)
