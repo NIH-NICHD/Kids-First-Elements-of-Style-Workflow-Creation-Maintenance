@@ -23,7 +23,7 @@ We need to select three pieces of important inforrmation.
 
 2. Select the appropriate Billing group.  For this course, give David your userid and you will be added so you can select *`elements-of-style-course-kids-first`*.
 
-3. Select *`Allow network access'*
+3. Select *`Allow network access`*
 
 ❗Important❗ be sure that you select *`Allow network access`*
 
