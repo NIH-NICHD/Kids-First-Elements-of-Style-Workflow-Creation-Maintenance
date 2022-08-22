@@ -31,9 +31,11 @@ We need to select three pieces of important inforrmation.
 
 ## Start a new Analysis
 
-Next, within this new project, we will start an analysis.
+Next, within this new project, we will start an analysis.  To do this, select *`Data Studio`*.
 
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADashboardProjectsStartAnAnalysis.png" width=650>
+
+
 
 ## Select JupyterLab
 
