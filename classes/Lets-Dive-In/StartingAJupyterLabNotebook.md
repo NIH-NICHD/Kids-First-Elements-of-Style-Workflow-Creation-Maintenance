@@ -31,17 +31,12 @@ We need to select three pieces of important inforrmation.
 
 ## Start a new Analysis
 
-Next, within this new project, we will start an analysis.  To do this, select *`Data Studio`*.
+Next, within this new project, we will start an analysis.  To do this, select *`Data Studio`* and select <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADashboardCreateNewAnalysisButton.png" width=150> to create a new analysis.
 
+Name the analysis, here I used *`Kids-First-Elements-of-Style`*.  And select  <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADashboardDataStudioJupyterLabSelection.png" width=150> and then press  <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADashboardCreateNewAnalysisStartButton.png" width=150>
+
+After filling in the *`Name`* and selecting the *`JupyterLab Notebook`* and press 
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADashboardProjectsStartAnAnalysis.png" width=650>
-
-
-
-## Select JupyterLab
-
-Now we will select to start the JupterLab Environment for our Analysis.
-
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADashboardProjectsStartAJupterLabNotebook.png" width=650>
 
 ## Confirm it is starting
 
