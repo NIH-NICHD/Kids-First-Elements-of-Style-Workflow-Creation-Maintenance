@@ -33,10 +33,13 @@ We need to select three pieces of important inforrmation.
 
 Next, within this new project, we will start an analysis.  To do this, select *`Data Studio`* and select <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADashboardCreateNewAnalysisButton.png" width=150> to create a new analysis.
 
-Name the analysis, here I used *`Kids-First-Elements-of-Style`*.  And select  <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADashboardDataStudioJupyterLabSelection.png" width=150> and then press  <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADashboardCreateNewAnalysisStartButton.png" width=150>
+Name the analysis, here I used *`Kids-First-Elements-of-Style`*.  Next select  <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADashboardDataStudioJupyterLabSelection.png" width=150>.
 
-After filling in the *`Name`* and selecting the *`JupyterLab Notebook`* and press 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADashboardProjectsStartAnAnalysis.png" width=650>
+Look over what you have entered 
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADashboardProjectsStartAJupyterLabNotebook.png" width=650>
+
+When satisfied that it is correct, press <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADashboardCreateNewAnalysisStartButton.png" width=50>
 
 ## Confirm it is starting
 
@@ -44,6 +47,6 @@ Upon success, we will see it is starting, lets take a small :coffee: break.
 
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADashboardProjectsStartJupyterLabNotebookConfirmation.png" width=500>
 
-## Return to Day 1 
+## After :coffee: we will begin with the Command Line
 
-[Return to today's agenda](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-the-day-1-reasoning)
+[Forking a GitHub Repository and learning a few userful Command-line commands](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/tree/main/classes/Running-a-JupyterLab-Notebook#readme)
