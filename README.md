@@ -16,7 +16,11 @@ The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a tra
 <br/><br/>                                                     
 
 ## Agenda for Pre-Training Workshop
-<br/><br/>                                                     
+<br/><br/>
+
+[Pre-Training Workshop Recording 2022 August 19](https://us06web.zoom.us/rec/share/y9w1Vw7TUe7FdeSMwa5V_Cu2HabshoYFgF_l1-9umMZZ8qWzRsJlbuxZeQ2B66qr.v0mJkwej5t0N_oxY?startTime=1660920934000).  Passcode required - mailed to participants.  If not registered, register and request passcodes. 
+
+[Register here](https://us06web.zoom.us/meeting/register/tZMtcumpqT8qH9M7YI-s8sXerIaMsdit297w)
 
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
@@ -33,6 +37,10 @@ The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a tra
 
 <br/><br/>                                                     
 ## Agenda for the Day 1: Reasoning
+
+[Day 1 Workshop Recording 2022 August 22](https://us06web.zoom.us/rec/share/lEyLOOiDbyjvXhXdF8Mt3EvIYQssoO1AQkzVyJ9nr4SbRgPKjTYVQ2XLfDddEs8t.PpxYpFTGoqVGNE2r?startTime=1661178610000).   Passcode required - mailed to participants.  If not registered, register and request passcodes. 
+
+[Register here](https://us06web.zoom.us/meeting/register/tZMtcumpqT8qH9M7YI-s8sXerIaMsdit297w)
 
 <br/><br/>                                                     
 | Time (UTC)    | Programme       |
