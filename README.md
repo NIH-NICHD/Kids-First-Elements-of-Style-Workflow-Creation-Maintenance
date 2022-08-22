@@ -41,7 +41,7 @@ The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a tra
 | 11.30 - 11.45 | [A few simple rules for easier workflow maintenance and reuse](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Elements-of-Style/A-Few-Simple-Rules-Shortened.md)<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/The_Elements_of_Programming_Style.jpg" width="100" align="right">|
 | 11:45 - 12:00 | *[Lets Dive In, Create an Account, Start a JupyterLab Notebook](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Lets-Dive-In#readme)* |
 | 12.00 - 12.10 |:coffee: Short Break |
-| 12.10 - 12.25| [Introduction to the Command-line](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook) |
+| 12.10 - 12.25| [Introduction to the Command-line](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook/README.md#wave-welcome-back---lets-begin-with-the-command-line) |
 | 12.25 - 12.50 | [Example Volcano Plot on CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook/Reading-data-and-plotting-in-R.ipynb)<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICALogo.png" width="100" align="right">|
 | 12.50 - 13:00 | :raised_hand: *Wrap up and overview of next days topics* |
 
