@@ -26,31 +26,31 @@ We are going to fork the GitHub repository - to do so navigate in your browser t
 
 Click here [Kids First Elements of Style Workflow Creation and Maintenance](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance)
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstGitHubElementsofStyleWorkflowForkClone1.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstGitHubElementsofStyleWorkflowForkClone1.png" width=650>
 
 In the upper righthand side of the screen, select `Fork` and choose to `Fork` it into your own personal repository.
 If you haven't already made a fork, you will see that you can make a fork now.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstGitHubElementsofStyleWorkflowForkClone3.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstGitHubElementsofStyleWorkflowForkClone3.png" width=650>
 
 A new fork is made, you can accept the defaults.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstGitHubElementsofStyleWorkflowForkClone4.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstGitHubElementsofStyleWorkflowForkClone4.png" width=650>
 
 If you have already made a fork, it would make sense to fetch any upstream changes that may have occured since you last visted.  Your screen should look like this:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubElementsofStyleWorkflowForkClone3.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubElementsofStyleWorkflowForkClone3.png" width=650>
 
 Next, navigate to the 🟦`Code` button on the right and select `HTTPS` and copy the link.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstGitHubElementsofStyleWorkflowForkClone5.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstGitHubElementsofStyleWorkflowForkClone5.png" width=650>
 
 ## Clone the repository in the Jupyterlab terminal window
 
 Return to your CAVATICA Window and go back to your JupyterLab notebook.
 And select the `terminal window`
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabNotebookLauncher.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabNotebookLauncher.png" width=650>
 
 Now we want to clone the repository fork we made:
 
@@ -62,7 +62,7 @@ git clone https://github.com/adeslat/Kids-First-Elements-of-Style-Workflow-Creat
 
 But, we might get an error.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabTerminalGitCloneError.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabTerminalGitCloneError.png" width=650>
 
 ## Authenticating for GitHub in CAVATICA
 
@@ -76,7 +76,7 @@ conda install -c conda-forge gh -y
 
 After completing, the installation looks like this:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabNotebookCondaInstallGH.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabNotebookCondaInstallGH.png" width=650>
 
 Now we need to authenticate.   We do this with our personal `GitHub Token`. 
 
@@ -84,33 +84,33 @@ Now we need to authenticate.   We do this with our personal `GitHub Token`.
 
 Step 1 - Navigate to Settings, located just under your profile in the upper right hand corner:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken1.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken1.png" width=650>
 
 Step 2 - Navigate to the bottom to `< > Developer Settings` on the bottom left hand corner:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken2.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken2.png" width=650>
 
 Step 3 - Select `Personal access tokens` third option from the top on the left side:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken3.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken3.png" width=650>
 
 Step 4 - Select `Generate new token` on the upper right corner - put a name in the note I used `eos`
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken4.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken4.png" width=650>
 
 Step 5 - Select all of the options and select `Generate token`
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken5.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken5.png" width=650>
 
 Step 6 - Copy the token because as the note mentions - it will not be available again - but you can regenerate tokens now - so don't worry.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken6.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken6.png" width=650>
 
 ### Now we can authenticate with GitHub
 
 Once we have our token, we can now authenticate.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabGHAuthLoginWithToken.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabGHAuthLoginWithToken.png" width=650>
 
 ## Clone our repository version
 
@@ -122,11 +122,10 @@ git clone https://github.com/adeslat/Kids-First-Elements-of-Style-Workflow-Creat
 
 And the result should look like this:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabNotebookGitCloneSuccess.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabNotebookGitCloneSuccess.png" width=650>
 
 
 ## Useful Command Line Functions.
-
 
 First we run the JupyterLab notebook which introduces us to some Command Line Functions that will be useful.
 
@@ -183,7 +182,6 @@ In this lesson:
 * We authenticated with GitHub
 * We executed and saw some Command Line Functions
 * We generated a Volcano Plot in a JupyterLab notebook running an `R` kernel
-
 
 
 ## Return to the Agenda
