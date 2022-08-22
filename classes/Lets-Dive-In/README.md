@@ -18,7 +18,7 @@ If you have not already done so, [please go ahead and create an account on CAVAT
 
 * [Step-by-Step Instructions to log into CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/LoggingIntoCAVATICA/README.md#logging-into-cavatica-tutorial)
 
-* [Start a JupyterLab Notebook](https://github.com/NIH-NICHD/Kids-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Lets-Dive-In/StartingAJupyterLabNotebook.md#starting-a-jupyterlab-notebook)
+* [Step-by-Step Instructions to create a project and start a JupyterLab Notebook](https://github.com/NIH-NICHD/Kids-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Lets-Dive-In/StartingAJupyterLabNotebook.md#starting-a-jupyterlab-notebook)
 
 While things start to cook -- let me review the Agenda and show a brief presentation
 
