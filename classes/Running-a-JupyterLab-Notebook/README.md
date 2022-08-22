@@ -3,21 +3,22 @@
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/JupyterLabLogoWithName.png"  width="250">
 </p>
 
-# Example Volcano Plot in a JupyterLab Notebook on [CAVATICA](https://cavatica.sbgenomics.com)
+# :wave: Welcome back - lets begin with the command line
 
+To begin, your screen should look like this:
 
-## Log back in
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabNotebookStartupScreen.png" width=650>
 
-Within your browser, navigate back to [CAVATICA](https://cavatica.sbgenomics.com) and log back in.
+This is a [JupyterLab](https://jupyter.org) environment.  Project Jupyter is a non-profit, open-source project, born out of the IPython Project in 2014 as it evolved to support interactive data science and scientific computing across all programming languages. Jupyter will always be 100% open-source software, free for all to use and released under the liberal terms of the modified BSD license. 
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICALoginWindowNumber1.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/JupyterProjectAbout.png" width=650>
 
-Authorize CAVATICA to act on your behalf.
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAGen3WindowNumber2.png">
+I encourage you to explore Project Jupyter and understand the directions they are going in and how they support open, transparent, re-purposeable and literate programming.  
 
-Arrive at the CAVATICA window - we created a project and an analysis notebook already, you may have to select that project.
+The JupyterLab Notebook environment supports at this point 40 languages, in kernels, providing a flexible way to achieve not only the ends of what we are trying to do with analysis, but in a well documented, clear and literate manner.
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/JupyterLabTheClassicNotebookForLiterateProgramming.png" width=650>
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICALoginDashboardNumber3.png" >
+Now that we are at the terminal window, we need to bring our lesson in hand -- and to do that, we are going to begin with *`forking`* our *`GitHub`* repository.
 
 ## Fork the GitHub Repository
 
