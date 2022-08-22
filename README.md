@@ -50,6 +50,11 @@ The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a tra
 - [How to apply for NIH Kids First Cloud Credits](https://github.com/kids-first/kf-cloud-credits/blob/main/applying.md)
 - [Monthly User Support Office Hours](https://tinyurl.com/KidsFirstOfficeHours)
 
+## JupyterLab Notebook Conversions
+The Jupyter Text - do you like working in [R Studio](https://www.rstudio.com/) with R-markdown?  You can convert easily JupyterLab notebooks with R kernels to R Script or R markdown.  Explore the concept here:
+- [Jupytext Supported Languages](https://jupytext.readthedocs.io/en/latest/languages.html)
+- [Jupytext Command Line](https://jupytext.readthedocs.io/en/latest/using-cli.html)
+
 <br/><br/>
 ## Agenda for the Day 2: Code Versioning
 <br/><br/>
