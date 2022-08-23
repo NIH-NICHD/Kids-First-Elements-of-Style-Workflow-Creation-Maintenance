@@ -74,25 +74,45 @@ conda activate eos
 Then I install two additional things that I use on a regular basis, `GitHub CLI` and `emacs`
 
 ```bash
-conda install -c conda-forge gh
+conda install -c conda-forge gh -y
 ```
 
 ```bash
-conda install -c conda-forge emacs
+conda install -c conda-forge emacs -y
 ```
 
-More on `Anaconda` and packages later.
+More on [*`Anaconda`*](https://anaconda.org/anaconda/repo) and packages later.
 
 Detailed step by step on how to achieve this is in this `gif`
 [GitHub command line interface](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CondaEnvCreateEOSAndCondaInstallGitHubCLI.gif)
 
 ## 8 To Generate your GitHub Personal Authentication Token
 
-You need to have an authentication token to authorize GitHub within the terminal
+To authorize this terminal to communicate with your GitHub account and repositories, you need to generate a GitHub Personal Authentication Token.
 
-To generate your own GitHub Personal Authentication Token you perform the following steps:
+Step 1 - Navigate to Settings, located just under your profile in the upper right hand corner:
 
-<img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GeneratingGitHubPersonalAccessTokens.gif">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken1.png" width=650>
+
+Step 2 - Navigate to the bottom to `< > Developer Settings` on the bottom left hand corner:
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken2.png" width=650>
+
+Step 3 - Select `Personal access tokens` third option from the top on the left side:
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken3.png" width=650>
+
+Step 4 - Select `Generate new token` on the upper right corner - put a name in the note I used `eos`
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken4.png" width=650>
+
+Step 5 - Select all of the options and select `Generate token`
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken5.png" width=650>
+
+Step 6 - Copy the token because as the note mentions - it will not be available again - but you can regenerate tokens now - so don't worry.
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken6.png" width=650>
 
 ## 9 Authentication
 
@@ -104,7 +124,7 @@ gh auth login
 
 Will take you through a series of prompts -- this gif shows you the steps.
 
-<img src="https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubAuthLoginFromCommandLine.gif">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubAuthLoginFromCommandLine.gif">
 
 
 ## 10 Configuring our GitHub user information
@@ -141,4 +161,139 @@ If you are like me then
 `git config --global core.editor emacs`
 
 
-## _Next up: Forking repositories, the git workflow to re-use and extend projects available in GitHub_
+## Keeping your Repository Fork in Sync
+
+The NIH-NICHD main repository has been updated since yesterday, so the first the first thing before we go to the notebook, we are going to do is go to your fork of this repository and synchronize. 
+
+If you did not Fork the repository please go ahead and [Fork the https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance) repository now.
+
+### Synchronizing Your Fork
+
+Navigate to your repository within a new *`Chrome browser tab`* on GitHub - https://github/ [*`insert your GitHub user name here`*]/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance.
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubKeepingForkInSyncWithMainRepository.png" width=650>
+
+In my case, you will see I am 11 commits behind the NIH-NICHD:main.
+
+So I navigate to the button below code and press the <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubBranchSyncForkButton.png" width=50>.
+
+I then get presented the screen:
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubUpdatingBranchWithMainRepository.png" width=650>
+
+And I press the  <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubBranchUpdateBranchButton.png" width=50>.
+
+And we have synchronize success.
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubBranchUpdateSuccess.png" width=650>
+
+## Cloning your Fork of the repository and executing Git 
+
+Today, slightly different, lets use our command function `mkdir` to make a directory with your name on it.
+
+Navigate in the JupyterLab Launcher window to Terminal.
+
+We want to keep in mind that we are workking with a fork of the main repository.
+
+Open the terminal and type.
+
+```bash
+mkdir <YOUR GITHUB ID>
+```
+
+Change directory into that directory
+
+```bash
+cd <YOUR GITHUB ID>
+```
+
+Now Clone the repository
+
+git clone 
+## All of these steps can also occur from the command line.
+
+Now making sure you are in Sync from the command line.
+
+## Verify that your **remote origin** repository is the correct one 
+
+Verify the the local copy of the repository has been copied from your personal fork.
+
+To do so, type the following in the terminal window:
+
+```bash
+git remote -v
+```
+If you haven't changed directory into the repository directory -- you may get the following this rather frightening error:
+
+```bash
+/sbgenomics/workspace/adeslatt$ git remote -v
+fatal: not a git repository (or any parent up to mount point /sbgenomics)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+```
+
+But now if you simply *`cd`* into the proper directory.
+
+```bash
+cd Kids-First-Elements-of-Style-Workflow-Creation-Maintenance
+```
+
+You should see something like this:
+
+```bash
+origin  https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance.git (fetch)
+origin  https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance.git (push)
+```
+
+## Add the initial repository from NIH-NICHD as your **remote upstream**
+
+This will help us, if there are changes in the future in the initial repository, to be able to absorb them in our version and keep them in sync
+
+```bash
+git remote add upstream https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance
+```
+
+## Verify that your **remote upstream** repository is the correct one (the `NIH-NICHD` one)
+
+Now we verify that we have the main repository upstream
+
+```bash
+git remote -v
+```
+
+And we should see something like this.
+
+```bash
+origin  https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance.git (fetch)
+origin  https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance.git (push)
+upstream        https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance (fetch)
+upstream        https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance (push)
+```
+
+## Bring the two relative repositories in sync
+
+To do that we will use a variation of the command called `pull`, that pulls potential changes that exist in the remote version of the repository in GitHub in our local copy. 
+
+```bash
+git pull upstream main --ff-only
+```
+
+The flag `--ff-only` protects us from overwriting work that may be in conflict between the two remote versions.
+
+## Update our own version under our GitHub name with latest changes from the initial repository
+
+After retrieving all the potential changes that exist between our own personal forked repository with the initial repository under `NIH-NICHD` we can use the command `push` to update our version with latest changes. To do that, type:
+
+```
+git push
+
+```
+
+This will send the latest changes that were added in your local copy to your forked repository. 
+
+You will be prompted to authenticate giving your username and password in the terminal.
+
+Which no longer works this way -- and we need to authenticate with our authentication token.
+
+## Return to Day 2
+
+[Return to Agenda](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-the-day-2-code-versioning)
+
