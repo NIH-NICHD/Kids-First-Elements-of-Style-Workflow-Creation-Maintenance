@@ -5,7 +5,7 @@ In this exercise, we will use the personal forks as the repository where each of
 Navigate to your folder named under your GitHub username.
 
 ```bash
-cd <my username>/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance
+cd <my username>/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/
 ```
 
 Type as we did before the break:
@@ -45,7 +45,15 @@ nothing to commit, working tree clean
 
 We can edit a file inside your folder *`<YOUR GITHUB USERNAME>/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Intro-to-Git-Github/README.md`*
 
-Let's use nano and create and edit a README.md file (
+Let's use nano and create and edit a README.md file.
+
+First lets navigate to the directory for this class.
+
+```bash
+cd <my username>/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Intro-to-Git-Github/
+```
+
+Next lets edit a file README.md
 
 ```bash
 nano README.md
@@ -108,7 +116,48 @@ Now we need to execute the last step -- which is to *`push`* the changes to GitH
 git push
 ```
 
-## Next up - we want to go to GitHub and inpsect our work and open a request to add our changes
+Now we can see what we have done with *`git status`*
+
+```bash
+git status
+```
+
+And we see we are now up to date.
+
+## Contributing to the main branch
+
+Now we have the changes in our repository.   We are out of sync potentially with the main repository.  Lets inspect.
+
+In the chrome browser, navigate to your repository on GitHub and inspect our local changes.
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubContributingInspectingTheBranchAfterMakingLocalChanges.png" width=650>
+
+First, we synchronize with the main branch, by pressing the *`sync`* button.
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubContributingAfterSynchronizingWithMain.png" width=650>
+
+Next, we make a pull request, this allows us to offer our changes to the main repository.
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubContributingMakingAPullRequest.png" width=650>
+
+As the repository owner, I can inspect and accept or not accept all the proposed changes.
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubContributingInspectingPullRequestsInMain.png" width=650>
+
+## Conclusion of todays class
+
+Recap
+
+_ You learned about *`Git`* and *`GitHub`*
+_ You synchronized your *`Fork`* of a main repository 
+- You made a contribution with a *`Pull Request`*
+
+You have entered the world of documenting your work using GitHub -- Congratulations
+
+## Return to Agenda for Tomorrow
+
+[Environment control with Conda and Containers with Docker](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-the-day-3-containerization-with-environment-control)
+
+
 
 
 
