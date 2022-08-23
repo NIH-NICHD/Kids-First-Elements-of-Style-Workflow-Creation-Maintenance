@@ -83,9 +83,6 @@ conda install -c conda-forge emacs -y
 
 More on [*`Anaconda`*](https://anaconda.org/anaconda/repo) and packages later.
 
-Detailed step by step on how to achieve this is in this `gif`
-[GitHub command line interface](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CondaEnvCreateEOSAndCondaInstallGitHubCLI.gif)
-
 ## 8 To Generate your GitHub Personal Authentication Token
 
 To authorize this terminal to communicate with your GitHub account and repositories, you need to generate a GitHub Personal Authentication Token.
@@ -125,7 +122,6 @@ gh auth login
 Will take you through a series of prompts -- this gif shows you the steps.
 
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubAuthLoginFromCommandLine.gif">
-
 
 ## 10 Configuring our GitHub user information
 
@@ -208,7 +204,10 @@ cd <YOUR GITHUB ID>
 
 Now Clone the repository
 
-git clone 
+```bash
+git clone https://github.com/<YOUR GITHUB USERNAME HERE>/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance.git
+```
+
 ## All of these steps can also occur from the command line.
 
 Now making sure you are in Sync from the command line.
