@@ -65,6 +65,12 @@ But as a habit I begin with creating an environment so that I can keep track of 
 conda create -n eos -y
 ```
 
+Once the environment is created, you activate it as instructed
+
+```bash
+conda activate eos
+```
+
 Then I install two additional things that I use on a regular basis, `GitHub CLI` and `emacs`
 
 ```bash
