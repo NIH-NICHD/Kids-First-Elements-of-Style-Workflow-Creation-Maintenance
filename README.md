@@ -68,7 +68,7 @@ The Jupyter Text - do you like working in [R Studio](https://www.rstudio.com/) w
 <br/><br/>
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
-| 11.00 - 11.10 |  :wave: _Workspace set up and agenda for the day_ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGO2P0vFlvhsDbmltsjjIWZMi1dQCduIkuwA&usqp=CAU"  width="40"> <img src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.png"  width="25"> |
+| 11.00 - 11.10 |  :wave: _Workspace set up and agenda for the day_ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGO2P0vFlvhsDbmltsjjIWZMi1dQCduIkuwA&usqp=CAU"  width="20"> <img src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.png"  width="40"> |
 | 11.10 - 11.30 | 1. [**Why Git and GitHub?** Motivation and set up in the JupyterLab workspace](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Intro-to-Git-Github/why-git-and-setup.md) |
 | 11.30 - 12.00 | 2. [**Git Routine 1**: Reusing an available repository with `fork` and how to keep in sync with parent project](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Intro-to-Git-Github/the-fork-git-routine.ipynb) |
 | 12.00 - 12.10 |:coffee: Short break |
@@ -87,7 +87,7 @@ The Jupyter Text - do you like working in [R Studio](https://www.rstudio.com/) w
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
 | 11.00 - 11.10 | :wave: _Workspace set up and agenda for the day_  |
-| 11:10 - 12:00 | [Creating a conda environment](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Creating-A-Conda-Environment/README.md)<img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Conda_logo.svg" width="100" align="right"> |
+| 11:10 - 12:00 | [Creating a conda environment](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Creating-A-Conda-Environment/README.md)<img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Conda_logo.svg" width="50" align="right"> |
 | 12.00 - 12.10 |:coffee: Short break |
 | 12:10 - 12:50 | [Building Dockerfiles](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-Dockerfiles/README.md)<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/Moby-Logo.png" width="100" align="right">|
 | 12.50 - 13:00 | :raised_hand: *Wrap up and overview of next days topics* |
