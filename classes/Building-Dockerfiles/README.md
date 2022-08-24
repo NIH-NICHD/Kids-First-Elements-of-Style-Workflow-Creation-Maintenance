@@ -201,7 +201,7 @@ Copy the contents here that explain what we have in this repository
 
 ```bash
 # fastqc-docker
-Build a Container for bioconda fastqc
+Build a Container for fastqc from bioconda
 
 Steps to build this docker container.
 1. Look up on [anaconda](https://anaconda.org/) the tool you wish to install
@@ -213,21 +213,30 @@ Steps to build this docker container.
 To build your image from the command line:
 * Can do this on [Google shell](https://shell.cloud.google.com) - docker is installed and available
 
-```bash
+\```bash
 docker build -t fastqc .
-```
+\```
 
 To test this tool from the command line 
 
 Set up an environment variable capturing your current command line:
-```bash
+\```bash
 PWD=$(pwd)
-```
+\```
 
 Then mount and use your current directory and call the tool now encapsulated within the environment.
-```bash
+\```bash
 docker run -it -v $PWD:$PWD -w $PWD fastqc fastqc -h
+\```
+
 ```
+
+Now edit the file (I added the *`\`* so Markdown would ignore the data but it means we need to edit them out for the *`README.md`* to properly render on the repo.
+
+Please remove all the *`\`*'s the file will look like this:
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellFastqcREADMEfile.png">
+
 
 ### Use *`GitHub`* Command line tool *`gh`* to authenticate before we push create our repository.
 
@@ -325,14 +334,69 @@ Clone the multiqc-docker repository.
 ```bash
 git clone https://github.com/adeslatt/multiqc-docker.git
 ```
+## Creating Your Second Dockerfile
 
+Navigate now to your home directory on the google shell.  Remember that *`..`* is the parent directory.
 
-## Build the multiqc image
+```bash
+cd ..
+```
 
-Navigate now to multiqc
+```bash
+mkdir multiqc-docker
+```
+Now navigate into that directory, again you can type this or simply copy the lines below in your google shell terminal window.
 
 ```bash
 cd multiqc-docker
+```
+
+Now we are going to create our first `Dockerfile`
+`touch` is another handy `bash` command for creating an empty file.
+
+```bash
+touch Dockerfile
+```
+
+The `docker` application requires the exact filename `Dockerfile` when creating the image.
+
+Again in the google shell editor window open the file named `Dockerfile`
+
+Copy the contents of the window below and paste it into your window.
+
+```Dockerfile
+# Full contents of Dockerfile
+
+FROM continuumio/miniconda3
+LABEL description="Base docker image with conda and util libraries"
+ARG ENV_NAME="multiqc"
+
+# Install the conda environment
+COPY environment.yml /
+RUN conda env create --quiet --name ${ENV_NAME} --file /environment.yml && conda clean -a
+
+# Add conda installation dir to PATH (instead of doing 'conda activate')
+ENV PATH /opt/conda/envs/${ENV_NAME}/bin:$PATH
+```
+
+## Creating your multiqc environment.yml File
+
+Back in the terminal window again:
+
+Type at the prompt
+```bash
+touch environment.yml
+```
+
+What we are doing is then reproducing this command line environment within our soon to be Docker image.
+
+```environment.yml
+name: multiqc
+channels:
+  - bioconda
+  - defaults
+dependencies:
+  - multiqc
 ```
 
 And build the image
@@ -347,6 +411,112 @@ You can see what you have built -- and see that we have `tag`ged our files in a 
 ```bash
 docker images
 ```
+
+### Add this multiqc code to your GitHub repository
+
+It is a best practice with GitHub to always add a *`README.md`*.   Let's add this file and then from the command line use the *`GitHub`* command line tools to push this to our *`GitHub`* repository.
+
+```bash
+touch README.md
+```
+
+Open with the Code Editor (the Markdown Editor is experimental).  To do so, hover over the *`README.md`* file and click *`Open With...`* and select *`Code Editor`*.
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellSelectCodeEditor.png">
+
+
+```bash
+# multiqc-docker
+Build a Container for multiqc from bioconda
+
+Steps to build this docker container.
+1. Look up on [anaconda](https://anaconda.org/) the tool you wish to install
+2. create an `environment.yml` file either manually or automatically
+3. Use the template `Dockerfile` modifying if necessary (in our case we have no custom files for the `src` directory so we do not use that)
+4. Build the Docker Image
+5. Set up GitHub Actions
+
+To build your image from the command line:
+* Can do this on [Google shell](https://shell.cloud.google.com) - docker is installed and available
+
+\```bash
+docker build -t multiqc .
+\```
+
+To test this tool from the command line 
+
+Set up an environment variable capturing your current command line:
+\```bash
+PWD=$(pwd)
+\```
+
+Then mount and use your current directory and call the tool now encapsulated within the environment.
+\```bash
+docker run -it -v $PWD:$PWD -w $PWD multiqc multiqc -h
+\```
+
+```
+
+Now edit the file (I added the *`\`* so Markdown would ignore the data but it means we need to edit them out for the *`README.md`* to properly render on the repo.
+
+Please remove all the *`\`*'s the file will look like this:
+
+After pasting in the window, your file should look like this:
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellMultiqcDockerfile.png">
+
+We now type
+
+```bash
+git init -b main
+```
+
+Which will return
+```bash
+Initialized empty Git repository in /home/ad376/fastqc-docker/.git/
+```
+
+And then we type
+
+```bash
+git add . && git commit -m "initial commit"
+```
+which returns something like this.
+
+```bash
+[main (root-commit) d1e421f] initial commit
+ 3 files changed, 33 insertions(+)
+ create mode 100644 Dockerfile
+ create mode 100644 README.md
+ create mode 100644 environment.yml
+```
+We then use the *`gh repo create`* command to create the reposistory.
+
+```bash
+gh repo create
+```
+
+Which then prompts us to what we need to do -- important is that what we want to do is *`Push an existing local repository to GitHub`*.   The tool's remainder defaults are acceptable, because we staged ourselves with the name of the directory.
+
+```bash
+(eos) ad376@cloudshell:~/multiqc-docker$ gh repo create
+? What would you like to do? Push an existing local repository to GitHub
+? Path to local repository .
+? Repository name multiqc-docker
+? Description a container for the bioconda command multiqc
+? Visibility Public
+✓ Created repository adeslatt/fastqc-docker on GitHub
+? Add a remote? Yes
+? What should the new remote be called? origin
+✓ Added remote https://github.com/adeslatt/multiqc-docker.git
+? Would you like to push commits from the current branch to "origin"? Yes
+✓ Pushed commits to https://github.com/adeslatt/multiqc-docker.git
+
+
+Upon success your repository will be in place and look something like this:
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellReposSuccessFromCommandLine.png">
+
 
 The containers can be used in our Nextflow pipeline replacing the two different containers we currently have because it has both `fastqc` & `multiqc` installed
 
