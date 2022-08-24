@@ -128,7 +128,17 @@ Miniconda3 will now be installed into this location:
 
 [/home/ad376/miniconda3] >>>
 ```
-Accept the defaults.
+Accept the default location to install.
+
+Next you will be asked
+
+```bash
+Do you wish the installer to initialize Miniconda3
+by running conda init? [yes|no]
+[no] >>> yes
+```
+
+Please answer yes to this question.
 
 When finished we can see that the file is now in our execution path is the `conda` application.
 
@@ -181,7 +191,6 @@ You can see now that we now have the option to activate the environment
 #
 #     $ conda deactivate
 
-(base) ad376@cloudshell:~$ conda create -n eos -y^C
 ```
 
 Now that we have created a clean environment, we follow the directions and activate the environment, that is enter this new clean environment.
@@ -220,4 +229,4 @@ We now move on to build Docker images which we will use in a workflow.
 
 ## Return to the Agenda
 
-[Main Agenda](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance#readme)
+[Day 3 Agenda](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-the-day-3-containerization-with-environment-control)
