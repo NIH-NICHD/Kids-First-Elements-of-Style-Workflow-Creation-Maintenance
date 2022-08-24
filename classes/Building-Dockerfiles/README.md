@@ -210,13 +210,6 @@ Steps to build this docker container.
 4. Build the Docker Image
 5. Set up GitHub Actions
 
-To edit the files:
-1. Use a simple editor (Text Edit on Mac is fine) - we want to be cautious about unseen characters
-2. Use emacs (can be installed with conda)
-```bash
-conda install -c conda forge emacs
-```
-
 To build your image from the command line:
 * Can do this on [Google shell](https://shell.cloud.google.com) - docker is installed and available
 
@@ -258,31 +251,6 @@ As we did yesterday, authenticate with your *`Personal Authentication Token`*
 
 Now we can from the command line create this repository.
 
-```bash
-git init
-```
-
-What you will see will be something like this:
-
-```bash
-(eos) ad376@cloudshell:~/fastqc-docker$ git init
-hint: Using 'master' as the name for the initial branch. This default branch name
-hint: is subject to change. To configure the initial branch name to use in all
-hint: of your new repositories, which will suppress this warning, call:
-hint: 
-hint:   git config --global init.defaultBranch <name>
-hint: 
-hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
-hint: 'development'. The just-created branch can be renamed via this command:
-hint: 
-hint:   git branch -m <name>
-Initialized empty Git repository in /home/ad376/fastqc-docker/.git/
-```
-
-We don't really need to worry too much about this content, you can see that it default names the initial branch *`master`* and that you have the option to change it.
-
-All the files in this subdirectory we want to add to the repository.
-
 Let's go ahead and tell *`git`* who we are.
 
 ```bash
@@ -298,74 +266,51 @@ We now type
 git init -b main
 ```
 
+Which will return
+```bash
+Initialized empty Git repository in /home/ad376/fastqc-docker/.git/
+```
+
 And then we type
 
 ```bash
 git add . && git commit -m "initial commit"
 ```
+which returns something like this.
 
+```bash
+[main (root-commit) d1e421f] initial commit
+ 3 files changed, 33 insertions(+)
+ create mode 100644 Dockerfile
+ create mode 100644 README.md
+ create mode 100644 environment.yml
+```
 We then use the *`gh repo create`* command to create the reposistory.
 
 ```bash
 gh repo create
 ```
 
-Which then prompts us to what we need to do
+Which then prompts us to what we need to do -- important is that what we want to do is *`Push an existing local repository to GitHub`*.   The tool's remainder defaults are acceptable, because we staged ourselves with the name of the directory.
 
 ```bash
-? What would you like to do? Create a new repository on GitHub from scratch
+(eos) ad376@cloudshell:~/fastqc-docker$ gh repo create
+? What would you like to do? Push an existing local repository to GitHub
+? Path to local repository .
 ? Repository name fastqc-docker
-? Description A docker container for the fastqc command
+? Description a container for the bioconda command fastqc
 ? Visibility Public
-? Would you like to add a .gitignore? No
-? Would you like to add a license? No
-? This will create "fastqc-docker" as a public repository on GitHub. Continue? Yes
 ✓ Created repository adeslatt/fastqc-docker on GitHub
-? Clone the new repository locally? Yes
-hint: Using 'master' as the name for the initial branch. This default branch name
-hint: is subject to change. To configure the initial branch name to use in all
-hint: of your new repositories, which will suppress this warning, call:
-hint: 
-hint:   git config --global init.defaultBranch <name>
-hint: 
-hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
-hint: 'development'. The just-created branch can be renamed via this command:
-hint: 
-hint:   git branch -m <name>
-Initialized empty Git repository in /home/ad376/fastqc-docker/fastqc-docker/.git/
-```
+? Add a remote? Yes
+? What should the new remote be called? origin
+✓ Added remote https://github.com/adeslatt/fastqc-docker.git
+? Would you like to push commits from the current branch to "origin"? Yes
+✓ Pushed commits to https://github.com/adeslatt/fastqc-docker.git
 
-And then
 
-```bash
-git remote add origin https://github.com/adeslatt/fastqc-docker.git
-```
+Upon success your repository will be in place and look something like this:
 
-As we did yesterday we can verify the setup
-
-```bash
-git remote -v
-```
-
-To do the final step of getting our files up on GitHub type
-
-```bash
-git push -u origin main
-```
-
-This takes our local repository and pushes it onto GitHub
-
-```bash
-Enumerating objects: 5, done.
-Counting objects: 100% (5/5), done.
-Delta compression using up to 2 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (5/5), 633 bytes | 633.00 KiB/s, done.
-Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
-To https://github.com/adeslatt/fastqc-docker.git
- * [new branch]      main -> main
-Branch 'main' set up to track remote branch 'main' from 'origin'.
-```
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellReposSuccessFromCommandLine.png">
 
 ## Building the `multiqc` Docker image 
 
@@ -411,16 +356,17 @@ The containers can be used in our Nextflow pipeline replacing the two different 
 * We have created the environment.yml file also with the Google Shell Editor
 * We have used the new command placed our desired function `fastqc` within the `environment.yml` file for the ultimate Docker container.
 * We built the container for the application `fastqc` in the `fastqc-docker` subdirectory.
+* We used *`GitHub`* command line tool *`gh`* to take our local repository and put it on GitHub.
 * We cloned a repository with the other container for our other application we want to use in our workflow, `multiqc`
 * We built the container for the application `multiqc` in the cloned repository subdirectory, `multiqc-docker`.
 * We inspected our images.
 
 
-Now we will make our first workflow.
+Tomorrow, we will make our first workflow.
 
 ## Return to the Agenda
 
-[Main Agenda](https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance#readme)
+[Day 3 Agenda](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-the-day-3-containerization-with-environment-control)
 
 
 
