@@ -146,43 +146,46 @@ When it completes, we can verify that the image has been created listing all ava
 docker images
 ```
 
-## Building the `multiqc` Docker image 
+### Test this image from the command line
 
-Navigate to the top of your home directory
-
-```bash
-cd ~
-```
-
-Clone the multiqc-docker repository.
+By now you see what we have done.   You could install *`fastqc`* using the command
 
 ```bash
-git clone https://github.com/adeslatt/multiqc-docker.git
+conda install -c bioconda fastqc -y
 ```
 
+We see what is happening is using the *`Anaconda`* *`channel`* *`bioconda`* we are installing fastqc for our local use within our own file system on this small virtual instance made free for us from *`Google`*.
 
-## Build the multiqc image
+Let's do that real quick to show what I mean.
 
-Navigate now to multiqc
+Go ahead and copy the line above on the command line and install fastqc within our *`eos`* environment.
+
+As expected it has been installed within the *`binary`* directory, the directory that contains *`executables`* and shortened to the *`unix`* convention to be just *`bin`* of our controlled environment *`eos`*.   
+
+This would be fine if we wanted to do local work on some fastqc files.  But it would not be available for the workflow that will be spun up on ephemeral machines where we would have to build our entire environment from scratch.   But I have made the argument, that what is more sustainable is if we containerize at the process level, our work will be more durable, more portable, and more repurposable.  That is it will be available for me to use for future work.
+
+So we built a container image.   Now how could we use that container image?
+
+To test this tool from the command line 
+
+Set up an environment variable capturing your current command line:
+```bash
+PWD=$(pwd)
+```
+
+To make our local directory available to the image, which is a self-contained environment, we need to do something called mounting and use your current directory and call the tool now encapsulated within the environment.   
+
+I use this command to do that.
 
 ```bash
-cd multiqc-docker
+docker run -it -v $PWD:$PWD -w $PWD fastqc fastqc -h
 ```
 
-And build the image
-```bash
-docker build -t multiqc .
-```
+You can read more about what is happening in detail with [Docker containers and images](https://docs.docker.com/get-started/overview/).   
 
-### Inspect what images you have now available to you locally
+You don't need to know every detail to use them.
 
-You can see what you have built -- and see that we have `tag`ged our files in a certain way
-
-```bash
-docker images
-```
-
-### Add this code to a new repository
+### Add this code to your GitHub repository
 
 It is a best practice with GitHub to always add a *`README.md`*.   Let's add this file and then from the command line use the *`GitHub`* command line tools to push this to our *`GitHub`* repository.
 
@@ -192,8 +195,7 @@ touch README.md
 
 Open with the Code Editor (the Markdown Editor is experimental).  To do so, hover over the *`README.md`* file and click *`Open With...`* and select *`Code Editor`*.
 
-
-
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellDockerFileAuthorize.png">
 
 Copy the contents here that explain what we have in this repository
 
@@ -234,6 +236,63 @@ Then mount and use your current directory and call the tool now encapsulated wit
 docker run -it -v $PWD:$PWD -w $PWD fastqc fastqc -h
 ```
 
+### Use *`GitHub`* Command line tool *`gh`* to authenticate before we push create our repository.
+
+The Google shell comes with the *`gh`* already installed.  So we just begin with authentication.
+
+```bash
+gh auth login
+```
+
+As we did yesterday, authenticate with your *`Personal Authentication Token`*
+
+```bash
+(eos) ad376@cloudshell:~/fastqc-docker$ gh auth login
+? What account do you want to log into? GitHub.com
+? What is your preferred protocol for Git operations? HTTPS
+? Authenticate Git with your GitHub credentials? Yes
+? How would you like to authenticate GitHub CLI?  [Use arrows to move, type to filter]
+  Login with a web browser
+> Paste an authentication token
+```
+
+
+
+## Building the `multiqc` Docker image 
+
+Navigate to the top of your home directory
+
+```bash
+cd ~
+```
+
+Clone the multiqc-docker repository.
+
+```bash
+git clone https://github.com/adeslatt/multiqc-docker.git
+```
+
+
+## Build the multiqc image
+
+Navigate now to multiqc
+
+```bash
+cd multiqc-docker
+```
+
+And build the image
+```bash
+docker build -t multiqc .
+```
+
+### Inspect what images you have now available to you locally
+
+You can see what you have built -- and see that we have `tag`ged our files in a certain way
+
+```bash
+docker images
+```
 
 The containers can be used in our Nextflow pipeline replacing the two different containers we currently have because it has both `fastqc` & `multiqc` installed
 
