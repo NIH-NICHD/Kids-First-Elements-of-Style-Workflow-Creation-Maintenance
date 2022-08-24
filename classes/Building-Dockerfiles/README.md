@@ -518,21 +518,17 @@ Upon success your repository will be in place and look something like this:
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellReposSuccessFromCommandLine.png">
 
 
-The containers can be used in our Nextflow pipeline replacing the two different containers we currently have because it has both `fastqc` & `multiqc` installed
-
 ## Recap
 
 * We have created a Dockerfile using the Google Shell Editor
 * We have created the environment.yml file also with the Google Shell Editor
 * We have used the new command placed our desired function `fastqc` within the `environment.yml` file for the ultimate Docker container.
 * We built the container for the application `fastqc` in the `fastqc-docker` subdirectory.
-* We used *`GitHub`* command line tool *`gh`* to take our local repository and put it on GitHub.
-* We cloned a repository with the other container for our other application we want to use in our workflow, `multiqc`
-* We built the container for the application `multiqc` in the cloned repository subdirectory, `multiqc-docker`.
+* We used *`GitHub`* command line tool *`gh`* to take our local repositories and put both up on GitHub.
 * We inspected our images.
 
 
-Tomorrow, we will make our first workflow.
+Tomorrow, we will make our first workflow and show how to use these containers within our private repository on CAVATICA
 
 ## Return to the Agenda
 
