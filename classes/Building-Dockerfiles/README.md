@@ -195,7 +195,7 @@ touch README.md
 
 Open with the Code Editor (the Markdown Editor is experimental).  To do so, hover over the *`README.md`* file and click *`Open With...`* and select *`Code Editor`*.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellDockerFileAuthorize.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellSelectCodeEditor.png">
 
 Copy the contents here that explain what we have in this repository
 
