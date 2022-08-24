@@ -235,7 +235,7 @@ Now edit the file (I added the *`\`* so Markdown would ignore the data but it me
 
 Please remove all the *`\`*'s the file will look like this:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellFastqcREADMEfile.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellFastqcREADMEfile.png" width=650>
 
 
 ### Use *`GitHub`* Command line tool *`gh`* to authenticate before we push create our repository.
@@ -463,7 +463,7 @@ Please remove all the *`\`*'s the file will look like this:
 
 After pasting in the window, your file should look like this:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellMultiqcDockerfile.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellMultiqcDockerfile.png" width=650>
 
 We now type
 
