@@ -191,7 +191,6 @@ You can see now that we now have the option to activate the environment
 #
 #     $ conda deactivate
 
-(base) ad376@cloudshell:~$ conda create -n eos -y^C
 ```
 
 Now that we have created a clean environment, we follow the directions and activate the environment, that is enter this new clean environment.
