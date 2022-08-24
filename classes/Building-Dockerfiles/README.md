@@ -256,7 +256,116 @@ As we did yesterday, authenticate with your *`Personal Authentication Token`*
 > Paste an authentication token
 ```
 
+Now we can from the command line create this repository.
 
+```bash
+git init
+```
+
+What you will see will be something like this:
+
+```bash
+(eos) ad376@cloudshell:~/fastqc-docker$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint:   git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint:   git branch -m <name>
+Initialized empty Git repository in /home/ad376/fastqc-docker/.git/
+```
+
+We don't really need to worry too much about this content, you can see that it default names the initial branch *`master`* and that you have the option to change it.
+
+All the files in this subdirectory we want to add to the repository.
+
+Let's go ahead and tell *`git`* who we are.
+
+```bash
+git config --global user.email "adeslat@scitechcon.org"
+git config --global user.name "adeslatt"
+```
+
+Following [*`GitHub`*'s updated instructions on how to create a new repository from the command line](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-with-github-cli)
+
+We now type
+
+```bash
+git init -b main
+```
+
+And then we type
+
+```bash
+git add . && git commit -m "initial commit"
+```
+
+We then use the *`gh repo create`* command to create the reposistory.
+
+```bash
+gh repo create
+```
+
+Which then prompts us to what we need to do
+
+```bash
+? What would you like to do? Create a new repository on GitHub from scratch
+? Repository name fastqc-docker
+? Description A docker container for the fastqc command
+? Visibility Public
+? Would you like to add a .gitignore? No
+? Would you like to add a license? No
+? This will create "fastqc-docker" as a public repository on GitHub. Continue? Yes
+✓ Created repository adeslatt/fastqc-docker on GitHub
+? Clone the new repository locally? Yes
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint:   git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint:   git branch -m <name>
+Initialized empty Git repository in /home/ad376/fastqc-docker/fastqc-docker/.git/
+```
+
+And then
+
+```bash
+git remote add origin https://github.com/adeslatt/fastqc-docker.git
+```
+
+As we did yesterday we can verify the setup
+
+```bash
+git remote -v
+```
+
+To do the final step of getting our files up on GitHub type
+
+```bash
+git push -u origin main
+```
+
+This takes our local repository and pushes it onto GitHub
+
+```bash
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 633 bytes | 633.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/adeslatt/fastqc-docker.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+```
 
 ## Building the `multiqc` Docker image 
 
