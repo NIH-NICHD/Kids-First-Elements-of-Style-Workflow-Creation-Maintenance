@@ -13,7 +13,7 @@ We will:
 6. Push our Docker images to our own personal repository on Cavatica
 7. Use our own Docker images in the Nextflow and CWL scripts we write.
 
-## Login to Google shell cloud](https://shell.cloud.google.com/)
+## Login to [Google shell cloud](https://shell.cloud.google.com/)
 
 Please proceed to login to your google shell.
 
