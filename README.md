@@ -113,8 +113,8 @@ _Passcode required - mailed to participants.  If not registered, register and re
 <br/><br/>
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
-| 11.00 - 11.10 | :wave: _Workspace set up and agenda for the day_   |
-| 11:10 - 12.00 | [Building A Nextflow Script](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md)<img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width="150" align="right"> 
+| 11.00 - 11.30 | :wave: [_Welcome and Preamble to Building our Workflow_](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md#preamble-to-building-a-workflows-using-containers)   |
+| 11:10 - 12.00 | [Building A Nextflow Script](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md#contents)<img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width="150" align="right"> 
 | 12.00 - 12.10 |:coffee: Short break |
 | 12:10 - 12:40 | [Building A CWL Script](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-CWL-Script)<img src="https://github.com/common-workflow-language/logo/blob/main/CWL-Logo-HD.png" width="150" align="right">|
 | 12.40 - 11.50 | [Shared elements across workflow languages](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/NextflowSharedDataElements/NextflowCommonWorkFlowLanguageSharedStructureSharedElements.md)<img src="https://github.com/common-workflow-language/logo/blob/main/CWL-Logo-HD.png" width="150"><img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width=150 align="right">|
