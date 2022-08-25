@@ -277,67 +277,48 @@ And because we have activated our environment `eos`, you will see that the `next
 /home/adeslat/miniconda3/envs/eos/bin/nextflow
 ```
 
-### GitHub Forking and Cloning
-
-Now we are all using command shell, we are working with `conda`, now we need to do some work.   The work we are following will be using `data` from `Zenodo` and the tutorial we are following is on `GitHub`.  The tutorial has code that we will use and build from, so it makes sense for us to get a copy, or `clone` this repository.   We may want to make local changes.  To do this, it is good practices to `Fork` the repository.  So let's all `Fork`.
-
-In the browser window, navigate to the repository `https://github.com/NIH-NICHD/Elements-of-Style-Workflow-Creation-Maintenance`.
-
-Assuming you have a `GitHub` login and you are logged in, you can now `fork` this repository.
-
-At the top of the screen on the right, you will see `pin` `watch` `fork` and `star`.  If you like this course in the end, you may wish to `star` this repository.
-
-Fork this repository and choose your `personal` GitHub repository for the repository to be `forked` into.
-
-Forking is a best practice, as it allows for `attribution`.   Open science promotes sharing and `attribution`.   If you are curious about the best practices surrounding this, there are many good resources, one in particular I like is `[The Turing Way](https://the-turing-way.netlify.app/welcome)`.  I encourage you to read about these evolving best practices and join this movement of open science.
-
-
-Now that you have `forked` this repository, you can clone it.   To clone it go to the version in your repository, select the `copy` option and select `https`.
-
-Taking the `forked` version I have made into my own repository, we have:
-
-### Cloning the repository
-
-Make sure we are at the root directory
-```bash
-cd ~
-```
-
-And now clone the repository.
-
-```bash
-git clone https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance.git
-```
-
-Now change into the directory for this class
-
-```bash
-cd ~/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-Nextflow-Script
-```
-
-And we can now move into building a `Nextflow` script.
-
-Okay to recap, what have we done:
-
-* Logged into `google cloud shell`
-* Installed `conda`
-* Rebooted our shell environment with `exec -l`
-* Used `conda` to create a clean environment, `eos`
-* Inspected our environment
-* Installed `nextflow`
-* Forked a `GitHub` repository into our own personal repository location
-* Cloned the `GitHub` repository into the `google cloud shell`
-
 ## Session 1: Nextflow
 
-<img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width=500 align="left">
+**Main outcome:** 
 
-**Main outcome:** *During the first session you will build a [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) & [MultiQC](https://multiqc.info/) pipeline to learn the basics of Nextflow including:*
+During the first session you will build a [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) & [MultiQC](https://multiqc.info/) pipeline to learn the basics of Nextflow including:
+
 - [Parameters](https://www.nextflow.io/docs/latest/getstarted.html?highlight=parameters#pipeline-parameters)
 - [Processes](https://www.nextflow.io/docs/latest/process.html) (inputs, outputs & scripts)
 - [Channels](https://www.nextflow.io/docs/latest/channel.html)
 - [Operators](https://www.nextflow.io/docs/latest/operator.html)
 - [Configuration](https://www.nextflow.io/docs/latest/config.html)
+
+### a) Getting Course material.
+
+Let's use your forked version of the repository.
+
+First lets make sure it is up-to-date.
+
+To do that do the following.
+
+Follow the directions for [keeping your repository in sync](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Intro-to-Git-Github/why-git-and-setup.md#keeping-your-repository-fork-in-sync)
+
+At this time do not worry about making a pull request.  If your repository has commits ahead at this time, do not concern yourself.
+
+Then as we did yesterday, if you have not checked out your own version.  Do so now but in your username subdirectory.
+
+After synchronizing, navigate to your subdirectory and clone the updated respository
+
+```bash
+cd adeslatt
+```
+And clone
+
+```bash
+git clone https://github.com/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance.git
+```
+
+Now navigate to our lesson
+
+```bash
+cd Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-Nextflow-Script/
+```
 
 
 ### b) Parameters
