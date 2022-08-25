@@ -1,6 +1,5 @@
-# Building a Nextflow Workflow
+# Preamble to building a workflows using containers
 
-<img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width=300>
 
 In this session, we will use the two Docker images we built in the previous sections and we will how to put these together into a single workflow using the Nextflow workflow language.  Later, we will learn out to put these two Docker images into a single workflow using the CWL or Common Workflow Language. 
 
@@ -204,6 +203,7 @@ Now we can proceed with our workflow development!
 
 
 ## Contents
+<img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width=300>
 
 In this tutorial you will learn:
 - [Nextflow](https://www.nextflow.io/) - how to build parallelisable & scalable computational pipelines
