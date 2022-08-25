@@ -152,7 +152,7 @@ Now copy your authentication token.
 Now go back to the Google Shell and login to the repository.
 
 ```bash
-docker login pgc-images.sbgenomics.com -u adeslat --p [paste your authentication token here]
+docker login pgc-images.sbgenomics.com -u adeslat -p [paste your authentication token here]
 ```
 
 Now we can push to our repository
