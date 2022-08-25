@@ -100,6 +100,14 @@ _Passcode required - mailed to participants.  If not registered, register and re
 <br/><br/>
 ## Agenda for the Day 3: Containerization with Environment Control
 <br/><br/>
+
+[Day 3 Recording](https://us06web.zoom.us/rec/share/4kasJukayUm8NzeLaRBBQV5OsCsd8k-ThG7z3qbepGVD4QWrVnhRxKFFSrlPyZwD.SFdng4YiOY8sC7OY?startTime=1661352401000)
+
+_Passcode required - mailed to participants.  If not registered, register and request passcodes_
+
+[Register here](https://us06web.zoom.us/meeting/register/tZMtcumpqT8qH9M7YI-s8sXerIaMsdit297w)
+
+
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
 | 11.00 - 11.10 | :wave: _Workspace set up and agenda for the day_  |
@@ -111,6 +119,14 @@ _Passcode required - mailed to participants.  If not registered, register and re
 <br/><br/>
 ## Agenda for the Day 4: Workflow Development
 <br/><br/>
+
+[Day 4 Recording](https://us06web.zoom.us/rec/share/kI2NGaMQA8n4v5yqR5lCzHAXiIKrgSyVcEoBDnx8kKKLAzcd4x7b0mQxZkce3u2K.DsLRgGiy4xlEDlKA?startTime=1661438651000)
+
+_Passcode required - mailed to participants.  If not registered, register and request passcodes_
+
+[Register here](https://us06web.zoom.us/meeting/register/tZMtcumpqT8qH9M7YI-s8sXerIaMsdit297w)
+
+
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
 | 11.00 - 11.30 | :wave: [_Welcome and Preamble to Building our Workflow_](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md#preamble-to-building-a-workflows-using-containers)   |
