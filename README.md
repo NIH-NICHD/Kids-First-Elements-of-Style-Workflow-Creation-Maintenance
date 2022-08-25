@@ -74,7 +74,7 @@ The Jupyter Text - do you like working in [R Studio](https://www.rstudio.com/) w
 ## Agenda for the Day 2: Code Versioning
 <br/><br/>
 
-[Day 2 Workshop Chat](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/chats/KidsFirstTrainingEventZoomChat2022August23.txt)
+[Day 2 Workshop Chat 2022 August 23](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/chats/KidsFirstTrainingEventZoomChat2022August23.txt)
 
 [Day 2 Workshop Recording 2022 August 23](https://us06web.zoom.us/rec/share/NXBlLMhkYyqouE4lyh8l87lM4Agk66I_p0STV2Rgfl2xtTcwC3k5ILzDcpAqlsO_.11GfKPWWc4MefivC?startTime=1661265008000)
 _Passcode required - mailed to participants.  If not registered, register and request passcodes_
@@ -101,7 +101,7 @@ _Passcode required - mailed to participants.  If not registered, register and re
 ## Agenda for the Day 3: Containerization with Environment Control
 <br/><br/>
 
-[Day 3 Recording](https://us06web.zoom.us/rec/share/4kasJukayUm8NzeLaRBBQV5OsCsd8k-ThG7z3qbepGVD4QWrVnhRxKFFSrlPyZwD.SFdng4YiOY8sC7OY?startTime=1661352401000)
+[Day 3 Recording 2022 August 24](https://us06web.zoom.us/rec/share/4kasJukayUm8NzeLaRBBQV5OsCsd8k-ThG7z3qbepGVD4QWrVnhRxKFFSrlPyZwD.SFdng4YiOY8sC7OY?startTime=1661352401000)
 
 _Passcode required - mailed to participants.  If not registered, register and request passcodes_
 
@@ -120,7 +120,7 @@ _Passcode required - mailed to participants.  If not registered, register and re
 ## Agenda for the Day 4: Workflow Development
 <br/><br/>
 
-[Day 4 Recording](https://us06web.zoom.us/rec/share/kI2NGaMQA8n4v5yqR5lCzHAXiIKrgSyVcEoBDnx8kKKLAzcd4x7b0mQxZkce3u2K.DsLRgGiy4xlEDlKA?startTime=1661438651000)
+[Day 4 Recording 2022 August 25](https://us06web.zoom.us/rec/share/kI2NGaMQA8n4v5yqR5lCzHAXiIKrgSyVcEoBDnx8kKKLAzcd4x7b0mQxZkce3u2K.DsLRgGiy4xlEDlKA?startTime=1661438651000)
 
 _Passcode required - mailed to participants.  If not registered, register and request passcodes_
 
