@@ -8,7 +8,7 @@ Here we now show how the same containers may be used in a CWL workflow.
 Navigate now to the proper directory for the lesson.
 
 ```bash
-cd ~/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-CWL-Script
+cd ../Building-A-CWL-Script
 ```
 
 Looking at the directory we type the command:
