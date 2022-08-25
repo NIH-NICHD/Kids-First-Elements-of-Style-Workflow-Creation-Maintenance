@@ -315,7 +315,7 @@ Which then prompts us to what we need to do -- important is that what we want to
 ✓ Added remote https://github.com/adeslatt/fastqc-docker.git
 ? Would you like to push commits from the current branch to "origin"? Yes
 ✓ Pushed commits to https://github.com/adeslatt/fastqc-docker.git
-
+```
 
 Upon success your repository will be in place and look something like this:
 
@@ -511,12 +511,9 @@ Which then prompts us to what we need to do -- important is that what we want to
 ✓ Added remote https://github.com/adeslatt/multiqc-docker.git
 ? Would you like to push commits from the current branch to "origin"? Yes
 ✓ Pushed commits to https://github.com/adeslatt/multiqc-docker.git
+```
 
-
-Upon success your repository will be in place and look something like this:
-
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellReposSuccessFromCommandLine.png">
-
+Upon success your repository will be in place on your GitHub.
 
 ## Recap
 
