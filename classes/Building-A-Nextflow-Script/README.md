@@ -5,13 +5,13 @@ In this session, we will use the two Docker images we built in the previous sect
 
 We will:
 
-1. Login to [Google shell cloud](https://shell.cloud.google.com/)
-2. Build both of our docker images of the processes [fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) and [multiqc](https://multiqc.info/) using the package installers maintained on [Anaconda](https://anaconda.org)
-3. Login to [cavatica](https://cavatica.sbgenomics.com)
-4. Tag our Docker images
-5. Authenticate with Cavatica within the Google Shell
-6. Push our Docker images to our own personal repository on Cavatica
-7. Use our own Docker images in the Nextflow and CWL scripts we write.
+* Login to [Google shell cloud](https://shell.cloud.google.com/)
+* Build both of our docker images of the processes [fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) and [multiqc](https://multiqc.info/) using the package installers maintained on [Anaconda](https://anaconda.org)
+* Login to [CAVATICA](https://cavatica.sbgenomics.com) and generate our CAVATICA Authentication Token
+* Tag our Docker images
+* Authenticate with Cavatica within the Google Shell
+* Push our Docker images to our own personal repository on Cavatica
+* Use our own Docker images in the Nextflow and CWL scripts we write.
 
 ## Login to [Google shell cloud](https://shell.cloud.google.com/)
 
@@ -25,7 +25,7 @@ docker images
 
 You will see there are no images from yesterday.   If you recall, I mentioned that these were ephemeral instances, so the new machine that has just been spun up, though it maintains your file structure, does not have your image anymore.
 
-### Build your Fastqc Docker Image
+## Build your Fastqc Docker Image
 
 Lets first build Fastqc Docker Image.
 
@@ -36,8 +36,6 @@ If you recall, yesterday, I said there are only *`3`* steps in building a Docker
 3. Push
 
 Yesterday, we did not push.   What is pushing?  To make our Docker image available to us, we use a *`Repository`*.  We are working on CAVATICA and CAVATICA offers to you the option of creating your own repository.   Think of the repository just like your GitHub, it is a location where you can keep and use your own Docker Images.  To be able to *`Push`* our docker images to our repository, we need to *`Authenticate`* and we *`Authenticate`* with our very own *`Developer's Token`*.   We will get to that.
-
-#### Build Fastqc Image
 
 Please proceed to your *`fastqc-docker`* subdirectory.
 
@@ -61,6 +59,8 @@ We do not need to authenticate, but if there were changes, we would proceed as w
 
 Now let us build the Docker image
 
+### Build Fastqc
+
 ```bash
 docker build -t fastqc .
 ```
@@ -83,7 +83,7 @@ fastqc                   latest    7bcdb3be3afc   6 minutes ago   1.07GB
 continuumio/miniconda3   latest    ce7d119281a1   2 months ago    403MB
 ```
 
-## TAG
+### TAG Fastqc
 
 Take note of the *`IMAGE ID`*, that is what we will use to tag our image for pushing to CAVATICA.
 
@@ -115,21 +115,19 @@ See 'docker tag --help'.
 Usage:  docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
 ```
 
+Note that we have the *`Docker Image Repository`* Specific to me is at the location of pgc-images.sbgenomics.com/adeslat.
+
+For your own repository -- replace *`adeslat`* with your own *`[CAVATICA USERID]`*.
+
 So now I tag:
 
 ```bash
-docker tag 7bcdb3be3afc pgc-images.sbgenomics.com/adeslat/fastqc:v0.11.9
+docker tag 7bcdb3be3afc pgc-images.sbgenomics.com/[YOUR CAVATICA USERID]/fastqc:v0.11.9
 ```
 Where the first item after the word tag is the IMAGE ID - aka the SOURCE_IMAGE
 The second is the TARGET_IMAGE
 
-Note that we have the 
-
-Docker Image Repository Specific to me is at the location of pgc-images.sbgenomics.com/adeslat.
-
-For your own repository -- replace *`adeslat`* with your own *`[CAVATICA USERID]`*.
-
-## PUSH
+### PUSH Fastqc
 
 Okay, almost there.  We have built and we have tagged, now we want to push our image to our Docker Image Repository.
 
@@ -137,7 +135,7 @@ To do that we need to authenticate.
 
 To authenticate we need a developers token.
 
-Please login to CAVATICA
+##  Login to CAVATICA and Generate Authentication Token
 
 Navigate to the Developers Tab
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADevelopersRegistryToken.png" >
@@ -178,6 +176,8 @@ Now we can inspect our repository on CAVATICA and we see:
 
 Now we actually can properly build and tag from the getgo our other image, for multiqc.
 
+### Build and Tag Multiqc
+
 Navigate to the multiqc-docker directory
 
 ```bash
@@ -191,6 +191,8 @@ docker build -t pgc-images.sbgenomics.com/adeslat/multiqc:v1.0dev0 .
 ```
 
 Because we are already authenticated, we can simply push.
+
+### Push Multiqc
 
 ```bash
 docker push pgc-images.sbgenomics.com/adeslat/multiqc:v1.0dev0
