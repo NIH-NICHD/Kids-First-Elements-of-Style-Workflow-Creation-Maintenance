@@ -94,8 +94,9 @@ _Passcode required - mailed to participants.  If not registered, register and re
 | 12.50 - 13:00 | :raised_hand: *Wrap up and overview of next days topics* |
 
 ## Additional resources:
-- GitHub Hello World: https://guides.github.com/activities/hello-world/
-- Happy Git and GitHub for the useR by Jenny Bryan: https://happygitwithr.com/
+- [GitHub Hello World](https://guides.github.com/activities/hello-world/)
+- [Happy Git and GitHub for the useR by Jenny Bryan](https://happygitwithr.com/)
+- [GitHub Documentation](https://docs.github.com/en)
 
 <br/><br/>
 ## Agenda for the Day 3: Containerization with Environment Control
@@ -115,6 +116,16 @@ _Passcode required - mailed to participants.  If not registered, register and re
 | 12.00 - 12.10 |:coffee: Short break |
 | 12:10 - 12:50 | [Building Dockerfiles](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-Dockerfiles/README.md)<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/Moby-Logo.png" width="100" align="right">|
 | 12.50 - 13:00 | :raised_hand: *Wrap up and overview of next days topics* |
+
+## Additional Resources
+
+- [Anaconda Packages Search](https://anaconda.org/anaconda/repo)
+- [Anaconda Gallery](https://anaconda.org/gallery)
+- [Anaconda Open Source](https://www.anaconda.com/open-source)
+- [Who is Anaconda](https://www.anaconda.com/about-us)
+- [Conda](https://docs.conda.io/en/latest/)
+- [Docker File Documentation](https://docs.docker.com/engine/reference/builder/)
+
 
 <br/><br/>
 ## Agenda for the Day 4: Workflow Development
@@ -136,17 +147,26 @@ _Passcode required - mailed to participants.  If not registered, register and re
 | 12.40 - 11.50 | [Shared elements across workflow languages](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/NextflowSharedDataElements/NextflowCommonWorkFlowLanguageSharedStructureSharedElements.md)<img src="https://github.com/common-workflow-language/logo/blob/main/CWL-Logo-HD.png" width="150"><img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width=150 align="right">|
 | 12.50 - 13:00 | :raised_hand: *Wrap up and overview of next days topics* |
 
+## Additional Resources
+
+[Nextflow](https://www.nextflow.io/)
+[Nextflow Basic pipeline](https://www.nextflow.io/example1.html) with detail description of the file 
+[Nextflow Mixing Programming Languages In The Workflow](https://www.nextflow.io/example2.html)
+[Nextflow Blast Example](https://www.nextflow.io/example3.html)
+[Community Based Pipelines](https://nf-co.re/pipelines)
+
+
 
 <br/><br/>
 ## Agenda for the Day 5: Workflow Execution
 <br/><br/>
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
-| 11.00 - 11.10 | :wave: _Workspace set up and agenda for the day_ |
-| 11.10 - 12.00 | [Working with Apps on the CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/WorkingWithAppsOnCAVATICA/WorkingWithAppsOnCAVATICA.md)<img src="https://github.com/kids-first/kf-cloud-credits/blob/main/assets/kfdrc-logo-sm.png"  width="200" align="right"> |
+| 11.00 - 11.20 | :wave: _Recap of the week so far_ |
+| 11.20 - 12.00 | [Working with Apps on the CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/WorkingWithAppsOnCAVATICA/WorkingWithAppsOnCAVATICA.md)<img src="https://github.com/kids-first/kf-cloud-credits/blob/main/assets/kfdrc-logo-sm.png"  width="200" align="right"> |
 | 12.00 - 12.10 |:coffee: Short break |
 | 12:30 - 12.45 | [GitHub Actions to build, test and deposit container images](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/GitHubActions/GitHubActionsForMaintenanceTesting.md) <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/Octocat.png" width="100" align="right"> |
-| 12.45 - 13:00 |  :wave: *End of Course Survey and Wrap up* |
+| 12.45 - 13:00 |  :wave: *Cloud Credits Review, Course Survey and Wrap up* |
 <br/><br/>
 
 ## Additional resources:
