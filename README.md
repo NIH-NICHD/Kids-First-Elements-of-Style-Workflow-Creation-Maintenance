@@ -73,6 +73,15 @@ The Jupyter Text - do you like working in [R Studio](https://www.rstudio.com/) w
 <br/><br/>
 ## Agenda for the Day 2: Code Versioning
 <br/><br/>
+
+[Day 2 Workshop Chat](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/chats/KidsFirstTrainingEventZoomChat2022August23.txt)
+
+[Day 2 Workshop Recording 2022 August 23](https://us06web.zoom.us/rec/share/NXBlLMhkYyqouE4lyh8l87lM4Agk66I_p0STV2Rgfl2xtTcwC3k5ILzDcpAqlsO_.11GfKPWWc4MefivC?startTime=1661265008000)
+_Passcode required - mailed to participants.  If not registered, register and request passcodes_
+
+[Register here](https://us06web.zoom.us/meeting/register/tZMtcumpqT8qH9M7YI-s8sXerIaMsdit297w)
+
+
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
 | 11.00 - 11.10 |  :wave: [_Workspace set up and agenda for the day_](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Workspace-Setup/README.md#workspace-set-up) <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGO2P0vFlvhsDbmltsjjIWZMi1dQCduIkuwA&usqp=CAU"  width="20"> <img src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.png"  width="40"> |
@@ -104,8 +113,8 @@ The Jupyter Text - do you like working in [R Studio](https://www.rstudio.com/) w
 <br/><br/>
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
-| 11.00 - 11.10 | :wave: _Workspace set up and agenda for the day_   |
-| 11:10 - 12.00 | [Building A Nextflow Script](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md)<img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width="150" align="right"> 
+| 11.00 - 11.30 | :wave: [_Welcome and Preamble to Building our Workflow_](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md#preamble-to-building-a-workflows-using-containers)   |
+| 11:10 - 12.00 | [Building A Nextflow Script](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md#contents)<img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width="150" align="right"> 
 | 12.00 - 12.10 |:coffee: Short break |
 | 12:10 - 12:40 | [Building A CWL Script](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-CWL-Script)<img src="https://github.com/common-workflow-language/logo/blob/main/CWL-Logo-HD.png" width="150" align="right">|
 | 12.40 - 11.50 | [Shared elements across workflow languages](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/NextflowSharedDataElements/NextflowCommonWorkFlowLanguageSharedStructureSharedElements.md)<img src="https://github.com/common-workflow-language/logo/blob/main/CWL-Logo-HD.png" width="150"><img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width=150 align="right">|

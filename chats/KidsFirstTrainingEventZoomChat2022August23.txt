@@ -1,0 +1,154 @@
+10:59:43 From David Higgins (Kids First DRC) to Everyone:
+	Hi everyone! Welcome back! Looking forward to a great Day 2!
+11:04:38 From Anne Deslattes Mays to Everyone:
+	https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance
+11:05:58 From David Higgins (Kids First DRC) to Everyone:
+	Today's agenda in our course materials: https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-the-day-2-code-versioning
+11:07:58 From David Higgins (Kids First DRC) to Everyone:
+	If you missed yesterday's session, you can catch up following these directions here: https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Workspace-Setup/README.md#starting-from-scratch
+11:16:07 From David Higgins (Kids First DRC) to Everyone:
+	The files from Zenodo are copied, so you're storing a copy. Any files you get from the Kids First Portal are stored on our AWS and you just receive access to them, so there's no real "copy" so there's no storage for these.
+11:16:20 From Mary Allen to Everyone:
+	awesome!
+11:16:21 From Mary Allen to Everyone:
+	thanks
+11:16:36 From Matthew Galbraith to Everyone:
+	How can one tell if a file is a real copy or not?
+11:24:22 From David Higgins (Kids First DRC) to Everyone:
+	Matthew: it depends on where the files come from. Files pushed from the KF Portal, or any of the CAVATICA datasets are stored by us, so there's no storage for those. You can also attach your own cloud storage to your project so you can access files there. There are more details in Cavatica's docs, I'll share links here.
+11:24:30 From David Higgins (Kids First DRC) to Everyone:
+	https://docs.cavatica.org/docs/cloud-infrastructure-pricing#section-storage-costs
+11:24:51 From Prithbey Dey to Everyone:
+	cavatica id: prithbey
+11:24:56 From David Higgins (Kids First DRC) to Everyone:
+	https://docs.cavatica.org/docs/upload-your-data-to-cavatica
+11:29:29 From Yasaman Soofi to Everyone:
+	could you please put the package installation lines here?
+11:30:32 From David Higgins (Kids First DRC) to Everyone:
+	The installation text is available in the class materials here: https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Intro-to-Git-Github/why-git-and-setup.md#b-set-up-in-the-terminal
+11:30:40 From Mary Allen to Everyone:
+	I can't live without vim
+11:30:42 From Mary Allen to Everyone:
+	so I get it
+11:34:39 From Soumya Rao to Everyone:
+	ctrl+ zooms in windows too
+11:35:05 From David Higgins (Kids First DRC) to Everyone:
+	Thank you Soumya!
+11:35:17 From Soumya Rao to Everyone:
+	I am stuck at paste authentication code
+11:35:28 From Alexya Aguilera to Everyone:
+	Can you remind us how to get to the terminal
+11:35:42 From Soumya Rao to Everyone:
+	Stuck with [Use arrows to move, type to filter]
+11:37:35 From David Higgins (Kids First DRC) to Everyone:
+	Alexya: You can start a notebook and access the terminal by following the directions here: https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Lets-Dive-In/StartingAJupyterLabNotebook.md#starting-a-jupyterlab-notebook
+11:38:35 From Alexya Aguilera to Everyone:
+	Thank you David, will try to catch up.
+11:39:35 From Diana Ma to Everyone:
+	she is still in "base"
+11:40:03 From Anne Deslattes Mays to Everyone:
+	conda create -n eos -y
+11:40:18 From Anne Deslattes Mays to Everyone:
+	conda activate eos
+11:40:33 From Anne Deslattes Mays to Everyone:
+	conda install -c conda-forge gh -y
+11:40:40 From Anne Deslattes Mays to Everyone:
+	gh auth login
+11:42:48 From Soumya Rao to Everyone:
+	Thanks!
+11:42:59 From Soumya Rao to Everyone:
+	Got it!
+11:48:08 From Wei-An Chen to Everyone:
+	what’s the advantage installing and using gh over only git itself?  just curious
+11:48:26 From Yasaman Soofi to Everyone:
+	I get this error:	fatal: destination path
+11:48:40 From Yasaman Soofi to Everyone:
+	fatal: not a git repository (or any parent up to mount point /sbgenomics)
+11:50:59 From Anne Deslattes Mays to Everyone:
+	git remote add upstream https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance
+11:51:01 From Ruu Hsu to Everyone:
+	i didn't change it to my username upstream the first time and now i cant reset it
+11:51:06 From Soumya Rao to Everyone:
+	git remote add upstream https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance
+11:51:47 From Ruu Hsu to Everyone:
+	nvm i removed it and added it again
+11:56:35 From Soumya Rao to Everyone:
+	I forgot what exactly we are trying to do in github.
+12:00:28 From Anthony Corbett to Everyone:
+	a little bonus readline keyboard shortcuts 🙂
+12:08:51 From Anthony Corbett to Everyone:
+	option + delete will delete the full previous word
+12:10:06 From Anne Deslattes Mays to Everyone:
+	rm -f -R directory
+12:10:13 From Anne Deslattes Mays to Everyone:
+	this will destroy the directory
+12:10:15 From Anne Deslattes Mays to Everyone:
+	cd ..
+12:10:20 From Anne Deslattes Mays to Everyone:
+	.
+12:10:22 From Anne Deslattes Mays to Everyone:
+	..
+12:10:25 From Anne Deslattes Mays to Everyone:
+	cd ..
+12:18:15 From William Schleif to Everyone:
+	there are two githubs - "Elements-of-Style..." and a "Kids-First-Elements of Style..."
+12:20:02 From David Higgins (Kids First DRC) to Everyone:
+	We want "Kids-First-Elements-of-Style..." for our course
+12:21:52 From William Schleif to Everyone:
+	yes I know but yesterday I forked the older one, which is why I can't sync using the lessons today
+12:22:48 From William Schleif to Everyone:
+	mentioning it in case anyone else has the same issue
+12:23:58 From Anthony Corbett to Everyone:
+	undo your commit or amend it as it still has the old email in the commit
+12:24:50 From Anthony Corbett to Everyone:
+	meaning if you made the commit first, then updated your git user.email then the local commit still has your old, non-public, email
+12:26:19 From Anthony Corbett to Everyone:
+	git commit --amend --author="John Doe <john@doe.org>"
+12:29:05 From Zhen Liin to Everyone:
+	on the private email question:  https://stackoverflow.com/questions/43378060/meaning-of-the-github-message-push-declined-due-to-email-privacy-restrictions
+12:29:55 From Anthony Corbett to Everyone:
+	@Zhen perfect
+12:31:13 From Pierrette Lo to Everyone:
+	Anthony - that worked - thanks!!!
+12:32:18 From Pierrette Lo to Everyone:
+	& thanks Zhen!
+12:35:45 From Soumya Rao to Everyone:
+	This is very helpful!
+12:37:14 From William Schleif to Everyone:
+	thank you!
+12:37:20 From Qingguo Wang to Everyone:
+	Cool
+12:37:41 From Diana Ma to Everyone:
+	This is great!!!
+12:37:49 From Qingguo Wang to Everyone:
+	Will not be able to attend tomorrow due to conflict. Hope to share tomorrow's video
+12:38:31 From David Higgins (Kids First DRC) to Everyone:
+	We'll miss you tomorrow Qingguo. I’ll continue to share the videos throughout the week. Hope to see you back on Thursday!
+12:40:04 From Kerry Goetz to Everyone:
+	this is part of the GDS policy
+12:40:43 From Anthony Corbett to Everyone:
+	If I have person access to a dbGaP/SRA study that isn't on Kids-Frist already can I connect it to Kids-First/CAVATICA?
+12:41:16 From Anthony Corbett to Everyone:
+	or would I have to use SRA tools to dump them into CAVATICA project storage manually first then run my workflows?
+12:45:58 From Heather Basehore to Everyone:
+	Is it consented data for secondary use?
+12:46:26 From David Higgins (Kids First DRC) to Everyone:
+	Anthony - it depends upon the study in question. We've been collaborating with other NIH-funded projects to allow for interoperability between our datasets and platforms. We're still working through it, but if the dbGaP phs is in this list, we might be able to make it accessible in Cavatica without copying it. https://anvilproject.org/ncpi/data
+12:46:46 From Heather Basehore to Everyone:
+	Yes
+12:47:30 From Hendrick Lim to Everyone:
+	@Anthony: in CAVATICA, there is a Public Apps tab where you can find SRA fasterq-dump tool to download the SRA study data
+12:47:35 From Anthony Corbett to Everyone:
+	@David Thank you
+12:47:55 From Anthony Corbett to Everyone:
+	@Hendrick thanks I’ll take a look
+12:49:16 From Anne Deslattes Mays to Everyone:
+	GA4GH DRS services for data -- SRA and dbGaP will make their data (metadata as well as omics) using DRS
+12:50:02 From Anne Deslattes Mays to Everyone:
+	https://sra-explorer.info/
+12:54:39 From Anne Deslattes Mays to Everyone:
+	GA4GH passports
+12:56:08 From Diana Ma to Everyone:
+	Thank you!!!!
+13:03:34 From Youn Jee to Everyone:
+	Thank you!
