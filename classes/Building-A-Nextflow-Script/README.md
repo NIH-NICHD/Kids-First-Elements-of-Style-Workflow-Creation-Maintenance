@@ -152,7 +152,7 @@ Now copy your authentication token.
 Now go back to the Google Shell and login to the repository.
 
 ```bash
-docker login pgc-images.sbgenomics.com -u adeslat --p [paste your authentication token here]
+docker login pgc-images.sbgenomics.com -u adeslat -p [paste your authentication token here]
 ```
 
 Now we can push to our repository
@@ -453,7 +453,7 @@ The `reads` variable is now equal to a channel which contains the reads prefix &
 
 To run the pipeline:
 ```bash
-nextflow run fastqc.nf --reads "testdata/test.20k_reads_{1,2}.fastq.gz" -with-docker pgc-images.sbgenomics.com/deslattesmaysa2/fastqc:v1.0
+nextflow run fastqc.nf --reads "testdata/test.20k_reads_{1,2}.fastq.gz" -with-docker pgc-images.sbgenomics.com/adeslat/fastqc:v0.11.9
 ```
 
 #### Recap
@@ -526,14 +526,14 @@ docker.enabled = true
 params.reads = false
 
 process {
-  cpus = 2
+  cpus = 1
   memory = "2.GB"
 
   withName: fastqc {
-    container = "pgc-images.sbgenomics.com/deslattesmaysa2/fastqc:v1.0"
+    container = "pgc-images.sbgenomics.com/adeslat/fastqc:v0.11.9"
   }
   withName: multiqc {
-    container = "pgc-images.sbgenomics.com/deslattesmaysa2/multiqc:v1.0"
+    container = "pgc-images.sbgenomics.com/adeslat/multiqc:v1.0dev0"
   }
 }
 ```
@@ -547,6 +547,6 @@ The pipeline can now be run with the following:
 nextflow run fastqc_multiqc_wf.nf --reads "testdata/test.20k_reads_{1,2}.fastq.gz"
 ```
 
-## Return to the Agenda
+## Proceed to the next lesson
 
-[Main Agenda](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#readme)
+[Building-A-CWL-Script](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/tree/main/classes/Building-A-CWL-Script#readme)
