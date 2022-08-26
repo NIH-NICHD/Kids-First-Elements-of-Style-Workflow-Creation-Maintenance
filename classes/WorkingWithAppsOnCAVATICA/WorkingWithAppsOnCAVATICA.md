@@ -1,6 +1,6 @@
 
 <br/><br/>
-<img src="https://github.com/kids-first/kf-cloud-credits/blob/main/assets/kfdrc-logo-sm.png"  width="500" >
+<img src="https://github.com/kids-first/kf-cloud-credits/blob/main/assets/CAVATICALogo.png"  width="500" >
 <br/><br/>
 
 # Working with Apps on CAVATICA
