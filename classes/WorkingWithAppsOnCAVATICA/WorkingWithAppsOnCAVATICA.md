@@ -110,6 +110,22 @@ Now we have our app in our project, and we have our files -- now we can run the 
 Navigate back to our app, select the copy we have made.
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICASelectApp.png">
 
+Select run
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAppSelectRun.png">
+
+It says we need files.
+
+Now we need to Select our files
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICASelectAppSelectFiles.png">
+
+Now we select run and we see that it is executing.
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICASelectAppRun.png">
+
+You will see that machines are initializing
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAppMachineInitialization.png">
+
+App Completion
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAppCompletion.png">
 
 ## A Gif reproducing this is found here
 
