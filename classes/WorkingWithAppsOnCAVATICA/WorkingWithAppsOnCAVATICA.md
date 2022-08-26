@@ -38,6 +38,101 @@ In this example, the user navigated through the public apps looking for the Fast
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICACopyPublicFastqcAppToProjectWorkspace.gif">
 </p>
 
+
+## Copying Files to your Project
+
+There are many ways to get files into your project, while you are developing your workflows or doing analysis, it is useful to have test data.
+
+As I mentioned, I use Zenodo for testdata, derivative data products, that is matrices, that are typical for input to interactive analysis as we demonstrated on [day 1 with the JupyterLab Notebook and the Volcano plot](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook/README.md#open-the-reading-data-and-plotting-in-ripynb)
+
+And also derivative data products such as what was done for the analysis work, [The Impact of Biological Sex on Alternative Splicing](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.biorxiv.org/content/10.1101/490904v2.full.pdf).  In this case, a Nextflow [rMATS workflow](https://github.com/lifebit-ai/rmats-nf/#rmats-nf) was run on controlled access data, the GTEx data, and these aggregate matrices were made and released on [Zenodo](https://zenodo.org/record/5524975#.YwjTSexKja4) and were input to all the [downstream analyses whose notebooks are on GitHub](https://github.com/TheJacksonLaboratory/sbas#the-impact-of-sex-on-alternative-splicing)
+
+To work with Apps on Cavatica, you need to make your files available to us.
+
+It is possible to bring this data in very easily in CAVATICA, and the data can come from many sources.   Just a caution, you pay for storage.  So working with small test data sets as you learn and develop your workflows, applications and notebooks, is good practice.
+Also getting in the habit of removing everything at the end of the day and making those steps reproducible.
+
+Starting from scratch where it is reasonable will ensure that you have the understanding of how to proceed that you think you have.  Much in the same way where i have asked for you to run the class, to share your screen and execute the steps I say will work, is a kind of testing, and a way to ensure what I am saying is true and reproducible.
+
+By getting into the habit of daily saving your work on GitHub, and saving those sharable derivative data products on Zenodo, you start to create durable, successful habits that will ensure when you publish that what you say and do are correct and accurate to the best of your ability.
+
+## Navigate to Files
+
+Navigate to *`Files`* and select *`Add Files`*
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAddFiles">
+
+Select *`FTP/HTTP`*
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAddFilesHttpFtp">
+
+In your browser, navigate to the Zenodo site
+```
+https://doi.org/10.5281/zenodo.7025300
+```
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/ZenodoDryBenchSkillsSite.png">
+
+Where our testdata files now reside.
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/ZenodoDryBenchSkillsTestData.png">
+
+Right click and *`copy link address`* on *`test.10k_reads_1.fastq.gz`*
+
+Paste in the window what you copied:
+
+```
+https://zenodo.org/record/7025300/files/test.20k_reads_1.fastq.gz?download=1
+```
+
+You will see that unfortunately it includes *`?download=1`*.   Delete this ending so your pasted copy looks like this:
+
+```
+https://zenodo.org/record/7025300/files/test.20k_reads_1.fastq.gz
+```
+
+Now copy this file in the window and change the second one to have the *`_2`* instead of *`_1`*.
+
+Now in the window it should have these two files
+```
+https://zenodo.org/record/7025300/files/test.20k_reads_1.fastq.gz
+https://zenodo.org/record/7025300/files/test.20k_reads_2.fastq.gz
+```
+
+And your screen should look like this:
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAddFilesTestdataReads1_2.png">
+
+Press Done and you will see that now your files are there.
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAddFilesSuccess.png">
+
+## Running the App
+
+Now we have our app in our project, and we have our files -- now we can run the app.
+
+Navigate back to our app, select the copy we have made.
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICASelectApp.png">
+
+Select run
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAppSelectRun.png">
+
+It says we need files.
+
+Now we need to Select our files
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICASelectAppSelectFiles.png">
+
+Now we select run and we see that it is executing.
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICASelectAppRun.png">
+
+You will see that machines are initializing
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAppMachineInitialization.png">
+
+App Completion
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAppCompletion.png">
+
+## A Gif reproducing this is found here
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAFastQCAnalysisRun.gif">
+
+
+
 ## Using the application
 
 Data are required and the same files that were used in the Nextflow workflow example were copied up onto the CAVATICA workspace.
