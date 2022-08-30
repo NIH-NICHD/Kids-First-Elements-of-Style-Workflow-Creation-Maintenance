@@ -1,7 +1,6 @@
 # Building A [Common Workflow Language (CWL) Workflow](https://www.commonwl.org/)
 
-Here we now show how the same containers may be used in a CWL workflow.
-
+Here we now show how the same containers may be used in a CWL workflow.  If you are starting here and haven't completed the previous lessons, start with the [Preamble to building Workflows](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md#preamble-to-building-workflows-using-containers) before proceeding.
 
 ## Showing the CWL workflow with the same containers
 
