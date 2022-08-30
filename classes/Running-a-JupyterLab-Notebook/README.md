@@ -41,7 +41,23 @@ A new fork is made, you can accept the defaults.
 
 If you have already made a fork, it would make sense to fetch any upstream changes that may have occured since you last visted.  Your screen should look like this:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubElementsofStyleWorkflowForkClone3.png">
+Navigate to your repository within a new *`Chrome browser tab`* on GitHub - https://github/ [*`insert your GitHub user name here`*]/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance.
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubKeepingForkInSyncWithMainRepository.png">
+
+In my case, you will see I am 11 commits behind the NIH-NICHD:main.
+
+So I navigate to the button below code and press the <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubBranchSyncForkButton.png" width=100>
+
+I then get presented the screen:
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubUpdatingBranchWithMainRepository.png">
+
+And I press the  <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubBranchUpdateBranchButton.png" width=100>.
+
+And we have synchronize success.
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubBranchUpdateSuccess.png">
 
 ## Copy the Link to Clone the repository
 
