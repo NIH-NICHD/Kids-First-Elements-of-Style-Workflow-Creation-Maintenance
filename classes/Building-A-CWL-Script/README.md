@@ -87,8 +87,8 @@ To exit out of our *`less`* command press <kbd> **`q`**
 
 To make the terminal window a bit larger, press the *`...`* three triple *`.`* and pull the window larger.
   
-Type *`less cwl_tools/fastqc_cwl`* again, and pressing <kbd> **`space bar`**, we can scroll if the window is small.
-
+Type *`less cwl_tools/fastqc_cwl`* again, and pressing <kbd> **`space bar`**
+  
 Which we see now as:
 
 ```bash
