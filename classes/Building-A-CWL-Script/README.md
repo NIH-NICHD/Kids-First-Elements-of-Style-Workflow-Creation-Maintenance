@@ -290,13 +290,20 @@ Now lets run *`multiqc`*
 cwltool cwl_tools/multiqc.cwl --fastqc_results results
 ```
 
-#### recap
+If we look in the directory we now see the output from the *`multiqc`* run.
+  
+We can inspect the output file in the same manner we inspected the *`fastqc`* output.
+
+Navigate to the appropriate directory in the *`Cloud Editor`* window, right click on the file *`report.multiqc.html`* and select *`preview`* and review the output, which is the aggregated report of the quality of both of the *`fastq`* files.
+
+### recap
 
 We saw how to
 * install cwltool
+* authenticated to our own *`CAVATICA`* docker registry
 * run and test fastqc and multiqc separately using the CWL language but calling the same exact docker image as we did with the Nextflow language.
 
-### Stitching together the two processes into a single workflow
+## Stitching together the two processes into a single workflow
 
 CWL does not use channels, but can read the output files from the first process as input to the second process, thereby permitting the stitching together of processes into a single workflow.   When we go to the CAVATICA platform, we will see how we can do this within the visual editor.
 
@@ -331,7 +338,7 @@ outputs:
   multiqc_html: { type: File, outputSource: run_multiqc/multiqc_html }
 
 steps:
-  run_fastqc:
+  fastqc:
     run: cwl_tools/fastqc.cwl
     in:
       input_reads: input_reads
@@ -340,10 +347,10 @@ steps:
       cores: cores
       ram: ram
     out: [fastqc_results]
-  run_multiqc:
+  multiqc:
     run: cwl_tools/multiqc.cwl
     in:
-      fastqc_results: run_fastqc/fastqc_results
+      fastqc_results: [fastqc/fastqc_results]
       flat: flat
       filename: filename
       cores: cores
