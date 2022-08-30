@@ -173,7 +173,7 @@ And I press the  <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-S
 
 And we have synchronize success.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubBranchUpdateSuccess.png" width=650>
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubBranchUpdateSuccess.png">
 
 ## Cloning your Fork of the repository and executing Git 
 
