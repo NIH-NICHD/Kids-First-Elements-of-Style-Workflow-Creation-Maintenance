@@ -37,9 +37,13 @@ A new fork is made, you can accept the defaults.
 
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstGitHubElementsofStyleWorkflowForkClone4.png" width=650>
 
+## Synchronize the repository.
+
 If you have already made a fork, it would make sense to fetch any upstream changes that may have occured since you last visted.  Your screen should look like this:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubElementsofStyleWorkflowForkClone3.png" width=650>
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubElementsofStyleWorkflowForkClone3.png">
+
+## Copy the Link to Clone the repository
 
 Next, navigate to the 🟦`Code` button on the right and select `HTTPS` and copy the link.
 
