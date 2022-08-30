@@ -86,8 +86,7 @@ https://doi.org/10.5281/zenodo.7025773
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/ZenodoDryBenchSkillsSite.png">
 
 Where our testdata files now reside.
-
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/ZenodoDryBenchSkillsTestData.png">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/ZenodoDryBenchSkillsSiteTestData.png">
 
 Right click and *`copy link address`* on *`test.10k_reads_1.fastq.gz`*
 
