@@ -37,9 +37,29 @@ A new fork is made, you can accept the defaults.
 
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/KidsFirstGitHubElementsofStyleWorkflowForkClone4.png" width=650>
 
+## Synchronize the repository.
+
 If you have already made a fork, it would make sense to fetch any upstream changes that may have occured since you last visted.  Your screen should look like this:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubElementsofStyleWorkflowForkClone3.png" width=650>
+Navigate to your repository within a new *`Chrome browser tab`* on GitHub - https://github/ [*`insert your GitHub user name here`*]/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance.
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubKeepingForkInSyncWithMainRepository.png">
+
+In my case, you will see I am 11 commits behind the NIH-NICHD:main.
+
+So I navigate to the button below code and press the <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubBranchSyncForkButton.png" width=100>
+
+I then get presented the screen:
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubUpdatingBranchWithMainRepository.png">
+
+And I press the  <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubBranchUpdateBranchButton.png" width=100>.
+
+And we have synchronize success.
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubBranchUpdateSuccess.png">
+
+## Copy the Link to Clone the repository
 
 Next, navigate to the 🟦`Code` button on the right and select `HTTPS` and copy the link.
 
@@ -84,33 +104,33 @@ Now we need to authenticate.   We do this with our personal `GitHub Token`.
 
 Step 1 - Navigate to Settings, located just under your profile in the upper right hand corner:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken1.png" width=650>
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken1.png">
 
 Step 2 - Navigate to the bottom to `< > Developer Settings` on the bottom left hand corner:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken2.png" width=650>
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken2.png">
 
 Step 3 - Select `Personal access tokens` third option from the top on the left side:
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken3.png" width=650>
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken3.png">
 
 Step 4 - Select `Generate new token` on the upper right corner - put a name in the note I used `eos`
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken4.png" width=650>
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken4.png">
 
 Step 5 - Select all of the options and select `Generate token`
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken5.png" width=650>
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken5.png">
 
 Step 6 - Copy the token because as the note mentions - it will not be available again - but you can regenerate tokens now - so don't worry.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken6.png" width=650>
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken6.png">
 
 ### Now we can authenticate with GitHub
 
 Once we have our token, we can now authenticate.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabGHAuthLoginWithToken.png" width=650>
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabGHAuthLoginWithToken.png">
 
 ## Clone our repository version
 

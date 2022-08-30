@@ -122,6 +122,7 @@ _Passcode required - mailed to participants.  If not registered, register and re
 - [Anaconda Packages Search](https://anaconda.org/anaconda/repo)
 - [Anaconda Gallery](https://anaconda.org/gallery)
 - [Anaconda Open Source](https://www.anaconda.com/open-source)
+- [Anaconda Open Data Science](https://anaconda.org/ijstokes/open-data-science-with-anaconda/notebook) 
 - [Who is Anaconda](https://www.anaconda.com/about-us)
 - [Conda](https://docs.conda.io/en/latest/)
 - [Docker File Documentation](https://docs.docker.com/engine/reference/builder/)
@@ -161,10 +162,20 @@ _Passcode required - mailed to participants.  If not registered, register and re
 <br/><br/>
 ## Agenda for the Day 5: Workflow Execution
 <br/><br/>
+
+[Day 5 Workshop Chat 2022 August 26](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/chats/KidsFirstTrainingEventZoomChat2022August26.txt)
+
+[Day 5 Recording 2022 August 26](https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fus06web.zoom.us%2Frec%2Fshare%2FmqEhV70Hwcy7LulSB2aOqoUU_IFd4PWnOjy-8bFNQd-idm5VJagfcoMcjJePgn8.VOEmzbfG3xY4yb3D&data=05%7C01%7Canne.deslattesmays%40nih.gov%7C0edaf4c2263a4303c27808da878c508b%7C14b77578977342d58507251ca2dc2b06%7C0%7C0%7C637971333990677334%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=VQW0yBJUiL35R3U6pI7%2BAHG55zyNh3w%2BCk3LH4vR44M%3D&reserved=0)
+
+_Passcode required - mailed to participants.  If not registered, register and request passcodes_
+
+[Register here](https://us06web.zoom.us/meeting/register/tZMtcumpqT8qH9M7YI-s8sXerIaMsdit297w)
+
+
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
 | 11.00 - 11.20 | :wave: _Recap of the week so far_ |
-| 11.20 - 12.00 | [Working with Apps on the CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/WorkingWithAppsOnCAVATICA/WorkingWithAppsOnCAVATICA.md)<img src="https://github.com/kids-first/kf-cloud-credits/blob/main/assets/kfdrc-logo-sm.png"  width="200" align="right"> |
+| 11.20 - 12.00 | [Working with Apps on the CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/WorkingWithAppsOnCAVATICA/WorkingWithAppsOnCAVATICA.md#working-with-apps-on-cavatica)<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICALogo.png#readme"  width="200" align="right"> |
 | 12.00 - 12.10 |:coffee: Short break |
 | 12:30 - 12.45 | [GitHub Actions to build, test and deposit container images](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/GitHubActions/GitHubActionsForMaintenanceTesting.md) <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/Octocat.png" width="100" align="right"> |
 | 12.45 - 13:00 |  :wave: *Cloud Credits Review, Course Survey and Wrap up* |
@@ -179,7 +190,7 @@ _Passcode required - mailed to participants.  If not registered, register and re
 | <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/NICHD_60Years_Innovation.png"  width="50">   |   |   |  |
 |---|---|---|---|
 | [Anaconda Package Jupytext](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/AnacondaPackageSearchJupytext.gif)| [CAVATICA Create Developer Token](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICACreateDeveloperAuthenticationToken.gif) | [CAVATICA Add samtools to Docker Repository](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICACreateDockerSamtoolsRepository.gif) | [Conda Create env and install GitHub CLI](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CondaEnvCreateEOSAndCondaInstallGitHubCLI.gif) |
-| [CAVATICA DataCruncher JupyterLab Startup](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/DataCruncherJupyterLabNotebook.gif)|[Generate GitHub Personal Access Tokens](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GeneratingGitHubPersonalAccessTokens.gif)|[GitHub Auth Login](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubAuthLoginFromCommandLine.gif) | [GitHub Clone FHIR Exercises](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubCloneFHIRExercisesFromNICHD.gif) |
+| [CAVATICA Data Studio JupyterLab Startup](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/DataCruncherJupyterLabNotebook.gif)|[Generate GitHub Personal Access Tokens](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GeneratingGitHubPersonalAccessTokens.gif)|[GitHub Auth Login](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubAuthLoginFromCommandLine.gif) | [GitHub Clone FHIR Exercises](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubCloneFHIRExercisesFromNICHD.gif) |
 | [INCLUDE DataHub Login with ORCID](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/LoggingInAfterEnteringINCLUDEDataHubWithORCID.gif) | [CAVATICA Login](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/LoggingIntoCAVATICAFromINCLUDEDataHub.gif)| [GitHub Actions with STAR](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/MakingGitHubActionsWithStar-Docker.gif) | [Anaconda Search GitHub CLI](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/SearchAnacondaPackagesForGitHubCLI.gif) |
 | [Shell Google Cloud](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/shellCloudGoogleCom.gif) | | | |
 
@@ -195,6 +206,6 @@ Seven Bridges supports multiple workflow languages in its application developmen
 
 Nextflow workflow information and guidance was gratefully received from Phil Palmer from his classes at the Jackson Laboratory while he was at Lifebit
 
-and @cgpu Christina Chatzipantsiou has been my infallible guide.  @cgpu Christina Chatzipantsiou taught with me the first Elements of Style class at the ISCB Academy.
+and @cgpu Christina Chatzipantsiou has been my infallible guide.  @cgpu Christina Chatzipantsiou taught with me the Dry Bench Skills for the Researchers and Elements of Style class at the ISCB Academy.
 
 Common Workflow script guidance was gratefully received from Miguel Brown at Children's Hospital of Philadelphia.

@@ -1,4 +1,4 @@
-# Preamble to building a workflows using containers
+# Preamble to building workflows using containers
 
 
 In this session, we will use the two Docker images we built in the previous sections and we will how to put these together into a single workflow using the Nextflow workflow language.  Later, we will learn out to put these two Docker images into a single workflow using the CWL or Common Workflow Language. 
@@ -15,7 +15,7 @@ We will:
 
 ## Login to [Google shell cloud](https://shell.cloud.google.com/)
 
-Please proceed to login to your google shell.
+Please proceed to login to your google shell.  If you did not work with us yesterday, please return to the [previous lesson](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-Dockerfiles/README.md#building-dockerfiles) to build your *`fastqc-docker`* and *`multiqc-docker`* images.
 
 When it comes up, type:
 
@@ -204,17 +204,19 @@ And now when we inspect our repository, we have:
 Now we can proceed with our workflow development!
 
 
-## Contents
-<img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width=300>
+## Building A Nextflow Workflow
 
-In this tutorial you will learn:
-- [Nextflow](https://www.nextflow.io/) - how to build parallelisable & scalable computational pipelines
+If you have arrived here from the front page and have not built your *`fastqc-docker`* and *`multiqc-docker`* containers, please proceed to the [preamble to building a Nextflow Workflow](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md#preamble-to-building-workflows-using-containers)
 
-    - [b) Parameters](#b-parameters)
-    - [c) Processes (inputs, outputs & scripts)](#c-processes-inputs-outputs--scripts)
-    - [d) Channels](#d-channels)
-    - [e) Operators](#e-operators)
-    - [f) Configuration](f-configuration)
+**Main outcome:** 
+
+During the first session you will build a [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) & [MultiQC](https://multiqc.info/) pipeline to learn the basics of Nextflow including:
+
+- [Parameters](https://www.nextflow.io/docs/latest/getstarted.html?highlight=parameters#pipeline-parameters)
+- [Processes](https://www.nextflow.io/docs/latest/process.html) (inputs, outputs & scripts)
+- [Channels](https://www.nextflow.io/docs/latest/channel.html)
+- [Operators](https://www.nextflow.io/docs/latest/operator.html)
+- [Configuration](https://www.nextflow.io/docs/latest/config.html)
     
 ## In the Google Shell
 
@@ -276,18 +278,6 @@ And because we have activated our environment `eos`, you will see that the `next
 (eos) adeslat@cloudshell:~$ which nextflow
 /home/adeslat/miniconda3/envs/eos/bin/nextflow
 ```
-
-## Session 1: Nextflow
-
-**Main outcome:** 
-
-During the first session you will build a [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) & [MultiQC](https://multiqc.info/) pipeline to learn the basics of Nextflow including:
-
-- [Parameters](https://www.nextflow.io/docs/latest/getstarted.html?highlight=parameters#pipeline-parameters)
-- [Processes](https://www.nextflow.io/docs/latest/process.html) (inputs, outputs & scripts)
-- [Channels](https://www.nextflow.io/docs/latest/channel.html)
-- [Operators](https://www.nextflow.io/docs/latest/operator.html)
-- [Configuration](https://www.nextflow.io/docs/latest/config.html)
 
 ### a) Getting Course material.
 

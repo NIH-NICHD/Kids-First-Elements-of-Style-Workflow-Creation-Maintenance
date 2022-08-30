@@ -30,6 +30,27 @@ Upon success you will see a window like this:
 
 We have an editor as well as a prompt.
 
+If you have items in your Google Shell, you may need to clean up a bit.  There is not much space in this *`free ephemeral instance`*.  
+
+### Cleaning up your space
+
+If you have items in your directory, lets clean up!  So we have enough room for the next few lessons.   Let's see what is there.
+For a shell to list the contents of a directory, you type:
+
+```bash
+ls -l
+```
+
+You can use *`Explain Shell`* to explain the meaning of the command. [Explain Shell `ls -l`](https://explainshell.com/explain?cmd=ls+-l).
+
+You can see hidden directories with the following command.
+
+```bash
+ls -la
+```
+
+Again, look at *`Explain Shell`* to explain the meaning of the command. [Explain Shell `ls -la`](https://explainshell.com/explain?cmd=ls+-la)
+
 ## Installing conda
 
 We need to get the installation package for conda.  We get this package from continuum analytics, we will be installing [Miniconda](https://docs.conda.io/en/latest/miniconda.html).  Miniconda is the minimal installer and all we need.

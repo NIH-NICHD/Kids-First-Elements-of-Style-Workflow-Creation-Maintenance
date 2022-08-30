@@ -1,7 +1,8 @@
 # Building A [Common Workflow Language (CWL) Workflow](https://www.commonwl.org/)
 
-Here we now show how the same containers may be used in a CWL workflow.
+Here we now show how the same containers may be used in a CWL workflow.  If you are starting here and haven't completed the previous lessons, start with the [Preamble to building Workflows](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md#preamble-to-building-workflows-using-containers) before proceeding.
 
+The next steps assume you have checked out a *`Synchronized`* *`Fork`* of this course, and it will be challenging for you to follow.
 
 ## Showing the CWL workflow with the same containers
 
@@ -290,6 +291,6 @@ In this last step, we executed the combined workflow which was done quite simply
 * we broke down the workflow into its pieces and parts and understood how to change some of the default parameters.
 * we followed the Elements of Style approach and used the same `Docker` image that was used in our `Nextflow` example.
 
-## Return to the Agenda
+## Return to today's (Day 4) Agenda
 
-[Main Agenda](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#readme)
+[Day 4 Elements of Style](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-the-day-4-workflow-development)
