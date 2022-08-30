@@ -128,7 +128,7 @@ outputs:
       glob: $(inputs.outdir)
 ```
 
-To *`exit`* from the *`less`* command press <kbd>q
+To *`exit`* from the *`less`* command press <kbd> **`q`**
 
 We see many of the same pieces that we saw with a Nextflow script.
   
