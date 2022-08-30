@@ -374,7 +374,7 @@ The `steps:` statement specifies which script to run.  It is the exact script we
 
 But lets walk through some of the important steps and differences.
 
-### Breaking down the CWL Script.
+## Breaking down the CWL Script.
 
 One can see that there are two steps `fastqc` and `multiqc`.
 
@@ -442,6 +442,26 @@ outdir: fastqc_outdir
       noextract: noextract
       cores: cores
       ram: ram
+
+### steps: multiqc
+  
+Multiqc takes as input the output of the *`fastqc`* step.
+
+The function step is called *`multiqc`*
+
+And the command to run is specified with the *`run: cwl_tools/multiqc.cwl`*.
+
+And the input is specified by the *`[stepname/out]`* directive which in our case is:
+*`[fastqc/fastqc_results]`*.
+  
+As we see from this workflow *`snippet`*:
+
+```bash
+multiqc:
+    run: cwl_tools/multiqc.cwl
+    in:
+      fastqc_results: [fastqc/fastqc_results]
+```
 
 
 #### recap
