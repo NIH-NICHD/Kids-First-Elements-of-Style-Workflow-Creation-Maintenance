@@ -83,7 +83,7 @@ Which just tells you it is the opposite of *`more`*, so lets type in the [Explai
 
 It just allows us to inspect the *`contents`* of the file.
 
-To *`exit`* out of the *`less cwl_tools/fastqc_cwl`*, you just press <kbd> **`q`** for *`quit`*.
+To exit out of our *`less`* command press <kbd> **q**.  *`q`* stands for *`quit`*.
 
 To make the terminal window a bit larger, press the *`...`* three triple *`.`* and pull the window larger.
   
