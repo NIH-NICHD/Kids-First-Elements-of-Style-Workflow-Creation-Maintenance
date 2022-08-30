@@ -18,8 +18,16 @@ Previously, we suggested you name your top level directory your *`GitHub`* *`use
 
 If you are at the *`root`* directory of the *`shell`*, then change directory into the directory for this class.
 
+First change directory to your user name, if you haven't already made it, then make the directory and then change into it.
+
 ```bash
-cd [GitHub Username]/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/edit/main/classes/Building-A-CWL-Script
+mkdir adeslatt
+cd adeslatt
+```
+
+Now Navigate to this class
+```bash
+cd Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-CWL-Script
 ```
 
 Looking at the directory we type the command:
