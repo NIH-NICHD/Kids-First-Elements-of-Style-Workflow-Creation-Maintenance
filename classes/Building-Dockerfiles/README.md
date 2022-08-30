@@ -319,9 +319,6 @@ Which then prompts us to what we need to do -- important is that what we want to
 ✓ Pushed commits to https://github.com/adeslatt/fastqc-docker.git
 ```
 
-Upon success your repository will be in place and look something like this:
-
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellReposSuccessFromCommandLine.png">
 
 ## Building the `multiqc` Docker image 
 
