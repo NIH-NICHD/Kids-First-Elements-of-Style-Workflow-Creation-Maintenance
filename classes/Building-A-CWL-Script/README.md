@@ -289,6 +289,6 @@ In this last step, we executed the combined workflow which was done quite simply
 * we broke down the workflow into its pieces and parts and understood how to change some of the default parameters.
 * we followed the Elements of Style approach and used the same `Docker` image that was used in our `Nextflow` example.
 
-## Return to the Agenda
+## Return to today's (Day 4) Agenda
 
-[Main Agenda](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#readme)
+[Day 4 Elements of Style](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-the-day-4-workflow-development)
