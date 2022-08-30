@@ -206,7 +206,7 @@ Now we can proceed with our workflow development!
 
 ## Building A Nextflow Workflow
 
-If you have arrived here from the front page and have not built your *`fastqc-docker`* and *`multiqc-docker`* containers, please proceed to the [preamble to building a Nextflow Workflow](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/edit/main/classes/Building-A-Nextflow-Script/README.md )
+If you have arrived here from the front page and have not built your *`fastqc-docker`* and *`multiqc-docker`* containers, please proceed to the [preamble to building a Nextflow Workflow](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/tree/main/classes/Building-A-Nextflow-Script#readme)
 
 **Main outcome:** 
 
