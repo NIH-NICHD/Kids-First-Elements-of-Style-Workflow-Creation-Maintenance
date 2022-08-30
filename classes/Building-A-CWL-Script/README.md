@@ -376,11 +376,11 @@ But lets walk through some of the important steps and differences.
 
 ### Breaking down the CWL Script.
 
-One can see that there are two steps `run_fastqc` and `run_multiqc`.
+One can see that there are two steps `fastqc` and `multiqc`.
 
 The steps are easily stated because the tools are further expanded in each of the separate tool definitions.   
 
-### steps: run_fastqc
+### steps: fastqc
 
 #### run:
 The first statement in this section contains the key word `run:` after this statement is the redirection to the subdirectory and full name of the already tested tool `cwl_tools/fastqc.cwl`.
