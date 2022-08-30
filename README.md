@@ -161,6 +161,16 @@ _Passcode required - mailed to participants.  If not registered, register and re
 <br/><br/>
 ## Agenda for the Day 5: Workflow Execution
 <br/><br/>
+
+[Day 5 Workshop Chat 2022 August 26](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/chats/KidsFirstTrainingEventZoomChat2022August26.txt)
+
+[Day 5 Recording 2022 August 26](https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fus06web.zoom.us%2Frec%2Fshare%2FmqEhV70Hwcy7LulSB2aOqoUU_IFd4PWnOjy-8bFNQd-idm5VJagfcoMcjJePgn8.VOEmzbfG3xY4yb3D&data=05%7C01%7Canne.deslattesmays%40nih.gov%7C0edaf4c2263a4303c27808da878c508b%7C14b77578977342d58507251ca2dc2b06%7C0%7C0%7C637971333990677334%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=VQW0yBJUiL35R3U6pI7%2BAHG55zyNh3w%2BCk3LH4vR44M%3D&reserved=0)
+
+_Passcode required - mailed to participants.  If not registered, register and request passcodes_
+
+[Register here](https://us06web.zoom.us/meeting/register/tZMtcumpqT8qH9M7YI-s8sXerIaMsdit297w)
+
+
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
 | 11.00 - 11.20 | :wave: _Recap of the week so far_ |
