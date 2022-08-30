@@ -1,15 +1,25 @@
 # Building A [Common Workflow Language (CWL) Workflow](https://www.commonwl.org/)
 
-Here we now show how the same containers may be used in a CWL workflow.  If you are starting here and haven't completed the previous lessons, start with the [Preamble to building Workflows](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md#preamble-to-building-workflows-using-containers) before proceeding.
+Here we now show how the same containers may be used in a CWL workflow.  
 
-The next steps assume you have checked out a *`Synchronized`* *`Fork`* of this course, and it will be challenging for you to follow.
+If you are starting here and haven't Forked this repository into your own *`GitHub` Repository, please [Fork this repository](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Running-a-JupyterLab-Notebook/README.md#fork-the-github-repository)
+
+If you have your personal *`GitHub Fork`* of this repository, then be sure to [*`Synchronize`*](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Intro-to-Git-Github/why-git-and-setup.md#synchronizing-your-fork) as changes may have been made.
+
+If you are here with a *`Synchcronized`* *`GitHub Fork`* of this lesson and haven't completed the previous lessons, start with the [Preamble to building Workflows](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md#preamble-to-building-workflows-using-containers) before proceeding.  
+
+The next steps assume you have checked out a *`Synchronized`* *`Fork`* of this course, and it will be challenging for you to follow.  
+
 
 ## Showing the CWL workflow with the same containers
 
-Navigate now to the proper directory for the lesson.
+Assuming you have checked out your own *`GitHub Fork`* of this repository, navigate now to the directory.
+Previously, we suggested you name your top level directory your *`GitHub`* *`username`*.
+
+If you are at the *`root`* directory of the *`shell`*, then change directory into the directory for this class.
 
 ```bash
-cd ../Building-A-CWL-Script
+cd [GitHub Username]/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/edit/main/classes/Building-A-CWL-Script
 ```
 
 Looking at the directory we type the command:
@@ -18,10 +28,23 @@ Looking at the directory we type the command:
 ls -l
 ```
 
+Create and activate your environment, if you have not already done so.
+
+Create the *`eos`* environment.
+```bash
+conda create -n eos -y
+```
+
+Activate the *`eos`* environment.
+```bash
+conda activate eos
+```
+
+
 And now we see:
 
 ```bash
-(eos) ad376@cloudshell:~/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-CWL-Script$ ls -l
+(eos) ad376@cloudshell:~/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-CWL-Script$ ls -l
 total 12
 drwxr-xr-x 2 ad376 ad376 4096 Mar 31 13:28 cwl_tools
 -rw-r--r-- 1 ad376 ad376 1236 Mar 31 13:28 fastqc_multiqc_wf.cwl
@@ -47,6 +70,18 @@ We can inspect that file either by opening it in an editor or by typing at the t
 ```bash
 less cwl_tools/fastqc_cwl
 ```
+
+You can learn what the command *`less`* does by typing in the [Explain shell less](https://explainshell.com/explain?cmd=less).
+
+Which just tells you it is the opposite of *`more`*, so lets type in the [Explain shell more](https://explainshell.com/explain?cmd=more).
+
+It just allows us to inspect the *`contents`* of the file.
+
+To *`exit`* out of the *`less cwl_tools/fastqc_cwl`*, you just press <kbd> **`q`** for *`quit`*.
+
+To make the terminal window a bit larger, press the *`...`* three triple *`.`* and pull the window larger.
+  
+Type *`less cwl_tools/fastqc_cwl`* again, and pressing <kbd> **`space bar`**, we can scroll if the window is small.
 
 Which we see now as:
 
@@ -87,9 +122,93 @@ outputs:
       glob: $(inputs.outdir)
 ```
 
-We see many of the same pieces.   While I will not go into detail, the point is that the `cwl` script is using the same containers as we did in the `nextflow` script.
+To *`exit`* from the *`less`* command press <kbd>'q'
+
+We see many of the same pieces that we saw with a Nextflow script.
+  
+We see *`inputs:`* and we see *`outputs`.  We also see that there is a *`dockerPull:`* command.
+
+```bash
+  dockerPull: 'pgc-images.sbgenomics.com/deslattesmaysa2/fastqc:v1.0'
+ ```
+  
+Which references the identical container that was used with Nextflow.  Before we can pull from the docker image stored on CAVATICA, we have to authenticate.
+
+With the *`inputs:`* we see that we have *`input_reads:`* which asks us to input our reads, there is also a specification for an *`outdir`*.
+  
+While I will not go into much more detail, I will emphasize that the `cwl` script is using the same containers as we did in the `nextflow` script.
 
 We can also inspect the `multiqc.cwl` file in that way or in the editor.
+
+## Authenticating with CAVATICA
+  
+You can authenticate in two ways, you can use a *`credential`* file that the *`CAVATICA`* application recognizes or you can do command line login.
+  
+Both methods use the *`CAVATICA`*'s developer's authentication token.
+  
+
+If you navigate to *`CAVATICA`* to your *`project`*, for me it was the *`elements-of-style`* project.
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAElements-of-StyleDashboard.png">
+  
+Then navigate to the *`CAVATICA`* Docker registry under the *`Developer`* tab.
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICADockerRegistry.png">
+
+Selecting the one of the containers of interest, *`fastqc`*, you can see more detail with the container:
+
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAFastqcDockerDetail.png">
+
+Further, you can see, that *`CAVATICA`* has conveniently placed the necessary commands to facilitate *`login`*, *`push`* and *`pull`*.
+  
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAFastqcDockerCommands.png">
+
+### Authenticate with command line login
+
+Let's copy the *`login`* command and paste it in our *`google shell window`*.
+  
+```bash
+docker login pgc-images.sbgenomics.com -u <USERNAME> -p <YOUR-AUTH-TOKEN>
+``` 
+
+Replace the *`<USERNAME>`* with your *`username`* and the *`<YOUR-AUTH-TOKEN>`* with your *`authentication token`*.
+  
+### Authenticate with a CAVATICA credential file.
+  
+Alternatively you create your credentials in a credential file.
+  
+To do this at the *`root`* directory, you can type the command *`push ~`* to navigate to the root directory.
+
+A fun pair of commands for navigation in a shell are *`pushd`* and *`popd`*.  [Wikipedia actually has a nice page to explain these two commands for faster navigation](https://en.wikipedia.org/wiki/Pushd_and_popd).  Think of pushing your commands on a stack and popping them off to return where you are.
+
+Let's *`pushd`* to our root directory
+  
+```bash
+pushd ~/
+```
+  
+Now make a directory for *`CAVATICA`* to find your credentials
+
+```bash
+mkdir .sevenbridges
+```
+You are creating a subdirectory that is a *`hidden`* directory by typing *`mkdir .sevenbridges`*, which you can now navigate to.
+
+```bash
+cd .sevenbridges
+```
+
+you can use *`touch`* to create your credentials file.
+  
+```bash
+[cavatica]
+api_endpoint = https://cavatica-api.sbgenomics.com/v2
+auth_token = <paste your AUTHENTICATION TOKEN here>
+```
+
+Now to get back to where we started type
+```bash
+popd
+```
 
 ### Installing cwltool
 
@@ -111,21 +230,18 @@ conda install -c conda-forge cwltool -y
 We verify the installation with
 
 ```bash
-(eos) ad376@cloudshell:~/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-CWL-Script$ which cwltool
-/home/ad376/miniconda3/envs/eos/bin/cwltool
+which cwltool
 ```
 
+Should tell us it is in the *`eos`* environment *`binary`* or *`executable`* subdirectory, *`bin`*, in my case that is here *`/home/adeslat/miniconda3/envs/eos/bin/cwltool`*
+  
 ### Executing with cwltool
 
 Before we can execute, we need to let the tool know where the files are -- they are in fact on Zenodo 
 
 ```bash
-wget https://zenodo.org/record/6394912/files/test.20k_reads_1.fastq.gz
-```
-and
-
-```bash
-wget https://zenodo.org/record/6394912/files/test.20k_reads_2.fastq.gz
+wget https://zenodo.org/record/7025773/files/test.20k_reads_1.fastq.gz
+wget https://zenodo.org/record/7025773/files/test.20k_reads_2.fastq.gz
 ```
 
 And now we can execute, we do not need to tell the tool where the containers are because they are specified in the script.
@@ -137,8 +253,39 @@ First we test out `fastqc`
 cwltool cwl_tools/fastqc.cwl --input_reads test.20k_reads_1.fastq.gz --input_reads test.20k_reads_2.fastq.gz
 ```
 
-And then we test out `multiqc` which uses the output of `fastqc` as its input.
+As we watch, what is happening is the first thing is the *`docker image`* is pulled locally.
 
+If successful, the final line will read
+
+*`INFO Final process status is success`*
+
+We test out `multiqc` which uses the output of `fastqc` as its input.
+  
+In this way, we are following the *`Elements of Style`* rules of testing in parts, before testing both together.  We are testing the two different *`cwltool`* scripts independently.
+
+Let's proceed.  Note that for executing the *`multiqc`* script, we are not providing as input the *`two fastq.gz`* files as we did to the *`fastqc.cwl`* script, but rather the *`output`* of this previous step is the input to *`multiqc`*, so we provide the *`results`*.
+  
+Before proceeding, lets inspect the *`results`* subdirectory.
+  
+Typing the *`command line`* command *`ls -l`* which lists in long format as we learned from [*`Explain Shell`*](https://explainshell.com/explain?cmd=ls+-l)
+
+```bash
+ls -l
+```
+  
+We see that yes, the command was successful and we have the same output we saw from the output of the *`Nextflow`* script.
+
+```
+-rw-r--r-- 1 adeslat adeslat 236403 Aug 30 16:46 test.20k_reads_1_fastqc.html
+-rw-r--r-- 1 adeslat adeslat 243006 Aug 30 16:46 test.20k_reads_1_fastqc.zip
+-rw-r--r-- 1 adeslat adeslat 246410 Aug 30 16:46 test.20k_reads_2_fastqc.html
+-rw-r--r-- 1 adeslat adeslat 263730 Aug 30 16:46 test.20k_reads_2_fastqc.zip
+```
+
+You can look at the *`html`* formatted file in the *`Google shell editor window`* by *`right-clicking`* and selecting <kbd>*`open with`* <kbd>*`preview`*
+
+Now lets run *`multiqc`*
+  
 ```bash
 cwltool cwl_tools/multiqc.cwl --fastqc_results results
 ```
@@ -158,6 +305,8 @@ These steps help us to test the processes separately before putting them togethe
 Below is the full `cwl` script for a workflow with the two steps `fastqc` followed by `multiqc`.
 
 The `cwl` file is in the directory and is called `fastqc_multiqc_wf.cwl`.   Naming it with the `_wf` just helps us as humans to see that it is a `workflow`.
+  
+Inspect the contents of this file, either in the editor or with the *`less`* command.
 
 ```bash
 cwlVersion: v1.0
