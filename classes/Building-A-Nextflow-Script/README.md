@@ -15,7 +15,7 @@ We will:
 
 ## Login to [Google shell cloud](https://shell.cloud.google.com/)
 
-Please proceed to login to your google shell.
+Please proceed to login to your google shell.  If you did not work with us yesterday, please return to the [previous lesson](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-Dockerfiles/README.md#building-dockerfiles) to build your *`fastqc-docker`* and *`multiqc-docker`* images.
 
 When it comes up, type:
 
