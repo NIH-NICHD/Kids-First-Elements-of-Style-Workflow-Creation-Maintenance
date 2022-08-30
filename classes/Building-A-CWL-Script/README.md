@@ -30,12 +30,6 @@ Now Navigate to this class
 cd Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-CWL-Script
 ```
 
-Looking at the directory we type the command:
-
-```bash
-ls -l
-```
-
 Create and activate your environment, if you have not already done so.
 
 Create the *`eos`* environment.
@@ -48,15 +42,19 @@ Activate the *`eos`* environment.
 conda activate eos
 ```
 
-
-And now we see:
+Looking at the directory we type the command:
 
 ```bash
-(eos) ad376@cloudshell:~/adeslatt/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-CWL-Script$ ls -l
-total 12
-drwxr-xr-x 2 ad376 ad376 4096 Mar 31 13:28 cwl_tools
--rw-r--r-- 1 ad376 ad376 1236 Mar 31 13:28 fastqc_multiqc_wf.cwl
--rw-r--r-- 1 ad376 ad376 3808 Mar 31 13:28 README.md
+ls -l
+```
+
+And now we see something like this
+
+```bash
+total 28
+drwxr-xr-x 2 adeslat adeslat  4096 Aug 30 18:57 cwl_tools
+-rw-r--r-- 1 adeslat adeslat  1234 Aug 30 18:57 fastqc_multiqc_wf.cwl
+-rw-r--r-- 1 adeslat adeslat 18656 Aug 30 18:57 README.md
 ```
 
 By convention, the bioinformaticians at `Childrens Hospital of Philadelphia` put their tools, their pieces for a workflow in a subdirectory they name `cwl_tools`.   This is a good convention.
