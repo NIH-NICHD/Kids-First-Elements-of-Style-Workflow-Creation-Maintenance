@@ -122,6 +122,7 @@ _Passcode required - mailed to participants.  If not registered, register and re
 - [Anaconda Packages Search](https://anaconda.org/anaconda/repo)
 - [Anaconda Gallery](https://anaconda.org/gallery)
 - [Anaconda Open Source](https://www.anaconda.com/open-source)
+- [Anaconda Open Data Science](https://anaconda.org/ijstokes/open-data-science-with-anaconda/notebook) 
 - [Who is Anaconda](https://www.anaconda.com/about-us)
 - [Conda](https://docs.conda.io/en/latest/)
 - [Docker File Documentation](https://docs.docker.com/engine/reference/builder/)
