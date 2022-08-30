@@ -2,6 +2,8 @@
 
 Here we now show how the same containers may be used in a CWL workflow.  If you are starting here and haven't completed the previous lessons, start with the [Preamble to building Workflows](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md#preamble-to-building-workflows-using-containers) before proceeding.
 
+The next steps assume you have checked out a *`Synchronized`* *`Fork`* of this course, and it will be challenging for you to follow.
+
 ## Showing the CWL workflow with the same containers
 
 Navigate now to the proper directory for the lesson.
