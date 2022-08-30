@@ -74,10 +74,10 @@ By getting into the habit of daily saving your work on GitHub, and saving those 
 
 Navigate to *`Files`* and select *`Add Files`*
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAddFiles">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAddFiles.png">
 
 Select *`FTP/HTTP`*
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAddFilesHttpFtp">
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAddFilesHttpFtp.png">
 
 In your browser, navigate to the Zenodo site
 ```
@@ -141,14 +141,6 @@ You will see that machines are initializing
 App Completion
 <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAAppCompletion.png">
 
-
-## Using the application
-
-Data are required and the same files that were used in the Nextflow workflow example were copied up onto the CAVATICA workspace.
-
-<p>
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAFastQCAnalysisRun.gif">
-</p>
 
 Then the analysis was run and we can view the resulting files in the same way that you can view the results of the execution example ran on the Google Shell Cloud -- but we are in a workspace now where we can have a large number of machines running in parallel.   There are limits of course, and depending upon the analysis these limits can be discussed -- because the important things is to get the Science done properly and efficiently.
 
