@@ -1,0 +1,228 @@
+11:01:33 From Robin Dowell to Everyone:
+	Overcast in Colorado this morning!
+11:01:35 From David Higgins (Kids First DRC) to Everyone:
+	Good morning everyone! Welcome to Day 5!
+11:01:39 From Diana Ma to Everyone:
+	Sunny and humid in MD!
+11:02:34 From Soumya Rao to Everyone:
+	I got the error too
+11:03:00 From Soumya Rao to Everyone:
+	Tool definition failed validation:
+11:05:38 From Mary Allen to Everyone:
+	you should track the numbers 🙂
+11:05:56 From Mary Allen to Everyone:
+	so we can get statistics on them
+11:07:19 From David Higgins (Kids First DRC) to Everyone:
+	Reminder, our course materials are available here: https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance
+11:09:36 From Diana Ma to Everyone:
+	If this helps - I got an error when I ran the scripts and fixed it myself (without the instructions). I just checked the instructions. I think the error that I had encountered was that the gz files had to be moved into the directory above (mv test* ../) and the program also needs to be run in that directory (Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/classes/Building-A-CWL-Script)
+11:13:26 From David Higgins (Kids First DRC) to Everyone:
+	Our directions for today are here: https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/WorkingWithAppsOnCAVATICA/WorkingWithAppsOnCAVATICA.md
+11:14:22 From Robin Dowell to Everyone:
+	Thanks Diana for the insight -- I'll double check those and try the CWL again!
+11:14:50 From Anne Deslattes Mays to Everyone:
+	https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance
+11:15:06 From David Higgins (Kids First DRC) to Everyone:
+	Reminder for those just coming in, please fill out the survey at the end of the course when you exit the Zoom call. Your feedback is very important to us and helps us think about ways to continue to improve the course for future offerings.
+11:18:24 From David Higgins (Kids First DRC) to Everyone:
+	Details about CAVATICA's visual editor: https://docs.cavatica.org/reference/about-the-editor
+11:19:50 From Anne Deslattes Mays to Everyone:
+	https://doi.org/10.5281/zenodo.7025300
+11:23:40 From Surya Saha to Everyone:
+	More information about Rabix Composer to edit workflows http://docs.rabix.io/quickstart-for-editing-platform-workflows
+11:30:21 From Soumya Rao to Everyone:
+	Can we have an estimate of the time left, cost, processing power needed when we run an app?
+11:32:01 From Hendrick Lim to Everyone:
+	just curious, instead of using the public apps, is there any way to build the docker image of fastqc we have put in CAVATICA registry yesterday and make it work like as shown on today ?
+11:32:35 From Anthony Corbett to Everyone:
+	job.err.log says:  2022-08-26T15:30:31.661322607Z Failed to process /sbgenomics/Projects/66cc4bf3-b3d0-4ad9-9b44-de3179763aea/test.20k_reads_1.fastq.gz
+	2022-08-26T15:30:31.661683230Z java.util.zip.ZipException: Not in GZIP format
+11:35:16 From Surya Saha to Everyone:
+	Anthony, Your imported file might be corrupted. This can happen during upload
+11:35:26 From Soumya Rao to Everyone:
+	Got an email from seven bridges that task completed!
+11:35:31 From Anthony Corbett to Everyone:
+	When I download it form zenodo and do a unix file command I get: $ file test.20k_reads_1.fastq.gz
+	test.20k_reads_1.fastq.gz: HTML document text, ASCII text, with very long lines
+11:35:40 From Anthony Corbett to Everyone:
+	says it's an ascii file
+11:35:51 From Anthony Corbett to Everyone:
+	I will try again
+11:35:52 From Anthony Corbett to Everyone:
+	thanks
+11:36:40 From Pierrette Lo to Everyone:
+	sorry if I missed this - where do you find the results of the analysis?
+11:41:38 From Soumya Rao to Everyone:
+	Troubleshooting is important to learn! Thank you all.
+11:42:14 From Anthony Corbett to Everyone:
+	(base) jovyan@382c8f497eac:/sbgenomics/projects/corbettam/corbettam/kids-first-elements-of-style$ zcat test.20k_reads_1.fastq.gz | head -n 4
+	
+	gzip: test.20k_reads_1.fastq.gz: not in gzip format
+11:42:21 From Anthony Corbett to Everyone:
+	That's from the terminal in Data Studio
+11:42:35 From Anthony Corbett to Everyone:
+	after downloading the zenodo fasta.gz files again
+11:43:18 From Diana Ma to Everyone:
+	How can I upgrade my fastQC app?  I am trying to download and it is telling me that I already have a copy of the app in my project (no option to upgrade)
+11:45:02 From Soumya Rao to Everyone:
+	We got the output on google shell yesterday.
+11:47:20 From Soumya Rao to Everyone:
+	Can I upload a file from my google bucket?
+11:48:12 From David Higgins (Kids First DRC) to Everyone:
+	I'm trying to run FastQC on some Kids First fastqs…
+11:50:06 From Anthony Corbett to Everyone:
+	These are in the repo Build-A-CWL-Script/README.md:
+11:50:07 From Anthony Corbett to Everyone:
+	wget https://zenodo.org/record/6394912/files/test.20k_reads_1.fastq.gz
+11:50:20 From Anthony Corbett to Everyone:
+	that record # is different than the one we are trying before
+11:51:58 From David Higgins (Kids First DRC) to Everyone:
+	I think "Revision: 0
+11:51:58 From Anthony Corbett to Everyone:
+	Use the fastq.gz files from here: https://zenodo.org/record/6394912/#.YwjsEvHMKdY
+11:52:57 From David Higgins (Kids First DRC) to Everyone:
+	I think “Revision: 0" refers to changes you might have made to the app after you copied it to your project. So you just copied the version (probably version 9?) but haven't made any changes to it yourself, so it's "version 9, revision 0”
+11:53:32 From Diana Ma to Everyone:
+	Ah... ok - let me try rerunning with the clean data and see if I get an output
+11:54:19 From David Higgins (Kids First DRC) to Everyone:
+	Maybe we should hash the test files in the future. 😅
+11:58:03 From Anne Deslattes Mays to Everyone:
+	https://doi.org/10.5281/zenodo.7025773
+12:00:52 From David Higgins (Kids First DRC) to Everyone:
+	When I ran FastQC on some fastqs pushed from the Kids First portal, it ran and I see the output. These are controlled access, so I can't share them with the class, but I think its another point of evidence that the input files are the problem.
+12:04:51 From Anthony Corbett to Everyone:
+	I got my rev 0 app to run successfully with the new files
+12:05:11 From Melissa Richard to Everyone:
+	My job completed with the updated fastqc from zenodo
+12:05:25 From Melissa Richard to Everyone:
+	yes, theres htmls
+12:05:43 From Melissa Richard to Everyone:
+	sure
+12:09:38 From Matthew Galbraith to Everyone:
+	Should cite FASTQC version
+12:09:55 From David Higgins (Kids First DRC) to Everyone:
+	Agree with Matthew
+12:09:55 From Surya Saha to Everyone:
+	How to publish your app https://docs.sevenbridges.com/docs/publish-your-app
+12:10:38 From Diana Ma to Everyone:
+	YAY!  I got a result :)
+12:10:50 From Diana Ma to Everyone:
+	not sharing since it looks like everyone else's :)
+12:12:50 From Surya Saha to Everyone:
+	Amazon https://docs.sevenbridges.com/docs/storage-costs#sample-calculation-amazon-web-services
+12:13:35 From Matthew Galbraith to Everyone:
+	instance and storage are separate costs
+12:14:26 From Surya Saha to Everyone:
+	Compute costs are separate https://docs.sevenbridges.com/docs/compute-costs
+12:14:47 From Mary Allen to Everyone:
+	The files on zenado are still coming down as html for me.
+12:14:47 From Mary Allen to Everyone:
+	https://zenodo.org/record/7025300#.YwjxOcHMJMd
+12:14:49 From David Higgins (Kids First DRC) to Everyone:
+	https://github.com/kids-first/kf-cloud-credits
+12:15:01 From Mary Allen to Everyone:
+	anyone get them from zenado? or did you get them from github?
+12:15:05 From Anne Deslattes Mays to Everyone:
+	https://github.com/kids-first/kf-cloud-credits/blob/main/applying.md
+12:15:16 From Anne Deslattes Mays to Everyone:
+	https://tinyurl.com/KidsFirstOfficeHours
+12:16:21 From Surya Saha to Everyone:
+	All our docs are online here https://docs.sevenbridges.com/
+12:17:32 From Soumya Rao to Everyone:
+	I was told the std starting cost for a billing group is $1000/month.
+12:17:49 From Diana Ma to Everyone:
+	that is alot!
+12:18:04 From Soumya Rao to Everyone:
+	Yes, so discouraged me from following up
+12:18:12 From Soumya Rao to Everyone:
+	Email from sven bridges
+12:19:00 From David Higgins (Kids First DRC) to Everyone:
+	Also this link for more info to sign up: https://commonfund.nih.gov/sites/default/files/Cloud-Credits-Pilot-%233-Announcement-final-508.pdf
+12:19:01 From Soumya Rao to Everyone:
+	I will follow up again but I was told it's the limit per month to start with and can go up if I use more
+12:19:24 From Anne Deslattes Mays to Everyone:
+	https://bit.ly/3ctLvU9.
+12:20:31 From Soumya Rao to Everyone:
+	I already used up all my credits, and my PI couldn't use his since we are collaborators
+12:20:32 From Anne Deslattes Mays to Everyone:
+	email support@sevenbridges.com
+12:20:44 From David Higgins (Kids First DRC) to Everyone:
+	Soumya, that's to set up your own billing group paid for by your group. What Anne is sharing is an opportunity for NIH to set up a billing group for you to use - similar to our billing group for the course.
+12:20:53 From Soumya Rao to Everyone:
+	Will follow up again!
+12:21:53 From Diana Ma to Everyone:
+	there is option to download
+12:23:54 From Anne Deslattes Mays to Everyone:
+	output from runs are viewable from /sbgenomics/project-files within Data Studio interactive window
+12:26:12 From Anthony Corbett to Everyone:
+	correct and it is a snapshot when you start the VM
+12:26:52 From Anthony Corbett to Everyone:
+	It would be nice if the Data Studio had a sbgenomics CLI that had the API configured to talk with the project REST resources
+12:27:22 From Mary Allen to Everyone:
+	Awesome suggestion 🙂
+12:28:25 From Anthony Corbett to Everyone:
+	So if I wanted to interactively filter a GFF file and then re-use it in an app
+12:29:08 From Anthony Corbett to Everyone:
+	I would have to download from jupyterHub interface locally and upload into project files
+12:29:47 From Anthony Corbett to Everyone:
+	in Data Studio’s jupyter hub interface you can download files
+12:30:25 From Matthew Galbraith to Everyone:
+	Keen to hear about Github actions if time allows
+12:31:48 From David Higgins (Kids First DRC) to Everyone:
+	Reminder again for folks, please fill out the survey as you exit!
+12:32:34 From Surya Saha to Everyone:
+	I will hop off now if there are no new Cavatica questions. I will report back on the questions asked. Great to see the energy in this class!!
+12:32:45 From Diana Ma to Everyone:
+	thank you Surya!
+12:32:48 From David Higgins (Kids First DRC) to Everyone:
+	Thanks Surya!
+12:33:14 From Surya Saha to Everyone:
+	Please reach out at surya.saha@sevenbridges.com if you have more questions!
+12:48:42 From David Higgins (Kids First DRC) to Everyone:
+	Register for the Kids First Fall Webinar: https://us06web.zoom.us/webinar/register/WN_wdOJaWyWS2O_k2fyeXbSUg
+12:49:01 From Anthony Corbett to Everyone:
+	Good docker image metadata labels specifications from biocontainers https://github.com/BioContainers/specs/blob/master/container-specs.md
+12:49:03 From David Higgins (Kids First DRC) to Everyone:
+	Attend our ancillary event at ASHG: https://www.eventbrite.com/e/accelerating-pediatric-genomics-research-through-collaboration-at-ashg-2022-tickets-397358328457
+12:49:17 From David Higgins (Kids First DRC) to Everyone:
+	Cloud Credit announcement  https://bit.ly/3ctLvU9
+12:49:30 From Diana Ma to Everyone:
+	Thank you!!!
+12:49:32 From Robin Dowell to Everyone:
+	Thanks Anne this was great!!
+12:49:35 From Anthony Corbett to Everyone:
+	Thank you!
+12:49:38 From Matthew Galbraith to Everyone:
+	Thanks!
+12:49:39 From Robin Dowell to Everyone:
+	Thanks David for the support!
+12:49:39 From Natalie Wang to Everyone:
+	Thank you!!
+12:49:40 From Qianqian Zhu to Everyone:
+	Thank you!
+12:49:41 From Li Wang to Everyone:
+	tyvm
+12:49:43 From William Schleif to Everyone:
+	Thank you Anne and David!
+12:49:44 From Prithbey Dey to Everyone:
+	thanks your anne and the team
+12:49:44 From Melissa Richard to Everyone:
+	Thank you!!
+12:49:44 From Edgar Munoz to Everyone:
+	Thank you !!
+12:49:45 From Elizabeth Clerkin to Everyone:
+	Thank you!
+12:49:48 From Yasaman Soofi to Everyone:
+	Thank you very much for this awesome course.
+12:49:54 From Ken Wilkins to Everyone:
+	TY!
+12:50:00 From Adolfo Aguayo Gómez to Everyone:
+	Thank you!!
+12:50:01 From Md Asad Rahman to Everyone:
+	Thank you!
+12:50:08 From Jennifer Krupp to Everyone:
+	Thank you
+12:50:19 From Anne Deslattes Mays to Everyone:
+	anne.deslattesmays@nih.gov adeslat@scitechcon.org
+12:50:36 From Soumya Rao to Everyone:
+	Thanks a lot for making me more confident about using these resources!

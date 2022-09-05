@@ -32,7 +32,7 @@ steps:
   multiqc:
     run: cwl_tools/multiqc.cwl
     in:
-      fastqc_results: run_fastqc/fastqc_results
+      fastqc_results: [fastqc/fastqc_results]
       flat: flat
       filename: filename
       cores: cores

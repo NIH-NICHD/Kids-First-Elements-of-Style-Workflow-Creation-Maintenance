@@ -1,9 +1,9 @@
-# A. Why Git and GitHub? 
+# Why Git and GitHub? 
 
 Motivation and set up in the JupyterLab workspace
 
 
-## 1. Why Git? 
+## Why Git? 
 
 <img src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.png"  width="100">
 
@@ -14,7 +14,7 @@ Git is a [technology or a system used for version control](https://git-scm.com/)
 - Allows us to revisit older versions of our code
 - Allows us to keep different versions of our code
 
-## 2. Why GitHub?
+## Why GitHub?
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGO2P0vFlvhsDbmltsjjIWZMi1dQCduIkuwA&usqp=CAU"  width="50"> 
 
@@ -25,20 +25,19 @@ Git **_Hub_** is a [_"code hosting platform for version control and collaboratio
 - Serves as a code vault for making our reasearch code findable and our methods transparent
 
 
-# B. Set up in the terminal
+## Setting up in the terminal
 
 
-## i) Using the `nano` file editor 
+## Using the `nano` file editor 
 
 Before we start working with Git in the command line, we will learn one more helpful skill. How to use a code editor. A code editors allows us to edit files in an environment without a graphical user interface. For us, it will be needed in some Git related tasks, so we want to be prepared.
 
 <!-- #region -->
-Edit a file using nano in only 5 steps:
+Edit a file using nano in only 4 steps:
 
 ### 1. Type **`nano hello.txt`** 
 
 This will create a new file named `hello.txt`. If the file already exists, it will open the file.
-
 
 ### 2. Write inside the open file named `hello.txt` 
 As you typically would type in any Document editor eg Google Docs. You can type for example, `Hello Git!`
@@ -50,13 +49,14 @@ As you typically would type in any Document editor eg Google Docs. You can type 
 This will declare your willingness to save the file. Click <kbd> **`ENTER`**  </kbd> to verify that you want to save the file.
 
 ### 4. Close the file and exit from nano with the the shortcut:
+
 <kbd> **`CTRL`**  </kbd> `+`  <kbd> **`X`** </kbd>
 
 Awesome, your file has just been saved! You can inspect using the `head` command, eg `head hello.txt`
 
 We will probably need soon `nano` in one of our Git tasks.
 
-### 5. Creating an environment to install packages
+## Creating an environment to install packages
 
 Not exactly required as the base environment within CAVATICA JupyterLab is already there.
 But as a habit I begin with creating an environment so that I can keep track of what I add.
@@ -77,15 +77,15 @@ Then I install two additional things that I use on a regular basis, `GitHub CLI`
 conda install -c conda-forge gh -y
 ```
 
+### (Optionally install emacs) 
+
 ```bash
 conda install -c conda-forge emacs -y
 ```
 
 More on [*`Anaconda`*](https://anaconda.org/anaconda/repo) and packages later.
 
-## 8 To Generate your GitHub Personal Authentication Token
-
-To authorize this terminal to communicate with your GitHub account and repositories, you need to generate a GitHub Personal Authentication Token.
+### Generating A GitHub Authentication Token
 
 Step 1 - Navigate to Settings, located just under your profile in the upper right hand corner:
 
@@ -109,53 +109,45 @@ Step 5 - Select all of the options and select `Generate token`
 
 Step 6 - Copy the token because as the note mentions - it will not be available again - but you can regenerate tokens now - so don't worry.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken6.png" width=650>
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubGeneratePersonalAccessToken6.png">
 
-## 9 Authentication
+### Now we can authenticate with GitHub
 
-Now you can authenticate using your personal access tokens from GitHub
+Once we have our token, we can now authenticate.
 
-```bash
-gh auth login
-```
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICAJupyterLabGHAuthLoginWithToken.png">
 
-Will take you through a series of prompts -- this gif shows you the steps.
-
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubAuthLoginFromCommandLine.gif">
-
-## 10 Configuring our GitHub user information
+## Configuring our GitHub user information
 
 To be able to use Git and GitHub from the command line we need to configure the information related to our GitHub user. Let's follow the commands below to set in the workspace the required information.
 
-<!-- #region -->
-### a. Set user _**name**_
+###  Set user _**name**_
 
-Replace ` <my github user name>` with your actual GitHub email.
+Replace *`<my github user name>`* with your actual GitHub email.
 
+```bash
+git config --global user.name <my github user name>
+```
 
-`git config --global user.name <my github user name>`
-<!-- #endregion -->
+### Set user _**email**_
 
-<!-- #region -->
-### b. Set user _**email**_
+Replace *`<my email associated with my github user name>`* with your actual GitHub email.
 
-Replace `<my email associated with my github user name>` with your actual GitHub email.
+```bash
+git config --global user.email <my email associated with my github user name>
+```
 
+### (Optional) Set preferred file editor eg _**nano**_ or _**emacs**_
 
-`git config --global user.email <my email associated with my github user name>`
+```bash
+git config --global core.editor nano
+```
 
+Or if you like *`emacs`*, or *`vim`*, change it to your desired *`editor`*.
 
-<!-- #endregion -->
-
-### c. Set preferred file editor eg _**nano**_ or _**emacs**_
-
-
-`git config --global core.editor nano`
-
-If you are like me then 
-
-`git config --global core.editor emacs`
-
+```bash
+git config --global core.editor emacs
+```
 
 ## Keeping your Repository Fork in Sync
 
@@ -167,20 +159,21 @@ If you did not Fork the repository please go ahead and [Fork the https://github.
 
 Navigate to your repository within a new *`Chrome browser tab`* on GitHub - https://github/ [*`insert your GitHub user name here`*]/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubKeepingForkInSyncWithMainRepository.png" width=650>
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubKeepingForkInSyncWithMainRepository.png">
 
 In my case, you will see I am 11 commits behind the NIH-NICHD:main.
 
-So I navigate to the button below code and press the <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubBranchSyncForkButton.png" width=50>.
+So I navigate to the button below code and press the <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubBranchSyncForkButton.png" width=100>
 
 I then get presented the screen:
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubUpdatingBranchWithMainRepository.png" width=650>
 
-And I press the  <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubBranchUpdateBranchButton.png" width=50>.
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubUpdatingBranchWithMainRepository.png">
+
+And I press the  <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubBranchUpdateBranchButton.png" width=100>.
 
 And we have synchronize success.
 
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubBranchUpdateSuccess.png" width=650>
+<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubBranchUpdateSuccess.png">
 
 ## Cloning your Fork of the repository and executing Git 
 
@@ -294,5 +287,5 @@ Which no longer works this way -- and we need to authenticate with our authentic
 
 ## Return to Day 2
 
-[Return to Agenda](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-the-day-2-code-versioning)
+[Return to Day 2](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance#agenda-for-the-day-2-code-versioning)
 

@@ -6,7 +6,9 @@
 
 # Building Dockerfiles
 
-We have now learned that we can control our environment with [conda](https://conda.io).   Now we will show how to build an Docker image [Docker](https://www.docker.com/) from a Dockerfile and we will use this in our workflow in three ways:  in a Nextflow workflow script, in a common workflow script and as an Application within CAVATICA.
+We have now learned that we can control our environment with [conda](https://conda.io).   If you haven't done that lesson, it would be best for you to go through that lesson before beginning with this step.  The [Conda Lesson](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Creating-A-Conda-Environment/README.md#creating-a-conda-environment) will show you how to create a clean environment.
+
+Now we will show how to build an Docker image [Docker](https://www.docker.com/) from a Dockerfile and we will use this in our workflow in three ways:  in a Nextflow workflow script, in a common workflow script and as an Application within CAVATICA.
 
 ## What is a Docker image and a Dockerfile
 
@@ -317,9 +319,6 @@ Which then prompts us to what we need to do -- important is that what we want to
 ✓ Pushed commits to https://github.com/adeslatt/fastqc-docker.git
 ```
 
-Upon success your repository will be in place and look something like this:
-
-<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GoogleShellReposSuccessFromCommandLine.png">
 
 ## Building the `multiqc` Docker image 
 

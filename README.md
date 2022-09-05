@@ -74,7 +74,7 @@ The Jupyter Text - do you like working in [R Studio](https://www.rstudio.com/) w
 ## Agenda for the Day 2: Code Versioning
 <br/><br/>
 
-[Day 2 Workshop Chat](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/chats/KidsFirstTrainingEventZoomChat2022August23.txt)
+[Day 2 Workshop Chat 2022 August 23](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/chats/KidsFirstTrainingEventZoomChat2022August23.txt)
 
 [Day 2 Workshop Recording 2022 August 23](https://us06web.zoom.us/rec/share/NXBlLMhkYyqouE4lyh8l87lM4Agk66I_p0STV2Rgfl2xtTcwC3k5ILzDcpAqlsO_.11GfKPWWc4MefivC?startTime=1661265008000)
 _Passcode required - mailed to participants.  If not registered, register and request passcodes_
@@ -94,12 +94,21 @@ _Passcode required - mailed to participants.  If not registered, register and re
 | 12.50 - 13:00 | :raised_hand: *Wrap up and overview of next days topics* |
 
 ## Additional resources:
-- GitHub Hello World: https://guides.github.com/activities/hello-world/
-- Happy Git and GitHub for the useR by Jenny Bryan: https://happygitwithr.com/
+- [GitHub Hello World](https://guides.github.com/activities/hello-world/)
+- [Happy Git and GitHub for the useR by Jenny Bryan](https://happygitwithr.com/)
+- [GitHub Documentation](https://docs.github.com/en)
 
 <br/><br/>
 ## Agenda for the Day 3: Containerization with Environment Control
 <br/><br/>
+
+[Day 3 Recording 2022 August 24](https://us06web.zoom.us/rec/share/4kasJukayUm8NzeLaRBBQV5OsCsd8k-ThG7z3qbepGVD4QWrVnhRxKFFSrlPyZwD.SFdng4YiOY8sC7OY?startTime=1661352401000)
+
+_Passcode required - mailed to participants.  If not registered, register and request passcodes_
+
+[Register here](https://us06web.zoom.us/meeting/register/tZMtcumpqT8qH9M7YI-s8sXerIaMsdit297w)
+
+
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
 | 11.00 - 11.10 | :wave: _Workspace set up and agenda for the day_  |
@@ -108,29 +117,68 @@ _Passcode required - mailed to participants.  If not registered, register and re
 | 12:10 - 12:50 | [Building Dockerfiles](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-Dockerfiles/README.md)<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/Moby-Logo.png" width="100" align="right">|
 | 12.50 - 13:00 | :raised_hand: *Wrap up and overview of next days topics* |
 
+## Additional Resources
+
+- [Anaconda Packages Search](https://anaconda.org/anaconda/repo)
+- [Anaconda Gallery](https://anaconda.org/gallery)
+- [Anaconda Open Source](https://www.anaconda.com/open-source)
+- [Anaconda Open Data Science](https://anaconda.org/ijstokes/open-data-science-with-anaconda/notebook) 
+- [Who is Anaconda](https://www.anaconda.com/about-us)
+- [Conda](https://docs.conda.io/en/latest/)
+- [Docker File Documentation](https://docs.docker.com/engine/reference/builder/)
+
+
 <br/><br/>
 ## Agenda for the Day 4: Workflow Development
 <br/><br/>
+
+[Day 4 Recording 2022 August 25](https://us06web.zoom.us/rec/share/kI2NGaMQA8n4v5yqR5lCzHAXiIKrgSyVcEoBDnx8kKKLAzcd4x7b0mQxZkce3u2K.DsLRgGiy4xlEDlKA?startTime=1661438651000)
+
+_Passcode required - mailed to participants.  If not registered, register and request passcodes_
+
+[Register here](https://us06web.zoom.us/meeting/register/tZMtcumpqT8qH9M7YI-s8sXerIaMsdit297w)
+
+
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
 | 11.00 - 11.30 | :wave: [_Welcome and Preamble to Building our Workflow_](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md#preamble-to-building-a-workflows-using-containers)   |
 | 11:10 - 12.00 | [Building A Nextflow Script](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-Nextflow-Script/README.md#contents)<img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width="150" align="right"> 
 | 12.00 - 12.10 |:coffee: Short break |
-| 12:10 - 12:40 | [Building A CWL Script](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/Building-A-CWL-Script)<img src="https://github.com/common-workflow-language/logo/blob/main/CWL-Logo-HD.png" width="150" align="right">|
+| 12:10 - 12:40 | [Building A CWL Script](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/tree/main/classes/Building-A-CWL-Script#building-a-common-workflow-language-cwl-workflow)<img src="https://github.com/common-workflow-language/logo/blob/main/CWL-Logo-HD.png" width="150" align="right">|
 | 12.40 - 11.50 | [Shared elements across workflow languages](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/NextflowSharedDataElements/NextflowCommonWorkFlowLanguageSharedStructureSharedElements.md)<img src="https://github.com/common-workflow-language/logo/blob/main/CWL-Logo-HD.png" width="150"><img src="https://github.com/nextflow-io/trademark/blob/master/nextflow2014_no-bg.png" width=150 align="right">|
 | 12.50 - 13:00 | :raised_hand: *Wrap up and overview of next days topics* |
+
+## Additional Resources
+
+- [Nextflow](https://www.nextflow.io/)
+- [Nextflow Basic pipeline](https://www.nextflow.io/example1.html) with detail description of the file 
+- [Nextflow Mixing Programming Languages In The Workflow](https://www.nextflow.io/example2.html)
+- [Nextflow Blast Example](https://www.nextflow.io/example3.html)
+- [Nextflow Community Based Pipelines](https://nf-co.re/pipelines)
+- [Common Workflow Language](https://www.commonwl.org/)
+- [Common Workflow Langage How-to](https://tobyhodges.github.io/user_guide/aio/)
 
 
 <br/><br/>
 ## Agenda for the Day 5: Workflow Execution
 <br/><br/>
+
+[Day 5 Workshop Chat 2022 August 26](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/chats/KidsFirstTrainingEventZoomChat2022August26.txt)
+
+[Day 5 Recording 2022 August 26](https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fus06web.zoom.us%2Frec%2Fshare%2FmqEhV70Hwcy7LulSB2aOqoUU_IFd4PWnOjy-8bFNQd-idm5VJagfcoMcjJePgn8.VOEmzbfG3xY4yb3D&data=05%7C01%7Canne.deslattesmays%40nih.gov%7C0edaf4c2263a4303c27808da878c508b%7C14b77578977342d58507251ca2dc2b06%7C0%7C0%7C637971333990677334%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=VQW0yBJUiL35R3U6pI7%2BAHG55zyNh3w%2BCk3LH4vR44M%3D&reserved=0)
+
+_Passcode required - mailed to participants.  If not registered, register and request passcodes_
+
+[Register here](https://us06web.zoom.us/meeting/register/tZMtcumpqT8qH9M7YI-s8sXerIaMsdit297w)
+
+
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
-| 11.00 - 11.10 | :wave: _Workspace set up and agenda for the day_ |
-| 11.10 - 12.00 | [Working with Apps on the CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/WorkingWithAppsOnCAVATICA/WorkingWithAppsOnCAVATICA.md)<img src="https://github.com/kids-first/kf-cloud-credits/blob/main/assets/kfdrc-logo-sm.png"  width="200" align="right"> |
+| 11.00 - 11.20 | :wave: _Recap of the week so far_ |
+| 11.20 - 12.00 | [Working with Apps on the CAVATICA](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/WorkingWithAppsOnCAVATICA/WorkingWithAppsOnCAVATICA.md#working-with-apps-on-cavatica)<img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICALogo.png#readme"  width="200" align="right"> |
 | 12.00 - 12.10 |:coffee: Short break |
 | 12:30 - 12.45 | [GitHub Actions to build, test and deposit container images](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/classes/GitHubActions/GitHubActionsForMaintenanceTesting.md) <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/Octocat.png" width="100" align="right"> |
-| 12.45 - 13:00 |  :wave: *End of Course Survey and Wrap up* |
+| 12.45 - 13:00 |  :wave: *Cloud Credits Review, Course Survey and Wrap up* |
 <br/><br/>
 
 ## Additional resources:
@@ -142,7 +190,7 @@ _Passcode required - mailed to participants.  If not registered, register and re
 | <img src="https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/NICHD_60Years_Innovation.png"  width="50">   |   |   |  |
 |---|---|---|---|
 | [Anaconda Package Jupytext](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/AnacondaPackageSearchJupytext.gif)| [CAVATICA Create Developer Token](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICACreateDeveloperAuthenticationToken.gif) | [CAVATICA Add samtools to Docker Repository](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CAVATICACreateDockerSamtoolsRepository.gif) | [Conda Create env and install GitHub CLI](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/CondaEnvCreateEOSAndCondaInstallGitHubCLI.gif) |
-| [CAVATICA DataCruncher JupyterLab Startup](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/DataCruncherJupyterLabNotebook.gif)|[Generate GitHub Personal Access Tokens](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GeneratingGitHubPersonalAccessTokens.gif)|[GitHub Auth Login](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubAuthLoginFromCommandLine.gif) | [GitHub Clone FHIR Exercises](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubCloneFHIRExercisesFromNICHD.gif) |
+| [CAVATICA Data Studio JupyterLab Startup](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/DataCruncherJupyterLabNotebook.gif)|[Generate GitHub Personal Access Tokens](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GeneratingGitHubPersonalAccessTokens.gif)|[GitHub Auth Login](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubAuthLoginFromCommandLine.gif) | [GitHub Clone FHIR Exercises](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/GitHubCloneFHIRExercisesFromNICHD.gif) |
 | [INCLUDE DataHub Login with ORCID](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/LoggingInAfterEnteringINCLUDEDataHubWithORCID.gif) | [CAVATICA Login](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/LoggingIntoCAVATICAFromINCLUDEDataHub.gif)| [GitHub Actions with STAR](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/MakingGitHubActionsWithStar-Docker.gif) | [Anaconda Search GitHub CLI](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/SearchAnacondaPackagesForGitHubCLI.gif) |
 | [Shell Google Cloud](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/assets/shellCloudGoogleCom.gif) | | | |
 
@@ -158,6 +206,6 @@ Seven Bridges supports multiple workflow languages in its application developmen
 
 Nextflow workflow information and guidance was gratefully received from Phil Palmer from his classes at the Jackson Laboratory while he was at Lifebit
 
-and @cgpu Christina Chatzipantsiou has been my infallible guide.  @cgpu Christina Chatzipantsiou taught with me the first Elements of Style class at the ISCB Academy.
+and @cgpu Christina Chatzipantsiou has been my infallible guide.  @cgpu Christina Chatzipantsiou taught with me the Dry Bench Skills for the Researchers and Elements of Style class at the ISCB Academy.
 
 Common Workflow script guidance was gratefully received from Miguel Brown at Children's Hospital of Philadelphia.
