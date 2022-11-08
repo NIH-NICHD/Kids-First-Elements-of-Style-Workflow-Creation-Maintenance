@@ -18,7 +18,7 @@ The views expressed in this course represent the views of Anne Deslattes Mays, P
 
 [Quotes by P. J. Plauger](https://softwarequotes.com/author/p--j--plauger)
 
-The year was 1919, the first World War was at its close and a student, E. B. White, took a course, English 8, taught by William Strunk Jr.  The course featured a required textbook, a slim volume called **The Elements of Style**.  The durability of this slim book informed the development of the book, **The Elements of Programming Style** by Kernigan and Plauger,  whose lessons we adapt here in this course. Showing again the durability of the approach of beginning with philosophy as one approaches their work and use of programs and structure to achieve their work.
+The year was 1919, the first World War was at its close and a student, E. B. White, took a course, English 8, taught by William Strunk Jr.  The course featured a required textbook, a slim volume called [**The Elements of Style**](https://www.gutenberg.org/files/37134/37134-h/37134-h.htm).  The durability of this slim book informed the development of the book, **The Elements of Programming Style** by Kernigan and Plauger,  whose lessons we adapt here in this course. Showing again the durability of the approach of beginning with philosophy as one approaches their work and use of programs and structure to achieve their work.
 
 So with this nod to E.B. White, William Strunk, Jr, Brian Kernigan and Plauger, we begin with our own Lessons and Pithy Phrases.
 
