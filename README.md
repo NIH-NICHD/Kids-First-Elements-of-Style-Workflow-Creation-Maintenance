@@ -20,11 +20,6 @@ The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a tra
 
 [Pre-Training Workshop Chat 2022 August 19](https://github.com/NIH-NICHD/Kids-First-Elements-of-Style-Workflow-Creation-Maintenance/blob/main/chats/KidsFirstPreTrainingEventZoomChat2022August19.txt)
 
-[Pre-Training Workshop Recording 2022 August 19](https://us06web.zoom.us/rec/share/y9w1Vw7TUe7FdeSMwa5V_Cu2HabshoYFgF_l1-9umMZZ8qWzRsJlbuxZeQ2B66qr.v0mJkwej5t0N_oxY?startTime=1660920934000)
-_Passcode required - mailed to participants.  If not registered, register and request passcodes_
-
-[Register here](https://us06web.zoom.us/meeting/register/tZMtcumpqT8qH9M7YI-s8sXerIaMsdit297w)
-
 
 | Time (UTC)    | Programme       |
 | ------------- | --------------------------------------------------------------------------- |
